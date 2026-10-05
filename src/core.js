@@ -24,7 +24,7 @@ export function validateQuestion(q) {
   insist(q.options.every(o => typeof o.id === 'string' && o.id.length > 0 && o.id.length < 200 && typeof o.label === 'string' && o.label.trim() && o.label.length < 200), 'Invalid choice');
   insist(new Set(q.options.map(o => o.id)).size === 4 && new Set(q.options.map(o => o.label)).size === 4, 'Duplicate choices');
   insist(q.options.filter(o => o.id === q.correctOptionId).length === 1, 'Exactly one correct choice required');
-  insist(['context','picture','letter'].includes(q.mode), 'Unknown question mode');
+  insist(['context','picture','letter','number','color'].includes(q.mode), 'Unknown question mode');
 }
 export function validateLibrary(lib) {
   insist(lib.libraryId === LIBRARY_ID && lib.schemaVersion === 1, 'Unsupported library');
@@ -47,7 +47,8 @@ export function validateLibrary(lib) {
 }
 export function lessonReadiness(lib, lesson) {
   const missing = lesson.targets.filter(t => lib.items.find(i => i.id === t.itemId)?.status !== 'ready');
-  return {ready: missing.length === 0, required: lesson.targets.length, available: lesson.targets.length - missing.length, missing};
+  const gaps = lesson.targets.filter(t => lib.items.find(i => i.id === t.itemId)?.recordType === 'source-gap');
+  return {ready: missing.length === 0, required: lesson.targets.length - gaps.length, available: lesson.targets.length - missing.length, unknownTotal: gaps.length > 0, missing};
 }
 export function questionPool(lib, lessonIds, mode = 'review', practiceIds = null) {
   const lessons = lib.lessons.filter(l => lessonIds.includes(l.id));
@@ -60,8 +61,8 @@ export function questionPool(lib, lessonIds, mode = 'review', practiceIds = null
   for (const lesson of lessons) for (const target of lesson.targets) {
     const item = lib.items.find(i => i.id === target.itemId);
     if (item.status !== 'ready' || (practiceIds && !practiceIds.has(item.id))) continue;
-    if (!pool.has(item.id)) pool.set(item.id, {...clone(item.question), meaning: item.meaning, sourceRefs: clone(item.sourceRefs), lessonIds: [], lessonNames: [], roles: []});
-    const q = pool.get(item.id); q.lessonIds.push(lesson.id); q.lessonNames.push(lesson.name); q.roles.push(target.role);
+    if (!pool.has(item.id)) pool.set(item.id, {...clone(item.question), meaning: item.meaning, sourceRefs: clone(item.sourceRefs), topicId: lesson.topicId, topicIds: [], lessonIds: [], lessonNames: [], roles: []});
+    const q = pool.get(item.id); if (!q.topicIds.includes(lesson.topicId)) q.topicIds.push(lesson.topicId); q.lessonIds.push(lesson.id); q.lessonNames.push(lesson.name); q.roles.push(target.role);
   }
   // Case matters for explicit uppercase/lowercase learning targets.
   if (mode === 'lesson') return [...pool.values()];
@@ -81,6 +82,7 @@ export function createSession(lib, lessonIds, mode = 'lesson', count = 'all', pr
   questions[0].seenAt = at;
   return {schemaVersion:1,libraryId:lib.libraryId,libraryVersion:lib.contentVersion,libraryFingerprint:lib.fingerprint || '',appVersion:APP_VERSION,id:uid(),revision:0,mode,lessonIds:[...lessonIds],lessonNames:lib.lessons.filter(l => lessonIds.includes(l.id)).map(l => l.name),startedAt:at,lastActivityAt:at,endedAt:null,timezone:TIMEZONE,status:'in-progress',paused:false,phase:'question',index:0,roundSize:4,requestedCount:requested,activeMs:0,questions};
 }
+export function questionTopics(q) { return Array.isArray(q.topicIds) && q.topicIds.length ? q.topicIds : [q.topicId]; }
 export function activeQuestion(s) { return s.questions[s.index]; }
 export function canAnswer(s) { const q = activeQuestion(s); return s.status === 'in-progress' && !s.paused && s.phase === 'question' && q && !q.firstCorrect && !q.skippedAt; }
 export function supportCounts(q) {
@@ -99,12 +101,14 @@ export function submitAnswer(s, optionId, eventId = uid(), at = nowISO()) {
   if (correct) q.firstCorrect = {at,attemptId:eventId,attempts:q.attempts.length,...supportCounts(q)};
   return true;
 }
-export function addSupport(s, kind, at = nowISO()) {
+export function addSupport(s, kind, at = nowISO(), trigger = 'manual') {
   if (!canAnswer(s)) return false;
   insist(['hint','listen','transcript'].includes(kind), 'Unknown support');
   const q = activeQuestion(s);
   if (kind !== 'listen' && q.support.some(e => e.kind === kind)) return false;
-  q.support.push({id:uid(),kind,at}); s.lastActivityAt = at; return true;
+  insist(['manual','automatic'].includes(trigger), 'Invalid listening trigger');
+  if (kind === 'listen' && trigger === 'automatic' && q.support.some(e => e.kind === 'listen' && e.trigger === 'automatic')) return false;
+  q.support.push({id:uid(),kind,at,...(kind === 'listen' ? {trigger} : {})}); s.lastActivityAt = at; return true;
 }
 export function skipQuestion(s, at = nowISO()) {
   if (!canAnswer(s)) return false;
@@ -148,7 +152,7 @@ export function filterSessions(sessions, filters={}) {
   insist(from<to,'From date must not follow To date');
   return sessions.filter(s=>{
     const start=Date.parse(s.startedAt);
-    return start>=from && start<to && (!filters.status||s.status===filters.status) && (!filters.topic||s.questions.some(q=>q.seenAt&&q.question.topicId===filters.topic)) && (!filters.lesson||s.questions.some(q=>q.seenAt&&q.question.lessonIds.includes(filters.lesson)));
+    return start>=from && start<to && (!filters.status||s.status===filters.status) && (!filters.topic||s.questions.some(q=>q.seenAt&&questionTopics(q.question).includes(filters.topic))) && (!filters.lesson||s.questions.some(q=>q.seenAt&&q.question.lessonIds.includes(filters.lesson)));
   }).sort((a,b)=>b.startedAt.localeCompare(a.startedAt));
 }
 export function wordRows(sessions, search='') {
@@ -199,7 +203,8 @@ export function validateSession(s) {
     insist(Array.isArray(q.attempts)&&q.attempts.length<=1000&&Array.isArray(q.support)&&q.support.length<=1000,'Event limits');
     for(const ev of [...q.support,...q.attempts]) {insist(typeof ev.id==='string' && ev.id.length>0 && ev.id.length<200 && !events.has(ev.id) && validTime(ev.at),'Invalid/duplicate event');events.add(ev.id);}
     insist(q.support.filter(e=>e.kind==='hint').length<=1&&q.support.filter(e=>e.kind==='transcript').length<=1,'Duplicate one-time support');
-    for(const e of q.support) insist(['hint','listen','transcript'].includes(e.kind),'Unknown support event');
+    for(const e of q.support) { insist(['hint','listen','transcript'].includes(e.kind),'Unknown support event'); if(e.trigger!==undefined) insist(e.kind==='listen'&&['manual','automatic'].includes(e.trigger),'Invalid listen trigger'); }
+    insist(q.support.filter(e=>e.kind==='listen'&&e.trigger==='automatic').length<=1,'Duplicate automatic clue request');
     for(const a of q.attempts) {
       const option=q.question.options.find(o=>o.id===a.optionId);
       insist(option && a.answer===option.label && a.correct===(a.optionId===q.question.correctOptionId),'Invalid attempt evidence');

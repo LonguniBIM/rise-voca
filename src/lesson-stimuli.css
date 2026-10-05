@@ -1,0 +1,4 @@
+/* Intrinsic colour/number stimuli and reviewed rain-density illustrations. */
+.colour-patch{display:block;width:58%;aspect-ratio:1;border:3px solid #24305e;border-radius:18px;box-shadow:0 5px 0 #24305e20}
+.rain-stimulus{width:80%;text-align:center;font-size:4rem}.rain-drops{display:grid;grid-template-columns:repeat(4,1fr);font-size:1rem;line-height:1.2;gap:3px}.rain-stimulus.light .rain-drops{grid-template-columns:repeat(3,1fr)}
+.auto-read-setting{min-height:48px;margin:12px 0}.auto-read-setting input{width:24px;height:24px;flex-shrink:0}

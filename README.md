@@ -1,92 +1,65 @@
 # Rise_Voca
 
-> **Local pre-release: application publication was blocked. The app is not on main or deployed. See `docs/DELIVERY_STATUS.md` for actual test evidence and remaining release gates.**
+A four-choice English learning PWA for age five, with daily PK1 lessons, weekly packs, native Unicode emoji and original CSS. Learner history stays on the device. No accounts, microphone, AI API, advertising, analytics, or cloud sync.
 
-A phone/tablet-friendly, four-choice English quiz for age five. Weekly PK1 lesson packs, native Unicode emoji and original CSS, private learning history, and real device voice selection. No account, microphone, AI API, ads, analytics, or automatic cloud synchronization.
+## Learn and resume
 
-## Learn by day
+Open **My lessons**, choose a week and a lesson. Every full lesson includes all its Core Words and Key Words, including words repeated on other days. A shared vocabulary item never shares lesson completion. Display names follow `Class_Theme_Lesson`, for example `PK1_4 - Weather Report_6`; source class `PK1_2603` remains separate.
 
-Choose **My lessons > Week > Let's learn**. Full lessons include every assigned Core Word and Key Word, including words repeated on another day. Names follow `Class_Theme_Lesson`, such as `PK1_4 - Weather Report_6`; the source class `PK1_2603` is retained separately. Letter A/a through D/d are distinct form targets, not case-normalized answers.
+Keep four choices, gentle retries, Hint, Listen, Skip, first-attempt stars, four-question breaks, Save & pause, Resume and Replay. Keyboard: 1-4/Numpad1-4 answers, Space listens, Ctrl alone shows a hint. Quick review supports multiple lessons and All / 5 / 10 / 15 / 20 / custom counts. Partial review does not complete a daily lesson.
 
-Four questions form a short round. Listen, Hint, unlimited retries, Skip, Save & pause, Resume, and Replay are available. Answer keys 1-4 and Numpad1-4 work; Space listens; Ctrl pressed alone opens the hint. Browser shortcuts and text inputs are not intercepted. First-attempt stars and hint-free first-attempt outcomes are distinct. A skip is never counted correct.
+## English Voice Settings
 
-Quick review accepts multiple lessons and All / 5 / 10 / 15 / 20 / custom counts. Shared spellings may be deduplicated in review, but review does not complete their source lessons. **Practise tricky words** uses the most recent seen outcome: unfinished/skipped, multiple attempts, hint or written-clue support. Listening by itself is not a failure. No mastery or pronunciation score is invented.
+Open **Parent & Settings > English Voice Settings**. **Automatically read each clue** defaults to checked, including when older saved settings do not contain this preference. An explicit off setting survives reload. Each newly presented question receives at most one automatic request; wrong answers, hints, voice refreshes and ordinary re-renders do not replay it. Resume does not repeat a stored automatic request. Listen remains available for manual replay or when the browser blocks automatic speech.
 
-## Initial library
+Settings retain `speechLang`, `voiceURI`, `voiceName`, `voiceLang`, `speed`, and the new `autoReadClue` boolean in the existing IndexedDB settings record. Accents: Auto / en-GB / en-US / en-AU / en-CA / en-IE / en-NZ. Speeds: 0.75 / 0.9 / 1.0, synchronized with the quiz. Voices come from the device, never hard-coded names. Saved exact identity falls back through preferred accent, local English, other English and system default; offline prefers a local English pool without erasing the saved choice.
 
-Eight lesson records, five Monday-Sunday packs, two themes, 61 learning-item records, 79 lesson memberships, 58 ready questions and 54 distinct case-normalized answer spellings. Eight letter-form targets deliberately preserve A/a differences.
+Automatic and manual listening requests are labelled in Session details. A request does not prove that sound played or that the child heard it. Test voice, settings and picture previews never create learning evidence. No speech recognition or pronunciation score is used. Real Safari/iPadOS/Android voices and audible offline playback still need physical-device checks.
 
-Six lessons can be learned in full. Weather Report Lesson 2 and Lesson 3 allow clearly labeled partial review only until the parent confirms these three unresolved source records:
+## Content release 2026.10.06.1
 
-- `Turning green Bloom`: whether the printed line represents two targets and their intended forms.
-- `light` and `heavy`: their intended meanings in the weather-machine lesson.
+The eight original lessons remain, with seventeen new source lessons: **25 lessons in 19 Monday-Sunday packs and four themes**. There are **191 ready questions**, one unresolved vocabulary sense and three source-gap bookkeeping records; the latter are not learning words. Twenty-one lessons are complete; four offer partial review while source details are clarified. Every full lesson's coverage is tested.
 
-No target is silently dropped to declare a full lesson ready. Original source question/answer patterns are reference-only, including inconsistencies in the cloudy/rainy sheet. New quiz clues are marked as app-authored. The original seven Cloudy and Rainy quiz prompts, alternatives, hints, translations and explanations are regression-tested exactly. Source scans and the full original story text are not redistributed.
+The parent confirmed **Turning green Bloom** as one phrase and **Light rain / Heavy rain** as weather terms. Their stable existing IDs are retained, and all seven Weather Report lessons are now complete. New lessons add explicit upper/lower letter forms, numbers 1-20 and colour recognition, without normalizing away case or singular/plural source forms.
 
-## English voices on iPad, iPhone and Android
+See `docs/CONTENT_MAINTENANCE.md` for the source-pack contract and the unresolved rows. Source filename/hash, printed theme and reading title are retained. Original scans and full copyrighted story text are not redistributed. New clues are explicitly app-authored; the speaking appendix is reference-only and is not speech assessment.
 
-Open **Parent & Settings > English Voice Settings**. Select preferred accent, an English voice exposed by the current device, and speed 0.75 / 0.9 / 1.0. The quiz speed control uses the same setting. **Refresh voices** reloads the device list. **Test voice** is completely separate from learning events, even when a session is paused.
+## Illustrations
 
-Saved keys: `speechLang`, `voiceURI`, `voiceName`, `voiceLang`, `speed`, in this app's IndexedDB settings record. Fallback: saved exact identity (URI, then name/language) -> preferred accent -> local English -> other English -> browser default. Offline, an available local-English pool takes precedence over a saved remote voice, without erasing the saved preference. Startup retries, `voiceschanged`, foreground/page resume and manual refresh handle delayed lists. No hard-coded device voice names are shipped.
+Seven reference emoji mappings remain unchanged. Ninety-seven candidate mappings require parent review, including forty previously present and fifty-seven new/resolved cues. Sixty-seven letter, numeral and solid-colour cards are intrinsic stimuli, not sourced artwork. No external illustration files or font files are bundled. Missing pictures stay explicit; context clues remain answerable without one.
 
-An on-device label is a browser capability hint, not proof of audible offline speech. Download a suitable English system voice as supported by the device and test after going offline. PWA installation cannot install a voice or guarantee Safari will expose it. No microphone or speech recognition is used.
+Use **Parent & Settings > Review emoji & CSS illustrations** to inspect and approve/reject each candidate. Approval is local and keyed to exact item/recipe identity. Emoji artwork varies by device. An approved generic plant is never silently substituted for a specific species.
 
-## Pictures
+## History, privacy and backups
 
-Native Unicode + original CSS is first choice. Seven mappings are retained from the supplied reference, not retroactively labeled user-approved. Forty new candidates require review at **Parent & Settings > Review emoji & CSS illustrations**. Preview the actual cue and its meaning; choose Approve or Reject. Decisions stay local, are scoped to exact item/recipe identity, and never create learning credit. Eight letter cards are non-pictorial learning content.
+Learning History provides Sessions, By topic, By word/item and complete attempt timelines. Filters combine dates, actually encountered topics/lessons and status. Times are based on the device clock and displayed in Asia/Ho_Chi_Minh. Paused/background time is excluded from estimated active learning time.
 
-Six records have no suitable attached image: customer, white oak, milkweed, and the three unresolved source records. Context questions remain usable without an image. External fallback assets have not been attached or automatically approved in this release. There are zero external illustration files. The gallery explicitly reports missing, rejected and unreviewed cues. Native emoji artwork can differ across operating systems; no font files are bundled.
+Session snapshots preserve original questions, option order, attempts, supports and exactly-once first-correct evidence across library updates. One tab writes at a time. The storage namespace, database version and existing history are not reset by this release. Legacy trigger-less Listen events remain valid.
 
-## History and backup
+**Back up all history** exports all sessions including unfinished ones, independent of report filters. Restore validates and atomically merges: identical sessions are ignored; conflicts reject the import without overwriting. CSV and single-session reports are not full backups. Library, image metadata, image reviews and voice preferences are separate exports. Phone and tablet do not synchronize automatically; browser eviction or clearing site data can erase local progress.
 
-**Learning History** has Sessions, By topic, By word/item and detailed attempt timelines. Combine session-start From/To dates, actually studied topic, lesson and status. Word/meaning search narrows item reports. The To date includes the whole day in Asia/Ho_Chi_Minh. Timestamps come from the device clock; durations distinguish elapsed time from estimated non-idle foreground time.
+## Author, build and test
 
-Each submitted answer is saved before the UI reports success. Original question/option snapshots, order, supports and exactly-once first-correct evidence survive reloads and library updates. Only one tab may write at a time; another tab becomes read-only. No fixed retention limit deletes older sessions.
-
-Use **Parent & Settings > Back up all history**. This is a full JSON backup, including unfinished sessions, independent of screen filters. **Restore / merge** validates first and atomically adds new sessions; identical sessions are ignored; conflicting same-ID sessions reject the entire import. A backup from a newer state of the same session conflicts with an older local copy rather than silently overwriting it. Keep both files and reconcile explicitly.
-
-Library JSON, library + illustration metadata, image reviews, missing-image inventory and voice preferences are separate exports, not history backups. Preferences/reviews are not restored by the history importer; they remain separate documented exports. CSV and single-session JSON are reports, not restorable full backups. CSV exports follow report filters and escape spreadsheet formulas.
-
-History stays in this browser/PWA container and origin. Phone and tablet do not sync automatically. Browser eviction, private browsing or clearing site data can remove local data. A persistent-storage request is best effort, not a backup. Storage failure exposes a temporary-memory warning or pauses writes for export; it never silently claims a save.
-
-## Build and run
-
-Node.js 22+ and Python 3 are sufficient for the application build. No npm packages or runtime CDNs are required.
+The original base catalogs remain in `data/library.json` and `data/illustrations.json`. New canonical inputs live in `data/lesson-packs/*.json`; `scripts/catalog.mjs` composes them and rejects duplicate IDs. The complete exportable runtime catalogs, week packs, icons, service worker and fingerprints are generated in `dist/`. Never hand-edit generated copies.
 
 ```sh
 npm run validate
 npm test
 npm run build
 node scripts/build.mjs --check
-npm run serve
-```
-
-Open `http://localhost:4173` on the same development computer. Deploy **dist/** to HTTPS for phone/tablet installation. An arbitrary LAN HTTP address is not the localhost secure-context exception on a different device.
-
-The initial proposal mentioned Vite/TypeScript. This implementation instead retains standard JavaScript ES modules and uses a small deterministic Node build, preserving the supplied plain-HTML interaction without a framework rewrite or network-dependent npm install. Content, domain, storage, speech, UI and PWA lifecycle remain separate. See `docs/ARCHITECTURE.md`.
-
-## GitHub Pages
-
-The workflow runs source validation, 32 unit tests, a reproducible build, and real-origin Chromium tests before publishing `dist/`. Validation uses read-only repository permissions; only the separate deployment job has Pages/id-token write permissions.
-
-In **repository Settings > Pages > Build and deployment**, choose **GitHub Actions**. Repository administration may be needed; the connected coding app may not have that permission. A source commit, passing validation and successful Pages deployment are separate facts. The intended project URL is `https://longunibim.github.io/rise-voca/`; do not treat this as verified live until deployment succeeds.
-
-On Safari, Share > Add to Home Screen. On Android, use the browser's Install app/Add to Home screen command. Remain online until the app reports app/content and emoji/CSS offline readiness. Speech must be tested separately. Updates wait: Save & pause, close all Rise_Voca windows, reopen. Never clear site data as the normal update procedure.
-
-## Adding a daily lesson
-
-Edit only `data/library.json` and `data/illustrations.json`. Retain item/sense IDs, add the lesson's explicit target memberships, source metadata, date and `PK1_Theme_Lesson` name. Increment content version only for content changes. Do not delete a repeated target because it was assigned last week. Ambiguous material stays pending with a reason. See `docs/CONTENT_MAINTENANCE.md`.
-
-Build generates five weekly packs, manifests, icons, fingerprints and offline file hashes from canonical sources. Do not hand-edit generated copies. Original image/source rights remain separate from code ownership. Keep source scans, private backups, credentials and learner names out of this public repository.
-
-## Tests and physical acceptance
-
-```sh
+node scripts/check-pages.mjs
 python -m pip install playwright==1.57.0
 python -m playwright install chromium
 python tests/browser.py --report test-results/browser.json
+python tests/auto_browser.py --report test-results/automatic-clues.json
 ```
 
-A preinstalled Chromium can be selected with `CHROMIUM_PATH`. The browser suite uses temporary profiles and synthetic English voices. It tests actual IndexedDB, transactions, two-tab behavior, backup/restore, service workers and offline browser reopening; it does not establish audible playback or mobile OS installation.
+The application build needs Node.js 22+ and no npm dependencies. Browser tests use disposable profiles and synthetic voices. The optional `tests/dom_smoke.py` is explicitly mock-only and cannot establish persistence or offline behavior. Historical reports in `verification/` and `docs/DELIVERY_STATUS.md` describe the original handoff, not current CI status; consult the workflow run for each commit.
 
-Physical acceptance: install and reopen on iPad/iPhone and Android; verify actual voice list and delayed refresh; select a downloaded English voice; test while offline; confirm rate changes, pause/resume after force-closing, 4-choice touch targets, portrait/landscape, and backup download/restore. Do not use real learner data for destructive browser tests.
+## Publish and update
+
+In **Settings > Pages**, select **GitHub Actions**, not branch/Jekyll publishing. `.github/workflows/pages.yml` validates, builds, runs real-origin browser tests, publishes only `dist/`, and verifies deployed bytes. Generated `dist/` is no longer tracked: it is rebuilt for each deployment. Do not upload the source root as the website. Keep `.nojekyll` as a hosting marker, never an offline dependency.
+
+Service-worker caches are scoped to this app. All required downloads must complete before offline readiness is claimed. Updates never clear IndexedDB or another app's cache. Save & pause, close all Rise_Voca windows and reopen to receive an update; do not clear site data. Install through Safari Share > Add to Home Screen on iOS, or the browser's installation menu on Android. Offline content does not guarantee offline speech.
+
+See `docs/PAGES_DEPLOYMENT.md` for the original deployment repair and `THIRD_PARTY.md` for attribution boundaries.

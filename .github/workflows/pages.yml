@@ -36,6 +36,8 @@ jobs:
           python -m playwright install --with-deps chromium
       - name: Real-origin PWA, storage, speech fixtures and mobile tests
         run: python tests/browser.py --report test-results/browser.json
+      - name: Automatic clues and expanded lessons
+        run: python tests/auto_browser.py --report test-results/automatic-clues.json
       - name: Preserve test evidence
         if: always()
         uses: actions/upload-artifact@v7.0.1

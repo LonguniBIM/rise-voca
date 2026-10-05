@@ -1,11 +1,12 @@
 /** Device speech only. This module deliberately has no learning-history dependency. */
 export const ACCENTS = ['Auto','en-GB','en-US','en-AU','en-CA','en-IE','en-NZ'];
 export const SPEEDS = [0.75,0.9,1];
-export const DEFAULT_SPEECH = Object.freeze({speechLang:'Auto',voiceURI:'',voiceName:'',voiceLang:'',speed:0.9});
+export const DEFAULT_SPEECH = Object.freeze({speechLang:'Auto',voiceURI:'',voiceName:'',voiceLang:'',speed:0.9,autoReadClue:true});
 const language = value => String(value||'').replaceAll('_','-').toLowerCase();
 export const isEnglish = voice => /^en(?:-|$)/.test(language(voice.lang));
 export function speechPreferences(value = {}) {
   const p={...DEFAULT_SPEECH};
+  if(typeof value.autoReadClue==='boolean') p.autoReadClue=value.autoReadClue;
   if(ACCENTS.includes(value.speechLang)) p.speechLang=value.speechLang;
   if(SPEEDS.includes(Number(value.speed))) p.speed=Number(value.speed);
   for(const key of ['voiceURI','voiceName','voiceLang']) if(typeof value[key]==='string'&&value[key].length<=500) p[key]=value[key];
@@ -56,7 +57,7 @@ export class SpeechController {
       if(selected.voice) utterance.voice=selected.voice;
       utterance.onstart=()=>{if(token===this.generation)this.onStatus('Speaking.');};
       utterance.onend=()=>{if(token===this.generation){this.current=null;this.onStatus('Playback finished. Hearing or pronunciation is not assessed.');}};
-      utterance.onerror=event=>{if(token===this.generation&&!['canceled','interrupted'].includes(event.error))this.onStatus('Speech could not play ('+event.error+'). Try Refresh voices or another device voice.');};
+      utterance.onerror=event=>{if(token===this.generation&&!['canceled','interrupted'].includes(event.error))this.onStatus('Speech could not play ('+event.error+'). Tap Listen to hear this clue, or try Refresh voices or another device voice.');};
       this.current=utterance;this.synth.speak(utterance);this.onStatus('Playback requested using '+(selected.voice?.name||'the system default')+'.');return true;
     } catch {this.onStatus('Speech could not start. Tap Listen or Test voice again.');return false;}
   }

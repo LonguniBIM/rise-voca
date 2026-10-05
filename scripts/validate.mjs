@@ -1,7 +1,8 @@
 import fs from 'node:fs';
 import assert from 'node:assert/strict';
 import {validateLibrary,lessonReadiness} from '../src/core.js';
-const lib=JSON.parse(fs.readFileSync('data/library.json')),images=JSON.parse(fs.readFileSync('data/illustrations.json'));
+import {loadCatalog} from './catalog.mjs';
+const {library:lib,registry:images}=loadCatalog(process.cwd());
 validateLibrary(lib);
 assert.equal(new Set(images.records.map(r=>r.itemId)).size,images.records.length);
 assert.equal(images.records.length,lib.items.length);

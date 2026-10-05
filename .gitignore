@@ -1,0 +1,9 @@
+node_modules/
+dist/
+test-results/
+__pycache__/
+*.pyc
+*.log
+private/
+backups/
+.env*
