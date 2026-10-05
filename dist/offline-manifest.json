@@ -1,13 +1,9 @@
 {
-  "version": "1.0.0-7022e012bcfa",
+  "version": "1.0.0-a8ed82279ed2",
   "files": [
     {
-      "path": ".nojekyll",
-      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
-    },
-    {
       "path": "BUILD_INFO.json",
-      "sha256": "3d9ba8bee4a5f88a28c20f9ca7798a161c986fd95fb7098aa2995f5fa1530382"
+      "sha256": "338e837566418608b62c946680947b48753781d504715733ffaabe82a4804bd1"
     },
     {
       "path": "data/coverage.json",

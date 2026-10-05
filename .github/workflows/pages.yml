@@ -1,0 +1,78 @@
+name: Validate and publish Rise_Voca
+on:
+  push:
+    branches: [main]
+  pull_request:
+  workflow_dispatch:
+permissions:
+  contents: read
+concurrency:
+  group: rise-voca-${{ github.ref }}
+  cancel-in-progress: false
+jobs:
+  validate:
+    runs-on: ubuntu-24.04
+    timeout-minutes: 15
+    steps:
+      - uses: actions/checkout@v7.0.1
+        with:
+          persist-credentials: false
+      - uses: actions/setup-node@v6
+        with:
+          node-version: '22'
+      - uses: actions/setup-python@v6
+        with:
+          python-version: '3.12'
+      - name: Validate source, tests and publishing directory
+        run: |
+          npm run validate
+          npm test
+          npm run build
+          node scripts/build.mjs --check
+          node scripts/check-pages.mjs
+      - name: Install isolated browser test dependency
+        run: |
+          python -m pip install playwright==1.57.0
+          python -m playwright install --with-deps chromium
+      - name: Real-origin PWA, storage, speech fixtures and mobile tests
+        run: python tests/browser.py --report test-results/browser.json
+      - name: Preserve test evidence
+        if: always()
+        uses: actions/upload-artifact@v7.0.1
+        with:
+          name: rise-voca-test-evidence
+          path: test-results/
+          if-no-files-found: warn
+      - name: Package only the validated application
+        uses: actions/upload-pages-artifact@v5.0.0
+        with:
+          path: dist
+          include-hidden-files: true
+  deploy:
+    if: github.event_name != 'pull_request' && github.ref == 'refs/heads/main'
+    needs: validate
+    runs-on: ubuntu-24.04
+    timeout-minutes: 10
+    permissions:
+      contents: read
+      pages: write
+      id-token: write
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - uses: actions/checkout@v7.0.1
+        with:
+          persist-credentials: false
+      - uses: actions/setup-node@v6
+        with:
+          node-version: '22'
+      - name: Deploy validated dist artifact
+        id: deployment
+        uses: actions/deploy-pages@v5.0.1
+      - name: Verify live publishing root and every runtime asset
+        env:
+          PAGE_URL: ${{ steps.deployment.outputs.page_url }}
+        run: |
+          npm run build
+          node scripts/check-pages.mjs --url "$PAGE_URL"
