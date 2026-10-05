@@ -1,0 +1,870 @@
+{
+  "schemaVersion": 1,
+  "libraryId": "rise-voca-pk1",
+  "libraryFingerprint": "78e5b7e77957078da7a316800c57dedc07e008fa0a7dc6dca03221c2e05f7d22",
+  "contentVersion": "2026.10.05.1",
+  "week": {
+    "id": "week-2026-09-07",
+    "start": "2026-09-07",
+    "end": "2026-09-13",
+    "label": "2026-09-07 to 2026-09-13",
+    "lessonIds": [
+      "pk1-2603-t4-l1"
+    ]
+  },
+  "lessons": [
+    {
+      "id": "pk1-2603-t4-l1",
+      "classId": "PK1_2603",
+      "displayClass": "PK1",
+      "topicId": "weather",
+      "theme": "4 - Weather Report",
+      "lessonNumber": 1,
+      "name": "PK1_4 - Weather Report_1",
+      "date": "2026-09-13",
+      "title": "Hot, Warm, Cool and Cold",
+      "sourceId": "source-pk1-2603-t4-l1",
+      "targets": [
+        {
+          "itemId": "hot",
+          "role": "core"
+        },
+        {
+          "itemId": "warm",
+          "role": "core"
+        },
+        {
+          "itemId": "cool",
+          "role": "core"
+        },
+        {
+          "itemId": "cold",
+          "role": "core"
+        },
+        {
+          "itemId": "desert",
+          "role": "key"
+        },
+        {
+          "itemId": "arctic",
+          "role": "key"
+        },
+        {
+          "itemId": "mitten",
+          "role": "key"
+        },
+        {
+          "itemId": "run",
+          "role": "key"
+        },
+        {
+          "itemId": "swim",
+          "role": "key"
+        },
+        {
+          "itemId": "fan",
+          "role": "key"
+        },
+        {
+          "itemId": "fireplace",
+          "role": "key"
+        },
+        {
+          "itemId": "weather-report",
+          "role": "key"
+        },
+        {
+          "itemId": "ice-cream",
+          "role": "key"
+        }
+      ],
+      "sourceQuestions": [
+        "How do you feel?"
+      ],
+      "sourceAnswers": [
+        "I feel hot/warm/cool/cold"
+      ],
+      "sourceNotes": "Source note: children may express a feeling without yet answering in a full sentence.",
+      "reading": "Parent-led home reading reference; not a scored speaking assessment."
+    }
+  ],
+  "items": [
+    {
+      "id": "hot",
+      "word": "Hot",
+      "meaning": "nóng",
+      "originalText": "Hot",
+      "status": "ready",
+      "reason": "",
+      "sourceRefs": [
+        "source-pk1-2603-t4-l1",
+        "source-pk1-2603-t4-l3",
+        "source-pk1-2603-t4-l7"
+      ],
+      "question": {
+        "id": "q-hot-v1",
+        "itemId": "hot",
+        "word": "Hot",
+        "question": "You feel very warm and sweaty. How do you feel?",
+        "translation": "",
+        "hint": "You would like a fan to help you feel better.",
+        "explanation": "Hot = nóng.",
+        "options": [
+          {
+            "id": "hot-o1",
+            "label": "Hot"
+          },
+          {
+            "id": "hot-o2",
+            "label": "Warm"
+          },
+          {
+            "id": "hot-o3",
+            "label": "Cool"
+          },
+          {
+            "id": "hot-o4",
+            "label": "Cold"
+          }
+        ],
+        "correctOptionId": "hot-o1",
+        "topicId": "weather",
+        "mode": "context",
+        "visualId": "hot",
+        "authorship": "App-authored learning cue; source supplies the learning target, not this question."
+      }
+    },
+    {
+      "id": "warm",
+      "word": "Warm",
+      "meaning": "ấm",
+      "originalText": "Warm",
+      "status": "ready",
+      "reason": "",
+      "sourceRefs": [
+        "source-pk1-2603-t4-l1",
+        "source-pk1-2603-t4-l3",
+        "source-pk1-2603-t4-l7"
+      ],
+      "question": {
+        "id": "q-warm-v1",
+        "itemId": "warm",
+        "word": "Warm",
+        "question": "The air feels a little hot, but not too hot. How does it feel?",
+        "translation": "",
+        "hint": "It is between hot and cool.",
+        "explanation": "Warm = ấm.",
+        "options": [
+          {
+            "id": "warm-o1",
+            "label": "Hot"
+          },
+          {
+            "id": "warm-o2",
+            "label": "Warm"
+          },
+          {
+            "id": "warm-o3",
+            "label": "Cool"
+          },
+          {
+            "id": "warm-o4",
+            "label": "Cold"
+          }
+        ],
+        "correctOptionId": "warm-o2",
+        "topicId": "weather",
+        "mode": "context",
+        "visualId": "warm",
+        "authorship": "App-authored learning cue; source supplies the learning target, not this question."
+      }
+    },
+    {
+      "id": "cool",
+      "word": "Cool",
+      "meaning": "mát",
+      "originalText": "Cool",
+      "status": "ready",
+      "reason": "",
+      "sourceRefs": [
+        "source-pk1-2603-t4-l1",
+        "source-pk1-2603-t4-l3",
+        "source-pk1-2603-t4-l7"
+      ],
+      "question": {
+        "id": "q-cool-v1",
+        "itemId": "cool",
+        "word": "Cool",
+        "question": "A gentle breeze feels a little cold, but not too cold. How does it feel?",
+        "translation": "",
+        "hint": "It is between warm and cold.",
+        "explanation": "Cool = mát.",
+        "options": [
+          {
+            "id": "cool-o1",
+            "label": "Hot"
+          },
+          {
+            "id": "cool-o2",
+            "label": "Warm"
+          },
+          {
+            "id": "cool-o3",
+            "label": "Cool"
+          },
+          {
+            "id": "cool-o4",
+            "label": "Cold"
+          }
+        ],
+        "correctOptionId": "cool-o3",
+        "topicId": "weather",
+        "mode": "context",
+        "visualId": "cool",
+        "authorship": "App-authored learning cue; source supplies the learning target, not this question."
+      }
+    },
+    {
+      "id": "cold",
+      "word": "Cold",
+      "meaning": "lạnh",
+      "originalText": "Cold",
+      "status": "ready",
+      "reason": "",
+      "sourceRefs": [
+        "source-pk1-2603-t4-l1",
+        "source-pk1-2603-t4-l3",
+        "source-pk1-2603-t4-l7"
+      ],
+      "question": {
+        "id": "q-cold-v1",
+        "itemId": "cold",
+        "word": "Cold",
+        "question": "You are shivering and need a thick coat. How do you feel?",
+        "translation": "",
+        "hint": "You want to get warmer.",
+        "explanation": "Cold = lạnh.",
+        "options": [
+          {
+            "id": "cold-o1",
+            "label": "Hot"
+          },
+          {
+            "id": "cold-o2",
+            "label": "Warm"
+          },
+          {
+            "id": "cold-o3",
+            "label": "Cool"
+          },
+          {
+            "id": "cold-o4",
+            "label": "Cold"
+          }
+        ],
+        "correctOptionId": "cold-o4",
+        "topicId": "weather",
+        "mode": "context",
+        "visualId": "cold",
+        "authorship": "App-authored learning cue; source supplies the learning target, not this question."
+      }
+    },
+    {
+      "id": "desert",
+      "word": "Desert",
+      "meaning": "sa mạc",
+      "originalText": "Desert",
+      "status": "ready",
+      "reason": "",
+      "sourceRefs": [
+        "source-pk1-2603-t4-l1"
+      ],
+      "question": {
+        "id": "q-desert-v1",
+        "itemId": "desert",
+        "word": "Desert",
+        "question": "Which place gets very little rain?",
+        "translation": "",
+        "hint": "It is a very dry place.",
+        "explanation": "Desert = sa mạc.",
+        "options": [
+          {
+            "id": "desert-o1",
+            "label": "Desert"
+          },
+          {
+            "id": "desert-o2",
+            "label": "Pond"
+          },
+          {
+            "id": "desert-o3",
+            "label": "River"
+          },
+          {
+            "id": "desert-o4",
+            "label": "Sea"
+          }
+        ],
+        "correctOptionId": "desert-o1",
+        "topicId": "weather",
+        "mode": "context",
+        "visualId": "desert",
+        "authorship": "App-authored learning cue; source supplies the learning target, not this question."
+      }
+    },
+    {
+      "id": "arctic",
+      "word": "Arctic",
+      "meaning": "Bắc Cực",
+      "originalText": "Arctic",
+      "status": "ready",
+      "reason": "",
+      "sourceRefs": [
+        "source-pk1-2603-t4-l1"
+      ],
+      "question": {
+        "id": "q-arctic-v1",
+        "itemId": "arctic",
+        "word": "Arctic",
+        "question": "What is the icy region around the North Pole called?",
+        "translation": "",
+        "hint": "It is the region at the far north of Earth.",
+        "explanation": "Arctic = Bắc Cực.",
+        "options": [
+          {
+            "id": "arctic-o1",
+            "label": "Arctic"
+          },
+          {
+            "id": "arctic-o2",
+            "label": "Desert"
+          },
+          {
+            "id": "arctic-o3",
+            "label": "Forest"
+          },
+          {
+            "id": "arctic-o4",
+            "label": "Beach"
+          }
+        ],
+        "correctOptionId": "arctic-o1",
+        "topicId": "weather",
+        "mode": "context",
+        "visualId": "arctic",
+        "authorship": "App-authored learning cue; source supplies the learning target, not this question."
+      }
+    },
+    {
+      "id": "mitten",
+      "word": "Mitten",
+      "meaning": "găng tay liền ngón",
+      "originalText": "Mitten",
+      "status": "ready",
+      "reason": "",
+      "sourceRefs": [
+        "source-pk1-2603-t4-l1"
+      ],
+      "question": {
+        "id": "q-mitten-v1",
+        "itemId": "mitten",
+        "word": "Mitten",
+        "question": "What keeps four fingers together, with a separate place for the thumb?",
+        "translation": "",
+        "hint": "You wear it on your hand in cold weather.",
+        "explanation": "Mitten = găng tay liền ngón.",
+        "options": [
+          {
+            "id": "mitten-o1",
+            "label": "Mitten"
+          },
+          {
+            "id": "mitten-o2",
+            "label": "Hat"
+          },
+          {
+            "id": "mitten-o3",
+            "label": "Sock"
+          },
+          {
+            "id": "mitten-o4",
+            "label": "Scarf"
+          }
+        ],
+        "correctOptionId": "mitten-o1",
+        "topicId": "weather",
+        "mode": "context",
+        "visualId": "mitten",
+        "authorship": "App-authored learning cue; source supplies the learning target, not this question."
+      }
+    },
+    {
+      "id": "run",
+      "word": "Run",
+      "meaning": "chạy",
+      "originalText": "Run",
+      "status": "ready",
+      "reason": "",
+      "sourceRefs": [
+        "source-pk1-2603-t4-l1"
+      ],
+      "question": {
+        "id": "q-run-v1",
+        "itemId": "run",
+        "word": "Run",
+        "question": "You move fast on your feet. What do you do?",
+        "translation": "",
+        "hint": "Your legs move quickly.",
+        "explanation": "Run = chạy.",
+        "options": [
+          {
+            "id": "run-o1",
+            "label": "Run"
+          },
+          {
+            "id": "run-o2",
+            "label": "Swim"
+          },
+          {
+            "id": "run-o3",
+            "label": "Sleep"
+          },
+          {
+            "id": "run-o4",
+            "label": "Sit"
+          }
+        ],
+        "correctOptionId": "run-o1",
+        "topicId": "weather",
+        "mode": "context",
+        "visualId": "run",
+        "authorship": "App-authored learning cue; source supplies the learning target, not this question."
+      }
+    },
+    {
+      "id": "swim",
+      "word": "Swim",
+      "meaning": "bơi",
+      "originalText": "Swim",
+      "status": "ready",
+      "reason": "",
+      "sourceRefs": [
+        "source-pk1-2603-t4-l1"
+      ],
+      "question": {
+        "id": "q-swim-v1",
+        "itemId": "swim",
+        "word": "Swim",
+        "question": "You move through water using your arms and legs. What do you do?",
+        "translation": "",
+        "hint": "You do this in a pool.",
+        "explanation": "Swim = bơi.",
+        "options": [
+          {
+            "id": "swim-o1",
+            "label": "Swim"
+          },
+          {
+            "id": "swim-o2",
+            "label": "Run"
+          },
+          {
+            "id": "swim-o3",
+            "label": "Sleep"
+          },
+          {
+            "id": "swim-o4",
+            "label": "Fly"
+          }
+        ],
+        "correctOptionId": "swim-o1",
+        "topicId": "weather",
+        "mode": "context",
+        "visualId": "swim",
+        "authorship": "App-authored learning cue; source supplies the learning target, not this question."
+      }
+    },
+    {
+      "id": "fan",
+      "word": "Fan",
+      "meaning": "quạt",
+      "originalText": "Fan",
+      "status": "ready",
+      "reason": "",
+      "sourceRefs": [
+        "source-pk1-2603-t4-l1"
+      ],
+      "question": {
+        "id": "q-fan-v1",
+        "itemId": "fan",
+        "word": "Fan",
+        "question": "What moves air to help you feel cooler?",
+        "translation": "",
+        "hint": "It makes a breeze.",
+        "explanation": "Fan = quạt.",
+        "options": [
+          {
+            "id": "fan-o1",
+            "label": "Fan"
+          },
+          {
+            "id": "fan-o2",
+            "label": "Fireplace"
+          },
+          {
+            "id": "fan-o3",
+            "label": "Scarf"
+          },
+          {
+            "id": "fan-o4",
+            "label": "Mitten"
+          }
+        ],
+        "correctOptionId": "fan-o1",
+        "topicId": "weather",
+        "mode": "context",
+        "visualId": "fan",
+        "authorship": "App-authored learning cue; source supplies the learning target, not this question."
+      }
+    },
+    {
+      "id": "fireplace",
+      "word": "Fireplace",
+      "meaning": "lò sưởi",
+      "originalText": "Fireplace",
+      "status": "ready",
+      "reason": "",
+      "sourceRefs": [
+        "source-pk1-2603-t4-l1"
+      ],
+      "question": {
+        "id": "q-fireplace-v1",
+        "itemId": "fireplace",
+        "word": "Fireplace",
+        "question": "Where can a fire burn safely inside a house to keep a room warm?",
+        "translation": "",
+        "hint": "It is a special place for a fire, not a place to play.",
+        "explanation": "Fireplace = lò sưởi.",
+        "options": [
+          {
+            "id": "fireplace-o1",
+            "label": "Fireplace"
+          },
+          {
+            "id": "fireplace-o2",
+            "label": "Fridge"
+          },
+          {
+            "id": "fireplace-o3",
+            "label": "Bed"
+          },
+          {
+            "id": "fireplace-o4",
+            "label": "Bath"
+          }
+        ],
+        "correctOptionId": "fireplace-o1",
+        "topicId": "weather",
+        "mode": "context",
+        "visualId": "fireplace",
+        "authorship": "App-authored learning cue; source supplies the learning target, not this question."
+      }
+    },
+    {
+      "id": "weather-report",
+      "word": "Weather report",
+      "meaning": "bản tin thời tiết",
+      "originalText": "Weather report",
+      "status": "ready",
+      "reason": "",
+      "sourceRefs": [
+        "source-pk1-2603-t4-l1"
+      ],
+      "question": {
+        "id": "q-weather-report-v1",
+        "itemId": "weather-report",
+        "word": "Weather report",
+        "question": "What tells us about the weather?",
+        "translation": "",
+        "hint": "It tells us whether it may be sunny or rainy.",
+        "explanation": "Weather report = bản tin thời tiết.",
+        "options": [
+          {
+            "id": "weather-report-o1",
+            "label": "Weather report"
+          },
+          {
+            "id": "weather-report-o2",
+            "label": "Menu"
+          },
+          {
+            "id": "weather-report-o3",
+            "label": "Shopping list"
+          },
+          {
+            "id": "weather-report-o4",
+            "label": "Birthday card"
+          }
+        ],
+        "correctOptionId": "weather-report-o1",
+        "topicId": "weather",
+        "mode": "context",
+        "visualId": "weather-report",
+        "authorship": "App-authored learning cue; source supplies the learning target, not this question."
+      }
+    },
+    {
+      "id": "ice-cream",
+      "word": "Ice cream",
+      "meaning": "kem",
+      "originalText": "Ice cream",
+      "status": "ready",
+      "reason": "",
+      "sourceRefs": [
+        "source-pk1-2603-t4-l1"
+      ],
+      "question": {
+        "id": "q-ice-cream-v1",
+        "itemId": "ice-cream",
+        "word": "Ice cream",
+        "question": "Which cold, sweet treat can you eat in a cone?",
+        "translation": "",
+        "hint": "It melts when it gets warm.",
+        "explanation": "Ice cream = kem.",
+        "options": [
+          {
+            "id": "ice-cream-o1",
+            "label": "Ice cream"
+          },
+          {
+            "id": "ice-cream-o2",
+            "label": "Soup"
+          },
+          {
+            "id": "ice-cream-o3",
+            "label": "Bread"
+          },
+          {
+            "id": "ice-cream-o4",
+            "label": "Rice"
+          }
+        ],
+        "correctOptionId": "ice-cream-o1",
+        "topicId": "weather",
+        "mode": "context",
+        "visualId": "ice-cream",
+        "authorship": "App-authored learning cue; source supplies the learning target, not this question."
+      }
+    }
+  ],
+  "illustrations": [
+    {
+      "id": "hot",
+      "itemId": "hot",
+      "kind": "emoji",
+      "visual": "🥵",
+      "provider": "Native Unicode + original CSS",
+      "sourceUrl": null,
+      "license": null,
+      "assetPath": null,
+      "sha256": null,
+      "styleVersion": "emoji-css-v1",
+      "status": "needs-review",
+      "reason": "",
+      "attribution": "Device-rendered Unicode; no font files redistributed. Original CSS layout.",
+      "identity": "40b6d32e58491cac7da616260776a2f60b988aa3c6df1d7a87835ec459a92e10"
+    },
+    {
+      "id": "warm",
+      "itemId": "warm",
+      "kind": "temperature",
+      "visual": "warm",
+      "provider": "Native Unicode + original CSS",
+      "sourceUrl": null,
+      "license": null,
+      "assetPath": null,
+      "sha256": null,
+      "styleVersion": "emoji-css-v1",
+      "status": "needs-review",
+      "reason": "",
+      "attribution": "Device-rendered Unicode; no font files redistributed. Original CSS layout.",
+      "identity": "63718cb82de97f5dbeb29db28256e705fd94e5d7963c894dd9010bc393045bcf"
+    },
+    {
+      "id": "cool",
+      "itemId": "cool",
+      "kind": "temperature",
+      "visual": "cool",
+      "provider": "Native Unicode + original CSS",
+      "sourceUrl": null,
+      "license": null,
+      "assetPath": null,
+      "sha256": null,
+      "styleVersion": "emoji-css-v1",
+      "status": "needs-review",
+      "reason": "",
+      "attribution": "Device-rendered Unicode; no font files redistributed. Original CSS layout.",
+      "identity": "a0c7d3be7ad08c843354b0ba46ec9e061de28fa55df2b32ffd9126ada30f7700"
+    },
+    {
+      "id": "cold",
+      "itemId": "cold",
+      "kind": "emoji",
+      "visual": "🥶",
+      "provider": "Native Unicode + original CSS",
+      "sourceUrl": null,
+      "license": null,
+      "assetPath": null,
+      "sha256": null,
+      "styleVersion": "emoji-css-v1",
+      "status": "needs-review",
+      "reason": "",
+      "attribution": "Device-rendered Unicode; no font files redistributed. Original CSS layout.",
+      "identity": "f9b57a6af94ad6077aeb861475bb8dfe28fbaba976f86ce13ae2feaf94319de6"
+    },
+    {
+      "id": "desert",
+      "itemId": "desert",
+      "kind": "emoji",
+      "visual": "🏜️",
+      "provider": "Native Unicode + original CSS",
+      "sourceUrl": null,
+      "license": null,
+      "assetPath": null,
+      "sha256": null,
+      "styleVersion": "emoji-css-v1",
+      "status": "needs-review",
+      "reason": "",
+      "attribution": "Device-rendered Unicode; no font files redistributed. Original CSS layout.",
+      "identity": "53ad044db8e6dac43e9c08221cdd737b8b5354192fb1bd8cfc3f3dd2a0f3a485"
+    },
+    {
+      "id": "arctic",
+      "itemId": "arctic",
+      "kind": "emoji",
+      "visual": "🧊",
+      "provider": "Native Unicode + original CSS",
+      "sourceUrl": null,
+      "license": null,
+      "assetPath": null,
+      "sha256": null,
+      "styleVersion": "emoji-css-v1",
+      "status": "needs-review",
+      "reason": "",
+      "attribution": "Device-rendered Unicode; no font files redistributed. Original CSS layout.",
+      "identity": "dd6b83b7becd5e4b0b03e480787685c24afa3eada68d9fe9742284102925e0e4"
+    },
+    {
+      "id": "mitten",
+      "itemId": "mitten",
+      "kind": "css",
+      "visual": "mitten",
+      "provider": "Native Unicode + original CSS",
+      "sourceUrl": null,
+      "license": null,
+      "assetPath": null,
+      "sha256": null,
+      "styleVersion": "emoji-css-v1",
+      "status": "needs-review",
+      "reason": "",
+      "attribution": "Device-rendered Unicode; no font files redistributed. Original CSS layout.",
+      "identity": "3dda09b39c4af717c857eb1be0269bf1ce4100868bffe8e65024d7447e54fe71"
+    },
+    {
+      "id": "run",
+      "itemId": "run",
+      "kind": "emoji",
+      "visual": "🏃",
+      "provider": "Native Unicode + original CSS",
+      "sourceUrl": null,
+      "license": null,
+      "assetPath": null,
+      "sha256": null,
+      "styleVersion": "emoji-css-v1",
+      "status": "needs-review",
+      "reason": "",
+      "attribution": "Device-rendered Unicode; no font files redistributed. Original CSS layout.",
+      "identity": "2cbeb5cfe1c125626659795e61bc5d68a1bbf86443eac8b8489d36bbefaade8a"
+    },
+    {
+      "id": "swim",
+      "itemId": "swim",
+      "kind": "emoji",
+      "visual": "🏊",
+      "provider": "Native Unicode + original CSS",
+      "sourceUrl": null,
+      "license": null,
+      "assetPath": null,
+      "sha256": null,
+      "styleVersion": "emoji-css-v1",
+      "status": "needs-review",
+      "reason": "",
+      "attribution": "Device-rendered Unicode; no font files redistributed. Original CSS layout.",
+      "identity": "3c7e22580dab95dd030d0158e251c7ee361522a5e7bf455a22563be26cacb5ad"
+    },
+    {
+      "id": "fan",
+      "itemId": "fan",
+      "kind": "css",
+      "visual": "fan",
+      "provider": "Native Unicode + original CSS",
+      "sourceUrl": null,
+      "license": null,
+      "assetPath": null,
+      "sha256": null,
+      "styleVersion": "emoji-css-v1",
+      "status": "needs-review",
+      "reason": "",
+      "attribution": "Device-rendered Unicode; no font files redistributed. Original CSS layout.",
+      "identity": "94deb1582de723308f3aa05648d1613f8256141baf7c5bf7a88aec367c2ee1c9"
+    },
+    {
+      "id": "fireplace",
+      "itemId": "fireplace",
+      "kind": "css",
+      "visual": "fireplace",
+      "provider": "Native Unicode + original CSS",
+      "sourceUrl": null,
+      "license": null,
+      "assetPath": null,
+      "sha256": null,
+      "styleVersion": "emoji-css-v1",
+      "status": "needs-review",
+      "reason": "",
+      "attribution": "Device-rendered Unicode; no font files redistributed. Original CSS layout.",
+      "identity": "4de9d7bc60efa6c91079e8b2c9b1148be8e9671f3a637eb01f5dec6641a5e77e"
+    },
+    {
+      "id": "weather-report",
+      "itemId": "weather-report",
+      "kind": "emoji",
+      "visual": "📺☀️",
+      "provider": "Native Unicode + original CSS",
+      "sourceUrl": null,
+      "license": null,
+      "assetPath": null,
+      "sha256": null,
+      "styleVersion": "emoji-css-v1",
+      "status": "needs-review",
+      "reason": "",
+      "attribution": "Device-rendered Unicode; no font files redistributed. Original CSS layout.",
+      "identity": "326429a6f3b4554f7b5a66c8493958a5aeb72a1cfa01268bc2ac18c9ad04460f"
+    },
+    {
+      "id": "ice-cream",
+      "itemId": "ice-cream",
+      "kind": "emoji",
+      "visual": "🍦",
+      "provider": "Native Unicode + original CSS",
+      "sourceUrl": null,
+      "license": null,
+      "assetPath": null,
+      "sha256": null,
+      "styleVersion": "emoji-css-v1",
+      "status": "needs-review",
+      "reason": "",
+      "attribution": "Device-rendered Unicode; no font files redistributed. Original CSS layout.",
+      "identity": "946967536552f0f36412a1ae64ed49b5028484b4cddac88fb3aee3ae76ed4eb2"
+    }
+  ]
+}

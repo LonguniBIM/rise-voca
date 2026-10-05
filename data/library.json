@@ -1,0 +1,3202 @@
+{
+  "schemaVersion": 1,
+  "libraryId": "rise-voca-pk1",
+  "title": "Rise_Voca | PK1 weekly lessons",
+  "contentVersion": "2026.10.05.1",
+  "contentLanguage": "en",
+  "supportLanguage": "vi",
+  "audienceAge": 5,
+  "sources": [
+    {
+      "id": "source-pk1-2603-t1-l1",
+      "type": "parent-supplied lesson image",
+      "date": "2026-05-09",
+      "class": "PK1_2603",
+      "title": "Letters A - D",
+      "distribution": "Source scans are not bundled. Transcription of learning targets supplied by parent."
+    },
+    {
+      "id": "source-pk1-2603-t4-l1",
+      "type": "parent-supplied lesson image",
+      "date": "2026-09-13",
+      "class": "PK1_2603",
+      "title": "Hot, Warm, Cool and Cold",
+      "distribution": "Source scans are not bundled. Transcription of learning targets supplied by parent."
+    },
+    {
+      "id": "source-pk1-2603-t4-l2",
+      "type": "parent-supplied lesson image",
+      "date": "2026-09-19",
+      "class": "PK1_2603",
+      "title": "Spring, Summer, Autumn and Winter",
+      "distribution": "Source scans are not bundled. Transcription of learning targets supplied by parent."
+    },
+    {
+      "id": "source-pk1-2603-t4-l3",
+      "type": "parent-supplied lesson image",
+      "date": "2026-09-20",
+      "class": "PK1_2603",
+      "title": "Exploration: Weather machine & Make a movie",
+      "distribution": "Source scans are not bundled. Transcription of learning targets supplied by parent."
+    },
+    {
+      "id": "source-pk1-2603-t4-l4",
+      "type": "parent-supplied lesson image",
+      "date": "2026-09-26",
+      "class": "PK1_2603",
+      "title": "Sunny and Windy",
+      "distribution": "Source scans are not bundled. Transcription of learning targets supplied by parent."
+    },
+    {
+      "id": "source-pk1-2603-t4-l5",
+      "type": "parent-supplied lesson image",
+      "date": "2026-09-27",
+      "class": "PK1_2603",
+      "title": "Cloudy and Rainy",
+      "distribution": "Source scans are not bundled. Transcription of learning targets supplied by parent."
+    },
+    {
+      "id": "source-pk1-2603-t4-l6",
+      "type": "parent-supplied lesson image",
+      "date": "2026-10-03",
+      "class": "PK1_2603",
+      "title": "Exploration: Acorn Pond & Make a movie",
+      "distribution": "Source scans are not bundled. Transcription of learning targets supplied by parent."
+    },
+    {
+      "id": "source-pk1-2603-t4-l7",
+      "type": "parent-supplied lesson image",
+      "date": "2026-10-04",
+      "class": "PK1_2603",
+      "title": "Rainy Windy Day and Cloudy Windy Day",
+      "distribution": "Source scans are not bundled. Transcription of learning targets supplied by parent."
+    }
+  ],
+  "topics": [
+    {
+      "id": "abc",
+      "name": "1 - ABC Workshop"
+    },
+    {
+      "id": "weather",
+      "name": "4 - Weather Report"
+    }
+  ],
+  "items": [
+    {
+      "id": "letter-a-upper",
+      "word": "A",
+      "meaning": "chữ A viết hoa",
+      "originalText": "A",
+      "status": "ready",
+      "reason": "",
+      "sourceRefs": [
+        "source-pk1-2603-t1-l1"
+      ],
+      "question": {
+        "id": "q-letter-a-upper-v1",
+        "itemId": "letter-a-upper",
+        "word": "A",
+        "question": "Which letter do you see?",
+        "translation": "",
+        "hint": "Look at the shape of the letter.",
+        "explanation": "A = chữ A viết hoa.",
+        "options": [
+          {
+            "id": "letter-a-upper-o1",
+            "label": "A"
+          },
+          {
+            "id": "letter-a-upper-o2",
+            "label": "B"
+          },
+          {
+            "id": "letter-a-upper-o3",
+            "label": "C"
+          },
+          {
+            "id": "letter-a-upper-o4",
+            "label": "D"
+          }
+        ],
+        "correctOptionId": "letter-a-upper-o1",
+        "topicId": "abc",
+        "mode": "letter",
+        "visualId": "letter-a-upper",
+        "authorship": "App-authored learning cue; source supplies the learning target, not this question."
+      }
+    },
+    {
+      "id": "letter-a-lower",
+      "word": "a",
+      "meaning": "chữ A viết thường",
+      "originalText": "a",
+      "status": "ready",
+      "reason": "",
+      "sourceRefs": [
+        "source-pk1-2603-t1-l1"
+      ],
+      "question": {
+        "id": "q-letter-a-lower-v1",
+        "itemId": "letter-a-lower",
+        "word": "a",
+        "question": "Which letter do you see?",
+        "translation": "",
+        "hint": "Look at the shape of the letter.",
+        "explanation": "a = chữ A viết thường.",
+        "options": [
+          {
+            "id": "letter-a-lower-o1",
+            "label": "a"
+          },
+          {
+            "id": "letter-a-lower-o2",
+            "label": "b"
+          },
+          {
+            "id": "letter-a-lower-o3",
+            "label": "c"
+          },
+          {
+            "id": "letter-a-lower-o4",
+            "label": "d"
+          }
+        ],
+        "correctOptionId": "letter-a-lower-o1",
+        "topicId": "abc",
+        "mode": "letter",
+        "visualId": "letter-a-lower",
+        "authorship": "App-authored learning cue; source supplies the learning target, not this question."
+      }
+    },
+    {
+      "id": "letter-b-upper",
+      "word": "B",
+      "meaning": "chữ B viết hoa",
+      "originalText": "B",
+      "status": "ready",
+      "reason": "",
+      "sourceRefs": [
+        "source-pk1-2603-t1-l1"
+      ],
+      "question": {
+        "id": "q-letter-b-upper-v1",
+        "itemId": "letter-b-upper",
+        "word": "B",
+        "question": "Which letter do you see?",
+        "translation": "",
+        "hint": "Look at the shape of the letter.",
+        "explanation": "B = chữ B viết hoa.",
+        "options": [
+          {
+            "id": "letter-b-upper-o1",
+            "label": "A"
+          },
+          {
+            "id": "letter-b-upper-o2",
+            "label": "B"
+          },
+          {
+            "id": "letter-b-upper-o3",
+            "label": "C"
+          },
+          {
+            "id": "letter-b-upper-o4",
+            "label": "D"
+          }
+        ],
+        "correctOptionId": "letter-b-upper-o2",
+        "topicId": "abc",
+        "mode": "letter",
+        "visualId": "letter-b-upper",
+        "authorship": "App-authored learning cue; source supplies the learning target, not this question."
+      }
+    },
+    {
+      "id": "letter-b-lower",
+      "word": "b",
+      "meaning": "chữ B viết thường",
+      "originalText": "b",
+      "status": "ready",
+      "reason": "",
+      "sourceRefs": [
+        "source-pk1-2603-t1-l1"
+      ],
+      "question": {
+        "id": "q-letter-b-lower-v1",
+        "itemId": "letter-b-lower",
+        "word": "b",
+        "question": "Which letter do you see?",
+        "translation": "",
+        "hint": "Look at the shape of the letter.",
+        "explanation": "b = chữ B viết thường.",
+        "options": [
+          {
+            "id": "letter-b-lower-o1",
+            "label": "a"
+          },
+          {
+            "id": "letter-b-lower-o2",
+            "label": "b"
+          },
+          {
+            "id": "letter-b-lower-o3",
+            "label": "c"
+          },
+          {
+            "id": "letter-b-lower-o4",
+            "label": "d"
+          }
+        ],
+        "correctOptionId": "letter-b-lower-o2",
+        "topicId": "abc",
+        "mode": "letter",
+        "visualId": "letter-b-lower",
+        "authorship": "App-authored learning cue; source supplies the learning target, not this question."
+      }
+    },
+    {
+      "id": "letter-c-upper",
+      "word": "C",
+      "meaning": "chữ C viết hoa",
+      "originalText": "C",
+      "status": "ready",
+      "reason": "",
+      "sourceRefs": [
+        "source-pk1-2603-t1-l1"
+      ],
+      "question": {
+        "id": "q-letter-c-upper-v1",
+        "itemId": "letter-c-upper",
+        "word": "C",
+        "question": "Which letter do you see?",
+        "translation": "",
+        "hint": "Look at the shape of the letter.",
+        "explanation": "C = chữ C viết hoa.",
+        "options": [
+          {
+            "id": "letter-c-upper-o1",
+            "label": "A"
+          },
+          {
+            "id": "letter-c-upper-o2",
+            "label": "B"
+          },
+          {
+            "id": "letter-c-upper-o3",
+            "label": "C"
+          },
+          {
+            "id": "letter-c-upper-o4",
+            "label": "D"
+          }
+        ],
+        "correctOptionId": "letter-c-upper-o3",
+        "topicId": "abc",
+        "mode": "letter",
+        "visualId": "letter-c-upper",
+        "authorship": "App-authored learning cue; source supplies the learning target, not this question."
+      }
+    },
+    {
+      "id": "letter-c-lower",
+      "word": "c",
+      "meaning": "chữ C viết thường",
+      "originalText": "c",
+      "status": "ready",
+      "reason": "",
+      "sourceRefs": [
+        "source-pk1-2603-t1-l1"
+      ],
+      "question": {
+        "id": "q-letter-c-lower-v1",
+        "itemId": "letter-c-lower",
+        "word": "c",
+        "question": "Which letter do you see?",
+        "translation": "",
+        "hint": "Look at the shape of the letter.",
+        "explanation": "c = chữ C viết thường.",
+        "options": [
+          {
+            "id": "letter-c-lower-o1",
+            "label": "a"
+          },
+          {
+            "id": "letter-c-lower-o2",
+            "label": "b"
+          },
+          {
+            "id": "letter-c-lower-o3",
+            "label": "c"
+          },
+          {
+            "id": "letter-c-lower-o4",
+            "label": "d"
+          }
+        ],
+        "correctOptionId": "letter-c-lower-o3",
+        "topicId": "abc",
+        "mode": "letter",
+        "visualId": "letter-c-lower",
+        "authorship": "App-authored learning cue; source supplies the learning target, not this question."
+      }
+    },
+    {
+      "id": "letter-d-upper",
+      "word": "D",
+      "meaning": "chữ D viết hoa",
+      "originalText": "D",
+      "status": "ready",
+      "reason": "",
+      "sourceRefs": [
+        "source-pk1-2603-t1-l1"
+      ],
+      "question": {
+        "id": "q-letter-d-upper-v1",
+        "itemId": "letter-d-upper",
+        "word": "D",
+        "question": "Which letter do you see?",
+        "translation": "",
+        "hint": "Look at the shape of the letter.",
+        "explanation": "D = chữ D viết hoa.",
+        "options": [
+          {
+            "id": "letter-d-upper-o1",
+            "label": "A"
+          },
+          {
+            "id": "letter-d-upper-o2",
+            "label": "B"
+          },
+          {
+            "id": "letter-d-upper-o3",
+            "label": "C"
+          },
+          {
+            "id": "letter-d-upper-o4",
+            "label": "D"
+          }
+        ],
+        "correctOptionId": "letter-d-upper-o4",
+        "topicId": "abc",
+        "mode": "letter",
+        "visualId": "letter-d-upper",
+        "authorship": "App-authored learning cue; source supplies the learning target, not this question."
+      }
+    },
+    {
+      "id": "letter-d-lower",
+      "word": "d",
+      "meaning": "chữ D viết thường",
+      "originalText": "d",
+      "status": "ready",
+      "reason": "",
+      "sourceRefs": [
+        "source-pk1-2603-t1-l1"
+      ],
+      "question": {
+        "id": "q-letter-d-lower-v1",
+        "itemId": "letter-d-lower",
+        "word": "d",
+        "question": "Which letter do you see?",
+        "translation": "",
+        "hint": "Look at the shape of the letter.",
+        "explanation": "d = chữ D viết thường.",
+        "options": [
+          {
+            "id": "letter-d-lower-o1",
+            "label": "a"
+          },
+          {
+            "id": "letter-d-lower-o2",
+            "label": "b"
+          },
+          {
+            "id": "letter-d-lower-o3",
+            "label": "c"
+          },
+          {
+            "id": "letter-d-lower-o4",
+            "label": "d"
+          }
+        ],
+        "correctOptionId": "letter-d-lower-o4",
+        "topicId": "abc",
+        "mode": "letter",
+        "visualId": "letter-d-lower",
+        "authorship": "App-authored learning cue; source supplies the learning target, not this question."
+      }
+    },
+    {
+      "id": "apple",
+      "word": "Apple",
+      "meaning": "quả táo",
+      "originalText": "Apple",
+      "status": "ready",
+      "reason": "",
+      "sourceRefs": [
+        "source-pk1-2603-t1-l1"
+      ],
+      "question": {
+        "id": "q-apple-v1",
+        "itemId": "apple",
+        "word": "Apple",
+        "question": "It is a round fruit with a core. Its name starts with A. What is it?",
+        "translation": "",
+        "hint": "It is a round fruit that can be red or green.",
+        "explanation": "Apple = quả táo.",
+        "options": [
+          {
+            "id": "apple-o1",
+            "label": "Apple"
+          },
+          {
+            "id": "apple-o2",
+            "label": "Banana"
+          },
+          {
+            "id": "apple-o3",
+            "label": "Orange"
+          },
+          {
+            "id": "apple-o4",
+            "label": "Pear"
+          }
+        ],
+        "correctOptionId": "apple-o1",
+        "topicId": "abc",
+        "mode": "context",
+        "visualId": "apple",
+        "authorship": "App-authored learning cue; source supplies the learning target, not this question."
+      }
+    },
+    {
+      "id": "ball",
+      "word": "Ball",
+      "meaning": "quả bóng",
+      "originalText": "Ball",
+      "status": "ready",
+      "reason": "",
+      "sourceRefs": [
+        "source-pk1-2603-t1-l1"
+      ],
+      "question": {
+        "id": "q-ball-v1",
+        "itemId": "ball",
+        "word": "Ball",
+        "question": "What can you kick or roll in a game?",
+        "translation": "",
+        "hint": "It is round.",
+        "explanation": "Ball = quả bóng.",
+        "options": [
+          {
+            "id": "ball-o1",
+            "label": "Ball"
+          },
+          {
+            "id": "ball-o2",
+            "label": "Book"
+          },
+          {
+            "id": "ball-o3",
+            "label": "Cup"
+          },
+          {
+            "id": "ball-o4",
+            "label": "Hat"
+          }
+        ],
+        "correctOptionId": "ball-o1",
+        "topicId": "abc",
+        "mode": "context",
+        "visualId": "ball",
+        "authorship": "App-authored learning cue; source supplies the learning target, not this question."
+      }
+    },
+    {
+      "id": "cow",
+      "word": "Cow",
+      "meaning": "con bò",
+      "originalText": "Cow",
+      "status": "ready",
+      "reason": "",
+      "sourceRefs": [
+        "source-pk1-2603-t1-l1"
+      ],
+      "question": {
+        "id": "q-cow-v1",
+        "itemId": "cow",
+        "word": "Cow",
+        "question": "Which farm animal says moo?",
+        "translation": "",
+        "hint": "People can get milk from this animal.",
+        "explanation": "Cow = con bò.",
+        "options": [
+          {
+            "id": "cow-o1",
+            "label": "Cow"
+          },
+          {
+            "id": "cow-o2",
+            "label": "Duck"
+          },
+          {
+            "id": "cow-o3",
+            "label": "Cat"
+          },
+          {
+            "id": "cow-o4",
+            "label": "Dog"
+          }
+        ],
+        "correctOptionId": "cow-o1",
+        "topicId": "abc",
+        "mode": "context",
+        "visualId": "cow",
+        "authorship": "App-authored learning cue; source supplies the learning target, not this question."
+      }
+    },
+    {
+      "id": "duck",
+      "word": "Duck",
+      "meaning": "con vịt",
+      "originalText": "Duck",
+      "status": "ready",
+      "reason": "",
+      "sourceRefs": [
+        "source-pk1-2603-t1-l1"
+      ],
+      "question": {
+        "id": "q-duck-v1",
+        "itemId": "duck",
+        "word": "Duck",
+        "question": "Which bird says quack?",
+        "translation": "",
+        "hint": "It can swim in a pond.",
+        "explanation": "Duck = con vịt.",
+        "options": [
+          {
+            "id": "duck-o1",
+            "label": "Duck"
+          },
+          {
+            "id": "duck-o2",
+            "label": "Cow"
+          },
+          {
+            "id": "duck-o3",
+            "label": "Cat"
+          },
+          {
+            "id": "duck-o4",
+            "label": "Dog"
+          }
+        ],
+        "correctOptionId": "duck-o1",
+        "topicId": "abc",
+        "mode": "context",
+        "visualId": "duck",
+        "authorship": "App-authored learning cue; source supplies the learning target, not this question."
+      }
+    },
+    {
+      "id": "uppercase",
+      "word": "Uppercase",
+      "meaning": "chữ hoa",
+      "originalText": "Uppercase",
+      "status": "ready",
+      "reason": "",
+      "sourceRefs": [
+        "source-pk1-2603-t1-l1"
+      ],
+      "question": {
+        "id": "q-uppercase-v1",
+        "itemId": "uppercase",
+        "word": "Uppercase",
+        "question": "A is a capital letter. What do we call this form?",
+        "translation": "",
+        "hint": "It is the big letter form.",
+        "explanation": "Uppercase = chữ hoa.",
+        "options": [
+          {
+            "id": "uppercase-o1",
+            "label": "Uppercase"
+          },
+          {
+            "id": "uppercase-o2",
+            "label": "Lowercase"
+          },
+          {
+            "id": "uppercase-o3",
+            "label": "Number"
+          },
+          {
+            "id": "uppercase-o4",
+            "label": "Shape"
+          }
+        ],
+        "correctOptionId": "uppercase-o1",
+        "topicId": "abc",
+        "mode": "context",
+        "visualId": "uppercase",
+        "authorship": "App-authored learning cue; source supplies the learning target, not this question."
+      }
+    },
+    {
+      "id": "lowercase",
+      "word": "Lowercase",
+      "meaning": "chữ thường",
+      "originalText": "Lowercase",
+      "status": "ready",
+      "reason": "",
+      "sourceRefs": [
+        "source-pk1-2603-t1-l1"
+      ],
+      "question": {
+        "id": "q-lowercase-v1",
+        "itemId": "lowercase",
+        "word": "Lowercase",
+        "question": "a is a small letter. What do we call this form?",
+        "translation": "",
+        "hint": "It is the small letter form.",
+        "explanation": "Lowercase = chữ thường.",
+        "options": [
+          {
+            "id": "lowercase-o1",
+            "label": "Uppercase"
+          },
+          {
+            "id": "lowercase-o2",
+            "label": "Lowercase"
+          },
+          {
+            "id": "lowercase-o3",
+            "label": "Number"
+          },
+          {
+            "id": "lowercase-o4",
+            "label": "Shape"
+          }
+        ],
+        "correctOptionId": "lowercase-o2",
+        "topicId": "abc",
+        "mode": "context",
+        "visualId": "lowercase",
+        "authorship": "App-authored learning cue; source supplies the learning target, not this question."
+      }
+    },
+    {
+      "id": "customer",
+      "word": "Customer",
+      "meaning": "khách hàng",
+      "originalText": "Customer",
+      "status": "ready",
+      "reason": "",
+      "sourceRefs": [
+        "source-pk1-2603-t1-l1"
+      ],
+      "question": {
+        "id": "q-customer-v1",
+        "itemId": "customer",
+        "word": "Customer",
+        "question": "A person buys something in a shop. What is that person called?",
+        "translation": "",
+        "hint": "This person pays the shop for something.",
+        "explanation": "Customer = khách hàng.",
+        "options": [
+          {
+            "id": "customer-o1",
+            "label": "Customer"
+          },
+          {
+            "id": "customer-o2",
+            "label": "Teacher"
+          },
+          {
+            "id": "customer-o3",
+            "label": "Farmer"
+          },
+          {
+            "id": "customer-o4",
+            "label": "Pilot"
+          }
+        ],
+        "correctOptionId": "customer-o1",
+        "topicId": "abc",
+        "mode": "context",
+        "visualId": "customer",
+        "authorship": "App-authored learning cue; source supplies the learning target, not this question."
+      }
+    },
+    {
+      "id": "hot",
+      "word": "Hot",
+      "meaning": "nóng",
+      "originalText": "Hot",
+      "status": "ready",
+      "reason": "",
+      "sourceRefs": [
+        "source-pk1-2603-t4-l1",
+        "source-pk1-2603-t4-l3",
+        "source-pk1-2603-t4-l7"
+      ],
+      "question": {
+        "id": "q-hot-v1",
+        "itemId": "hot",
+        "word": "Hot",
+        "question": "You feel very warm and sweaty. How do you feel?",
+        "translation": "",
+        "hint": "You would like a fan to help you feel better.",
+        "explanation": "Hot = nóng.",
+        "options": [
+          {
+            "id": "hot-o1",
+            "label": "Hot"
+          },
+          {
+            "id": "hot-o2",
+            "label": "Warm"
+          },
+          {
+            "id": "hot-o3",
+            "label": "Cool"
+          },
+          {
+            "id": "hot-o4",
+            "label": "Cold"
+          }
+        ],
+        "correctOptionId": "hot-o1",
+        "topicId": "weather",
+        "mode": "context",
+        "visualId": "hot",
+        "authorship": "App-authored learning cue; source supplies the learning target, not this question."
+      }
+    },
+    {
+      "id": "warm",
+      "word": "Warm",
+      "meaning": "ấm",
+      "originalText": "Warm",
+      "status": "ready",
+      "reason": "",
+      "sourceRefs": [
+        "source-pk1-2603-t4-l1",
+        "source-pk1-2603-t4-l3",
+        "source-pk1-2603-t4-l7"
+      ],
+      "question": {
+        "id": "q-warm-v1",
+        "itemId": "warm",
+        "word": "Warm",
+        "question": "The air feels a little hot, but not too hot. How does it feel?",
+        "translation": "",
+        "hint": "It is between hot and cool.",
+        "explanation": "Warm = ấm.",
+        "options": [
+          {
+            "id": "warm-o1",
+            "label": "Hot"
+          },
+          {
+            "id": "warm-o2",
+            "label": "Warm"
+          },
+          {
+            "id": "warm-o3",
+            "label": "Cool"
+          },
+          {
+            "id": "warm-o4",
+            "label": "Cold"
+          }
+        ],
+        "correctOptionId": "warm-o2",
+        "topicId": "weather",
+        "mode": "context",
+        "visualId": "warm",
+        "authorship": "App-authored learning cue; source supplies the learning target, not this question."
+      }
+    },
+    {
+      "id": "cool",
+      "word": "Cool",
+      "meaning": "mát",
+      "originalText": "Cool",
+      "status": "ready",
+      "reason": "",
+      "sourceRefs": [
+        "source-pk1-2603-t4-l1",
+        "source-pk1-2603-t4-l3",
+        "source-pk1-2603-t4-l7"
+      ],
+      "question": {
+        "id": "q-cool-v1",
+        "itemId": "cool",
+        "word": "Cool",
+        "question": "A gentle breeze feels a little cold, but not too cold. How does it feel?",
+        "translation": "",
+        "hint": "It is between warm and cold.",
+        "explanation": "Cool = mát.",
+        "options": [
+          {
+            "id": "cool-o1",
+            "label": "Hot"
+          },
+          {
+            "id": "cool-o2",
+            "label": "Warm"
+          },
+          {
+            "id": "cool-o3",
+            "label": "Cool"
+          },
+          {
+            "id": "cool-o4",
+            "label": "Cold"
+          }
+        ],
+        "correctOptionId": "cool-o3",
+        "topicId": "weather",
+        "mode": "context",
+        "visualId": "cool",
+        "authorship": "App-authored learning cue; source supplies the learning target, not this question."
+      }
+    },
+    {
+      "id": "cold",
+      "word": "Cold",
+      "meaning": "lạnh",
+      "originalText": "Cold",
+      "status": "ready",
+      "reason": "",
+      "sourceRefs": [
+        "source-pk1-2603-t4-l1",
+        "source-pk1-2603-t4-l3",
+        "source-pk1-2603-t4-l7"
+      ],
+      "question": {
+        "id": "q-cold-v1",
+        "itemId": "cold",
+        "word": "Cold",
+        "question": "You are shivering and need a thick coat. How do you feel?",
+        "translation": "",
+        "hint": "You want to get warmer.",
+        "explanation": "Cold = lạnh.",
+        "options": [
+          {
+            "id": "cold-o1",
+            "label": "Hot"
+          },
+          {
+            "id": "cold-o2",
+            "label": "Warm"
+          },
+          {
+            "id": "cold-o3",
+            "label": "Cool"
+          },
+          {
+            "id": "cold-o4",
+            "label": "Cold"
+          }
+        ],
+        "correctOptionId": "cold-o4",
+        "topicId": "weather",
+        "mode": "context",
+        "visualId": "cold",
+        "authorship": "App-authored learning cue; source supplies the learning target, not this question."
+      }
+    },
+    {
+      "id": "desert",
+      "word": "Desert",
+      "meaning": "sa mạc",
+      "originalText": "Desert",
+      "status": "ready",
+      "reason": "",
+      "sourceRefs": [
+        "source-pk1-2603-t4-l1"
+      ],
+      "question": {
+        "id": "q-desert-v1",
+        "itemId": "desert",
+        "word": "Desert",
+        "question": "Which place gets very little rain?",
+        "translation": "",
+        "hint": "It is a very dry place.",
+        "explanation": "Desert = sa mạc.",
+        "options": [
+          {
+            "id": "desert-o1",
+            "label": "Desert"
+          },
+          {
+            "id": "desert-o2",
+            "label": "Pond"
+          },
+          {
+            "id": "desert-o3",
+            "label": "River"
+          },
+          {
+            "id": "desert-o4",
+            "label": "Sea"
+          }
+        ],
+        "correctOptionId": "desert-o1",
+        "topicId": "weather",
+        "mode": "context",
+        "visualId": "desert",
+        "authorship": "App-authored learning cue; source supplies the learning target, not this question."
+      }
+    },
+    {
+      "id": "arctic",
+      "word": "Arctic",
+      "meaning": "Bắc Cực",
+      "originalText": "Arctic",
+      "status": "ready",
+      "reason": "",
+      "sourceRefs": [
+        "source-pk1-2603-t4-l1"
+      ],
+      "question": {
+        "id": "q-arctic-v1",
+        "itemId": "arctic",
+        "word": "Arctic",
+        "question": "What is the icy region around the North Pole called?",
+        "translation": "",
+        "hint": "It is the region at the far north of Earth.",
+        "explanation": "Arctic = Bắc Cực.",
+        "options": [
+          {
+            "id": "arctic-o1",
+            "label": "Arctic"
+          },
+          {
+            "id": "arctic-o2",
+            "label": "Desert"
+          },
+          {
+            "id": "arctic-o3",
+            "label": "Forest"
+          },
+          {
+            "id": "arctic-o4",
+            "label": "Beach"
+          }
+        ],
+        "correctOptionId": "arctic-o1",
+        "topicId": "weather",
+        "mode": "context",
+        "visualId": "arctic",
+        "authorship": "App-authored learning cue; source supplies the learning target, not this question."
+      }
+    },
+    {
+      "id": "mitten",
+      "word": "Mitten",
+      "meaning": "găng tay liền ngón",
+      "originalText": "Mitten",
+      "status": "ready",
+      "reason": "",
+      "sourceRefs": [
+        "source-pk1-2603-t4-l1"
+      ],
+      "question": {
+        "id": "q-mitten-v1",
+        "itemId": "mitten",
+        "word": "Mitten",
+        "question": "What keeps four fingers together, with a separate place for the thumb?",
+        "translation": "",
+        "hint": "You wear it on your hand in cold weather.",
+        "explanation": "Mitten = găng tay liền ngón.",
+        "options": [
+          {
+            "id": "mitten-o1",
+            "label": "Mitten"
+          },
+          {
+            "id": "mitten-o2",
+            "label": "Hat"
+          },
+          {
+            "id": "mitten-o3",
+            "label": "Sock"
+          },
+          {
+            "id": "mitten-o4",
+            "label": "Scarf"
+          }
+        ],
+        "correctOptionId": "mitten-o1",
+        "topicId": "weather",
+        "mode": "context",
+        "visualId": "mitten",
+        "authorship": "App-authored learning cue; source supplies the learning target, not this question."
+      }
+    },
+    {
+      "id": "run",
+      "word": "Run",
+      "meaning": "chạy",
+      "originalText": "Run",
+      "status": "ready",
+      "reason": "",
+      "sourceRefs": [
+        "source-pk1-2603-t4-l1"
+      ],
+      "question": {
+        "id": "q-run-v1",
+        "itemId": "run",
+        "word": "Run",
+        "question": "You move fast on your feet. What do you do?",
+        "translation": "",
+        "hint": "Your legs move quickly.",
+        "explanation": "Run = chạy.",
+        "options": [
+          {
+            "id": "run-o1",
+            "label": "Run"
+          },
+          {
+            "id": "run-o2",
+            "label": "Swim"
+          },
+          {
+            "id": "run-o3",
+            "label": "Sleep"
+          },
+          {
+            "id": "run-o4",
+            "label": "Sit"
+          }
+        ],
+        "correctOptionId": "run-o1",
+        "topicId": "weather",
+        "mode": "context",
+        "visualId": "run",
+        "authorship": "App-authored learning cue; source supplies the learning target, not this question."
+      }
+    },
+    {
+      "id": "swim",
+      "word": "Swim",
+      "meaning": "bơi",
+      "originalText": "Swim",
+      "status": "ready",
+      "reason": "",
+      "sourceRefs": [
+        "source-pk1-2603-t4-l1"
+      ],
+      "question": {
+        "id": "q-swim-v1",
+        "itemId": "swim",
+        "word": "Swim",
+        "question": "You move through water using your arms and legs. What do you do?",
+        "translation": "",
+        "hint": "You do this in a pool.",
+        "explanation": "Swim = bơi.",
+        "options": [
+          {
+            "id": "swim-o1",
+            "label": "Swim"
+          },
+          {
+            "id": "swim-o2",
+            "label": "Run"
+          },
+          {
+            "id": "swim-o3",
+            "label": "Sleep"
+          },
+          {
+            "id": "swim-o4",
+            "label": "Fly"
+          }
+        ],
+        "correctOptionId": "swim-o1",
+        "topicId": "weather",
+        "mode": "context",
+        "visualId": "swim",
+        "authorship": "App-authored learning cue; source supplies the learning target, not this question."
+      }
+    },
+    {
+      "id": "fan",
+      "word": "Fan",
+      "meaning": "quạt",
+      "originalText": "Fan",
+      "status": "ready",
+      "reason": "",
+      "sourceRefs": [
+        "source-pk1-2603-t4-l1"
+      ],
+      "question": {
+        "id": "q-fan-v1",
+        "itemId": "fan",
+        "word": "Fan",
+        "question": "What moves air to help you feel cooler?",
+        "translation": "",
+        "hint": "It makes a breeze.",
+        "explanation": "Fan = quạt.",
+        "options": [
+          {
+            "id": "fan-o1",
+            "label": "Fan"
+          },
+          {
+            "id": "fan-o2",
+            "label": "Fireplace"
+          },
+          {
+            "id": "fan-o3",
+            "label": "Scarf"
+          },
+          {
+            "id": "fan-o4",
+            "label": "Mitten"
+          }
+        ],
+        "correctOptionId": "fan-o1",
+        "topicId": "weather",
+        "mode": "context",
+        "visualId": "fan",
+        "authorship": "App-authored learning cue; source supplies the learning target, not this question."
+      }
+    },
+    {
+      "id": "fireplace",
+      "word": "Fireplace",
+      "meaning": "lò sưởi",
+      "originalText": "Fireplace",
+      "status": "ready",
+      "reason": "",
+      "sourceRefs": [
+        "source-pk1-2603-t4-l1"
+      ],
+      "question": {
+        "id": "q-fireplace-v1",
+        "itemId": "fireplace",
+        "word": "Fireplace",
+        "question": "Where can a fire burn safely inside a house to keep a room warm?",
+        "translation": "",
+        "hint": "It is a special place for a fire, not a place to play.",
+        "explanation": "Fireplace = lò sưởi.",
+        "options": [
+          {
+            "id": "fireplace-o1",
+            "label": "Fireplace"
+          },
+          {
+            "id": "fireplace-o2",
+            "label": "Fridge"
+          },
+          {
+            "id": "fireplace-o3",
+            "label": "Bed"
+          },
+          {
+            "id": "fireplace-o4",
+            "label": "Bath"
+          }
+        ],
+        "correctOptionId": "fireplace-o1",
+        "topicId": "weather",
+        "mode": "context",
+        "visualId": "fireplace",
+        "authorship": "App-authored learning cue; source supplies the learning target, not this question."
+      }
+    },
+    {
+      "id": "weather-report",
+      "word": "Weather report",
+      "meaning": "bản tin thời tiết",
+      "originalText": "Weather report",
+      "status": "ready",
+      "reason": "",
+      "sourceRefs": [
+        "source-pk1-2603-t4-l1"
+      ],
+      "question": {
+        "id": "q-weather-report-v1",
+        "itemId": "weather-report",
+        "word": "Weather report",
+        "question": "What tells us about the weather?",
+        "translation": "",
+        "hint": "It tells us whether it may be sunny or rainy.",
+        "explanation": "Weather report = bản tin thời tiết.",
+        "options": [
+          {
+            "id": "weather-report-o1",
+            "label": "Weather report"
+          },
+          {
+            "id": "weather-report-o2",
+            "label": "Menu"
+          },
+          {
+            "id": "weather-report-o3",
+            "label": "Shopping list"
+          },
+          {
+            "id": "weather-report-o4",
+            "label": "Birthday card"
+          }
+        ],
+        "correctOptionId": "weather-report-o1",
+        "topicId": "weather",
+        "mode": "context",
+        "visualId": "weather-report",
+        "authorship": "App-authored learning cue; source supplies the learning target, not this question."
+      }
+    },
+    {
+      "id": "ice-cream",
+      "word": "Ice cream",
+      "meaning": "kem",
+      "originalText": "Ice cream",
+      "status": "ready",
+      "reason": "",
+      "sourceRefs": [
+        "source-pk1-2603-t4-l1"
+      ],
+      "question": {
+        "id": "q-ice-cream-v1",
+        "itemId": "ice-cream",
+        "word": "Ice cream",
+        "question": "Which cold, sweet treat can you eat in a cone?",
+        "translation": "",
+        "hint": "It melts when it gets warm.",
+        "explanation": "Ice cream = kem.",
+        "options": [
+          {
+            "id": "ice-cream-o1",
+            "label": "Ice cream"
+          },
+          {
+            "id": "ice-cream-o2",
+            "label": "Soup"
+          },
+          {
+            "id": "ice-cream-o3",
+            "label": "Bread"
+          },
+          {
+            "id": "ice-cream-o4",
+            "label": "Rice"
+          }
+        ],
+        "correctOptionId": "ice-cream-o1",
+        "topicId": "weather",
+        "mode": "context",
+        "visualId": "ice-cream",
+        "authorship": "App-authored learning cue; source supplies the learning target, not this question."
+      }
+    },
+    {
+      "id": "spring",
+      "word": "Spring",
+      "meaning": "mùa xuân",
+      "originalText": "Spring",
+      "status": "ready",
+      "reason": "",
+      "sourceRefs": [
+        "source-pk1-2603-t4-l2",
+        "source-pk1-2603-t4-l3",
+        "source-pk1-2603-t4-l6"
+      ],
+      "question": {
+        "id": "q-spring-v1",
+        "itemId": "spring",
+        "word": "Spring",
+        "question": "In our four-season lesson, which season comes after winter?",
+        "translation": "",
+        "hint": "It is the season before summer.",
+        "explanation": "Spring = mùa xuân.",
+        "options": [
+          {
+            "id": "spring-o1",
+            "label": "Spring"
+          },
+          {
+            "id": "spring-o2",
+            "label": "Summer"
+          },
+          {
+            "id": "spring-o3",
+            "label": "Autumn"
+          },
+          {
+            "id": "spring-o4",
+            "label": "Winter"
+          }
+        ],
+        "correctOptionId": "spring-o1",
+        "topicId": "weather",
+        "mode": "context",
+        "visualId": "spring",
+        "authorship": "App-authored learning cue; source supplies the learning target, not this question."
+      }
+    },
+    {
+      "id": "summer",
+      "word": "Summer",
+      "meaning": "mùa hè",
+      "originalText": "Summer",
+      "status": "ready",
+      "reason": "",
+      "sourceRefs": [
+        "source-pk1-2603-t4-l2",
+        "source-pk1-2603-t4-l3",
+        "source-pk1-2603-t4-l6"
+      ],
+      "question": {
+        "id": "q-summer-v1",
+        "itemId": "summer",
+        "word": "Summer",
+        "question": "In our four-season lesson, which season comes after spring?",
+        "translation": "",
+        "hint": "It is the season before autumn.",
+        "explanation": "Summer = mùa hè.",
+        "options": [
+          {
+            "id": "summer-o1",
+            "label": "Spring"
+          },
+          {
+            "id": "summer-o2",
+            "label": "Summer"
+          },
+          {
+            "id": "summer-o3",
+            "label": "Autumn"
+          },
+          {
+            "id": "summer-o4",
+            "label": "Winter"
+          }
+        ],
+        "correctOptionId": "summer-o2",
+        "topicId": "weather",
+        "mode": "context",
+        "visualId": "summer",
+        "authorship": "App-authored learning cue; source supplies the learning target, not this question."
+      }
+    },
+    {
+      "id": "autumn",
+      "word": "Autumn",
+      "meaning": "mùa thu",
+      "originalText": "Autumn",
+      "status": "ready",
+      "reason": "",
+      "sourceRefs": [
+        "source-pk1-2603-t4-l2",
+        "source-pk1-2603-t4-l3",
+        "source-pk1-2603-t4-l6"
+      ],
+      "question": {
+        "id": "q-autumn-v1",
+        "itemId": "autumn",
+        "word": "Autumn",
+        "question": "In our four-season lesson, which season comes after summer?",
+        "translation": "",
+        "hint": "It is the season before winter.",
+        "explanation": "Autumn = mùa thu.",
+        "options": [
+          {
+            "id": "autumn-o1",
+            "label": "Spring"
+          },
+          {
+            "id": "autumn-o2",
+            "label": "Summer"
+          },
+          {
+            "id": "autumn-o3",
+            "label": "Autumn"
+          },
+          {
+            "id": "autumn-o4",
+            "label": "Winter"
+          }
+        ],
+        "correctOptionId": "autumn-o3",
+        "topicId": "weather",
+        "mode": "context",
+        "visualId": "autumn",
+        "authorship": "App-authored learning cue; source supplies the learning target, not this question."
+      }
+    },
+    {
+      "id": "winter",
+      "word": "Winter",
+      "meaning": "mùa đông",
+      "originalText": "Winter",
+      "status": "ready",
+      "reason": "",
+      "sourceRefs": [
+        "source-pk1-2603-t4-l2",
+        "source-pk1-2603-t4-l3",
+        "source-pk1-2603-t4-l6"
+      ],
+      "question": {
+        "id": "q-winter-v1",
+        "itemId": "winter",
+        "word": "Winter",
+        "question": "In our four-season lesson, which season comes after autumn?",
+        "translation": "",
+        "hint": "It is the season before spring.",
+        "explanation": "Winter = mùa đông.",
+        "options": [
+          {
+            "id": "winter-o1",
+            "label": "Spring"
+          },
+          {
+            "id": "winter-o2",
+            "label": "Summer"
+          },
+          {
+            "id": "winter-o3",
+            "label": "Autumn"
+          },
+          {
+            "id": "winter-o4",
+            "label": "Winter"
+          }
+        ],
+        "correctOptionId": "winter-o4",
+        "topicId": "weather",
+        "mode": "context",
+        "visualId": "winter",
+        "authorship": "App-authored learning cue; source supplies the learning target, not this question."
+      }
+    },
+    {
+      "id": "sprout",
+      "word": "Sprout",
+      "meaning": "nảy mầm",
+      "originalText": "Sprout",
+      "status": "ready",
+      "reason": "",
+      "sourceRefs": [
+        "source-pk1-2603-t4-l2",
+        "source-pk1-2603-t4-l4"
+      ],
+      "question": {
+        "id": "q-sprout-v1",
+        "itemId": "sprout",
+        "word": "Sprout",
+        "question": "A tiny new shoot begins to grow from a seed. What does the seed do?",
+        "translation": "",
+        "hint": "A new plant is beginning to grow.",
+        "explanation": "Sprout = nảy mầm.",
+        "options": [
+          {
+            "id": "sprout-o1",
+            "label": "Sprout"
+          },
+          {
+            "id": "sprout-o2",
+            "label": "Fly"
+          },
+          {
+            "id": "sprout-o3",
+            "label": "Swim"
+          },
+          {
+            "id": "sprout-o4",
+            "label": "Sleep"
+          }
+        ],
+        "correctOptionId": "sprout-o1",
+        "topicId": "weather",
+        "mode": "context",
+        "visualId": "sprout",
+        "authorship": "App-authored learning cue; source supplies the learning target, not this question."
+      }
+    },
+    {
+      "id": "turning-green-bloom-pending",
+      "word": "Turning green Bloom",
+      "meaning": "Chờ xác nhận cách tách từ",
+      "originalText": "Turning green Bloom",
+      "status": "pending",
+      "reason": "Source places Turning green Bloom on one line. Confirm whether turning green and bloom are separate targets.",
+      "sourceRefs": [
+        "source-pk1-2603-t4-l2"
+      ],
+      "question": null
+    },
+    {
+      "id": "leaves",
+      "word": "Leaves",
+      "meaning": "những chiếc lá",
+      "originalText": "Leaves",
+      "status": "ready",
+      "reason": "",
+      "sourceRefs": [
+        "source-pk1-2603-t4-l2"
+      ],
+      "question": {
+        "id": "q-leaves-v1",
+        "itemId": "leaves",
+        "word": "Leaves",
+        "question": "What grows on tree branches, is often green, and can fall in autumn?",
+        "translation": "",
+        "hint": "They grow on branches and are often green.",
+        "explanation": "Leaves = những chiếc lá.",
+        "options": [
+          {
+            "id": "leaves-o1",
+            "label": "Leaves"
+          },
+          {
+            "id": "leaves-o2",
+            "label": "Roots"
+          },
+          {
+            "id": "leaves-o3",
+            "label": "Trunks"
+          },
+          {
+            "id": "leaves-o4",
+            "label": "Seeds"
+          }
+        ],
+        "correctOptionId": "leaves-o1",
+        "topicId": "weather",
+        "mode": "context",
+        "visualId": "leaves",
+        "authorship": "App-authored learning cue; source supplies the learning target, not this question."
+      }
+    },
+    {
+      "id": "falling-down",
+      "word": "Falling down",
+      "meaning": "rơi xuống",
+      "originalText": "Falling down",
+      "status": "ready",
+      "reason": "",
+      "sourceRefs": [
+        "source-pk1-2603-t4-l2"
+      ],
+      "question": {
+        "id": "q-falling-down-v1",
+        "itemId": "falling-down",
+        "word": "Falling down",
+        "question": "The leaves move from the tree towards the ground. What are they doing?",
+        "translation": "",
+        "hint": "They are moving down, not up.",
+        "explanation": "Falling down = rơi xuống.",
+        "options": [
+          {
+            "id": "falling-down-o1",
+            "label": "Falling down"
+          },
+          {
+            "id": "falling-down-o2",
+            "label": "Growing up"
+          },
+          {
+            "id": "falling-down-o3",
+            "label": "Flying up"
+          },
+          {
+            "id": "falling-down-o4",
+            "label": "Staying still"
+          }
+        ],
+        "correctOptionId": "falling-down-o1",
+        "topicId": "weather",
+        "mode": "context",
+        "visualId": "falling-down",
+        "authorship": "App-authored learning cue; source supplies the learning target, not this question."
+      }
+    },
+    {
+      "id": "weather",
+      "word": "Weather",
+      "meaning": "thời tiết",
+      "originalText": "Weather",
+      "status": "ready",
+      "reason": "",
+      "sourceRefs": [
+        "source-pk1-2603-t4-l3"
+      ],
+      "question": {
+        "id": "q-weather-v1",
+        "itemId": "weather",
+        "word": "Weather",
+        "question": "Sunny, rainy and windy all describe what?",
+        "translation": "",
+        "hint": "It is what the sky and air are like.",
+        "explanation": "Weather = thời tiết.",
+        "options": [
+          {
+            "id": "weather-o1",
+            "label": "Weather"
+          },
+          {
+            "id": "weather-o2",
+            "label": "Food"
+          },
+          {
+            "id": "weather-o3",
+            "label": "Clothes"
+          },
+          {
+            "id": "weather-o4",
+            "label": "Toys"
+          }
+        ],
+        "correctOptionId": "weather-o1",
+        "topicId": "weather",
+        "mode": "context",
+        "visualId": "weather",
+        "authorship": "App-authored learning cue; source supplies the learning target, not this question."
+      }
+    },
+    {
+      "id": "light-pending",
+      "word": "light",
+      "meaning": "Chờ xác nhận nghĩa",
+      "originalText": "light",
+      "status": "pending",
+      "reason": "The source does not specify the intended sense of light. Confirm whether this describes rain or another concept.",
+      "sourceRefs": [
+        "source-pk1-2603-t4-l3"
+      ],
+      "question": null
+    },
+    {
+      "id": "heavy-pending",
+      "word": "heavy",
+      "meaning": "Chờ xác nhận nghĩa",
+      "originalText": "heavy",
+      "status": "pending",
+      "reason": "The source does not specify the intended sense of heavy. Confirm whether this describes rain or another concept.",
+      "sourceRefs": [
+        "source-pk1-2603-t4-l3"
+      ],
+      "question": null
+    },
+    {
+      "id": "rain",
+      "word": "Rain",
+      "meaning": "mưa",
+      "originalText": "Rain",
+      "status": "ready",
+      "reason": "",
+      "sourceRefs": [
+        "source-pk1-2603-t4-l3"
+      ],
+      "question": {
+        "id": "q-rain-v1",
+        "itemId": "rain",
+        "word": "Rain",
+        "question": "What are the drops of water falling from clouds called?",
+        "translation": "",
+        "hint": "These drops can make your clothes wet.",
+        "explanation": "Rain = mưa.",
+        "options": [
+          {
+            "id": "rain-o1",
+            "label": "Rain"
+          },
+          {
+            "id": "rain-o2",
+            "label": "Snow"
+          },
+          {
+            "id": "rain-o3",
+            "label": "Sunshine"
+          },
+          {
+            "id": "rain-o4",
+            "label": "Wind"
+          }
+        ],
+        "correctOptionId": "rain-o1",
+        "topicId": "weather",
+        "mode": "context",
+        "visualId": "rain",
+        "authorship": "App-authored learning cue; source supplies the learning target, not this question."
+      }
+    },
+    {
+      "id": "sunny",
+      "word": "Sunny",
+      "meaning": "trời nắng",
+      "originalText": "Sunny",
+      "status": "ready",
+      "reason": "",
+      "sourceRefs": [
+        "source-pk1-2603-t4-l4"
+      ],
+      "question": {
+        "id": "q-sunny-v1",
+        "itemId": "sunny",
+        "word": "Sunny",
+        "question": "The sun is shining in a clear sky. What is the weather?",
+        "translation": "",
+        "hint": "You can see bright sunshine.",
+        "explanation": "Sunny = trời nắng.",
+        "options": [
+          {
+            "id": "sunny-o1",
+            "label": "Sunny"
+          },
+          {
+            "id": "sunny-o2",
+            "label": "Windy"
+          },
+          {
+            "id": "sunny-o3",
+            "label": "Cloudy"
+          },
+          {
+            "id": "sunny-o4",
+            "label": "Rainy"
+          }
+        ],
+        "correctOptionId": "sunny-o1",
+        "topicId": "weather",
+        "mode": "context",
+        "visualId": "sunny",
+        "authorship": "App-authored learning cue; source supplies the learning target, not this question."
+      }
+    },
+    {
+      "id": "windy",
+      "word": "Windy",
+      "meaning": "trời có gió",
+      "originalText": "Windy",
+      "status": "ready",
+      "reason": "",
+      "sourceRefs": [
+        "source-pk1-2603-t4-l4"
+      ],
+      "question": {
+        "id": "q-windy-v1",
+        "itemId": "windy",
+        "word": "Windy",
+        "question": "The air blows and makes the branches move. What is the weather?",
+        "translation": "",
+        "hint": "A flag may flap in this weather.",
+        "explanation": "Windy = trời có gió.",
+        "options": [
+          {
+            "id": "windy-o1",
+            "label": "Sunny"
+          },
+          {
+            "id": "windy-o2",
+            "label": "Windy"
+          },
+          {
+            "id": "windy-o3",
+            "label": "Cloudy"
+          },
+          {
+            "id": "windy-o4",
+            "label": "Rainy"
+          }
+        ],
+        "correctOptionId": "windy-o2",
+        "topicId": "weather",
+        "mode": "context",
+        "visualId": "windy",
+        "authorship": "App-authored learning cue; source supplies the learning target, not this question."
+      }
+    },
+    {
+      "id": "shine",
+      "word": "Shine",
+      "meaning": "chiếu sáng",
+      "originalText": "Shine",
+      "status": "ready",
+      "reason": "",
+      "sourceRefs": [
+        "source-pk1-2603-t4-l4"
+      ],
+      "question": {
+        "id": "q-shine-v1",
+        "itemId": "shine",
+        "word": "Shine",
+        "question": "What does the sun do when it gives out bright light?",
+        "translation": "",
+        "hint": "A lamp can do this too.",
+        "explanation": "Shine = chiếu sáng.",
+        "options": [
+          {
+            "id": "shine-o1",
+            "label": "Shine"
+          },
+          {
+            "id": "shine-o2",
+            "label": "Sleep"
+          },
+          {
+            "id": "shine-o3",
+            "label": "Swim"
+          },
+          {
+            "id": "shine-o4",
+            "label": "Fall"
+          }
+        ],
+        "correctOptionId": "shine-o1",
+        "topicId": "weather",
+        "mode": "context",
+        "visualId": "shine",
+        "authorship": "App-authored learning cue; source supplies the learning target, not this question."
+      }
+    },
+    {
+      "id": "play",
+      "word": "Play",
+      "meaning": "chơi",
+      "originalText": "Play",
+      "status": "ready",
+      "reason": "",
+      "sourceRefs": [
+        "source-pk1-2603-t4-l4",
+        "source-pk1-2603-t4-l5"
+      ],
+      "question": {
+        "id": "q-play-v1",
+        "itemId": "play",
+        "word": "Play",
+        "question": "The children have fun with toys and games. What do they do?",
+        "translation": "Các bạn nhỏ vui với đồ chơi và trò chơi. Các bạn đang làm gì?",
+        "hint": "You do this with toys, games, or friends for fun.",
+        "explanation": "Play means to do something for fun. Play = chơi.",
+        "options": [
+          {
+            "id": "play-o1",
+            "label": "Work"
+          },
+          {
+            "id": "play-o2",
+            "label": "Play"
+          },
+          {
+            "id": "play-o3",
+            "label": "Sleep"
+          },
+          {
+            "id": "play-o4",
+            "label": "Fly"
+          }
+        ],
+        "correctOptionId": "play-o2",
+        "topicId": "weather",
+        "mode": "context",
+        "visualId": "play",
+        "authorship": "Preserved from supplied PK1_260927.html",
+        "legacyId": "play"
+      }
+    },
+    {
+      "id": "fly",
+      "word": "Fly",
+      "meaning": "bay",
+      "originalText": "Fly",
+      "status": "ready",
+      "reason": "",
+      "sourceRefs": [
+        "source-pk1-2603-t4-l4"
+      ],
+      "question": {
+        "id": "q-fly-v1",
+        "itemId": "fly",
+        "word": "Fly",
+        "question": "A bird moves through the air with its wings. What does it do?",
+        "translation": "",
+        "hint": "It is not walking on the ground.",
+        "explanation": "Fly = bay.",
+        "options": [
+          {
+            "id": "fly-o1",
+            "label": "Fly"
+          },
+          {
+            "id": "fly-o2",
+            "label": "Swim"
+          },
+          {
+            "id": "fly-o3",
+            "label": "Run"
+          },
+          {
+            "id": "fly-o4",
+            "label": "Sleep"
+          }
+        ],
+        "correctOptionId": "fly-o1",
+        "topicId": "weather",
+        "mode": "context",
+        "visualId": "fly",
+        "authorship": "App-authored learning cue; source supplies the learning target, not this question."
+      }
+    },
+    {
+      "id": "man",
+      "word": "Man",
+      "meaning": "người đàn ông",
+      "originalText": "Man",
+      "status": "ready",
+      "reason": "",
+      "sourceRefs": [
+        "source-pk1-2603-t4-l4"
+      ],
+      "question": {
+        "id": "q-man-v1",
+        "itemId": "man",
+        "word": "Man",
+        "question": "Which word means an adult male person?",
+        "translation": "",
+        "hint": "This person is a grown-up.",
+        "explanation": "Man = người đàn ông.",
+        "options": [
+          {
+            "id": "man-o1",
+            "label": "Man"
+          },
+          {
+            "id": "man-o2",
+            "label": "Woman"
+          },
+          {
+            "id": "man-o3",
+            "label": "Boy"
+          },
+          {
+            "id": "man-o4",
+            "label": "Girl"
+          }
+        ],
+        "correctOptionId": "man-o1",
+        "topicId": "weather",
+        "mode": "context",
+        "visualId": "man",
+        "authorship": "App-authored learning cue; source supplies the learning target, not this question."
+      }
+    },
+    {
+      "id": "children",
+      "word": "Children",
+      "meaning": "trẻ em",
+      "originalText": "Children",
+      "status": "ready",
+      "reason": "",
+      "sourceRefs": [
+        "source-pk1-2603-t4-l4"
+      ],
+      "question": {
+        "id": "q-children-v1",
+        "itemId": "children",
+        "word": "Children",
+        "question": "Which word means more than one child?",
+        "translation": "",
+        "hint": "Think of a group of boys and girls.",
+        "explanation": "Children = trẻ em.",
+        "options": [
+          {
+            "id": "children-o1",
+            "label": "Children"
+          },
+          {
+            "id": "children-o2",
+            "label": "Child"
+          },
+          {
+            "id": "children-o3",
+            "label": "Man"
+          },
+          {
+            "id": "children-o4",
+            "label": "Woman"
+          }
+        ],
+        "correctOptionId": "children-o1",
+        "topicId": "weather",
+        "mode": "context",
+        "visualId": "children",
+        "authorship": "App-authored learning cue; source supplies the learning target, not this question."
+      }
+    },
+    {
+      "id": "cloudy",
+      "word": "Cloudy",
+      "meaning": "trời nhiều mây",
+      "originalText": "Cloudy",
+      "status": "ready",
+      "reason": "",
+      "sourceRefs": [
+        "source-pk1-2603-t4-l5"
+      ],
+      "question": {
+        "id": "q-cloudy-v1",
+        "itemId": "cloudy",
+        "word": "Cloudy",
+        "question": "The sky is full of clouds. What is the weather?",
+        "translation": "Bầu trời có nhiều mây. Thời tiết thế nào?",
+        "hint": "Look for the weather word that means there are many clouds.",
+        "explanation": "Cloudy means the sky has many clouds. Cloudy = trời nhiều mây.",
+        "options": [
+          {
+            "id": "cloudy-o1",
+            "label": "Sunny"
+          },
+          {
+            "id": "cloudy-o2",
+            "label": "Cloudy"
+          },
+          {
+            "id": "cloudy-o3",
+            "label": "Rainy"
+          },
+          {
+            "id": "cloudy-o4",
+            "label": "Windy"
+          }
+        ],
+        "correctOptionId": "cloudy-o2",
+        "topicId": "weather",
+        "mode": "context",
+        "visualId": "cloudy",
+        "authorship": "Preserved from supplied PK1_260927.html",
+        "legacyId": "cloudy"
+      }
+    },
+    {
+      "id": "rainy",
+      "word": "Rainy",
+      "meaning": "trời mưa",
+      "originalText": "Rainy",
+      "status": "ready",
+      "reason": "",
+      "sourceRefs": [
+        "source-pk1-2603-t4-l5"
+      ],
+      "question": {
+        "id": "q-rainy-v1",
+        "itemId": "rainy",
+        "word": "Rainy",
+        "question": "Raindrops are falling from the clouds. What is the weather?",
+        "translation": "Những giọt mưa đang rơi từ đám mây. Thời tiết thế nào?",
+        "hint": "Think about the weather when water falls from the sky.",
+        "explanation": "Rainy means there is rain. Rainy = trời mưa.",
+        "options": [
+          {
+            "id": "rainy-o1",
+            "label": "Cloudy"
+          },
+          {
+            "id": "rainy-o2",
+            "label": "Sunny"
+          },
+          {
+            "id": "rainy-o3",
+            "label": "Rainy"
+          },
+          {
+            "id": "rainy-o4",
+            "label": "Windy"
+          }
+        ],
+        "correctOptionId": "rainy-o3",
+        "topicId": "weather",
+        "mode": "context",
+        "visualId": "rainy",
+        "authorship": "Preserved from supplied PK1_260927.html",
+        "legacyId": "rainy"
+      }
+    },
+    {
+      "id": "umbrella",
+      "word": "Umbrella",
+      "meaning": "cái ô / cái dù",
+      "originalText": "Umbrella",
+      "status": "ready",
+      "reason": "",
+      "sourceRefs": [
+        "source-pk1-2603-t4-l5"
+      ],
+      "question": {
+        "id": "q-umbrella-v1",
+        "itemId": "umbrella",
+        "word": "Umbrella",
+        "question": "What do you hold above your head to stay dry in the rain?",
+        "translation": "Em cầm gì trên đầu để không bị ướt khi trời mưa?",
+        "hint": "It opens above your head and keeps the rain off you.",
+        "explanation": "An umbrella helps keep you dry in the rain. Umbrella = cái ô / cái dù.",
+        "options": [
+          {
+            "id": "umbrella-o1",
+            "label": "Hat"
+          },
+          {
+            "id": "umbrella-o2",
+            "label": "Boat"
+          },
+          {
+            "id": "umbrella-o3",
+            "label": "Coat"
+          },
+          {
+            "id": "umbrella-o4",
+            "label": "Umbrella"
+          }
+        ],
+        "correctOptionId": "umbrella-o4",
+        "topicId": "weather",
+        "mode": "context",
+        "visualId": "umbrella",
+        "authorship": "Preserved from supplied PK1_260927.html",
+        "legacyId": "umbrella"
+      }
+    },
+    {
+      "id": "wet",
+      "word": "Wet",
+      "meaning": "ướt",
+      "originalText": "Wet",
+      "status": "ready",
+      "reason": "",
+      "sourceRefs": [
+        "source-pk1-2603-t4-l5"
+      ],
+      "question": {
+        "id": "q-wet-v1",
+        "itemId": "wet",
+        "word": "Wet",
+        "question": "Your clothes have rainwater on them. How do they feel?",
+        "translation": "Quần áo của em có nước mưa trên đó. Chúng thế nào?",
+        "hint": "This word means covered with water.",
+        "explanation": "Wet means covered with water. Wet = ướt.",
+        "options": [
+          {
+            "id": "wet-o1",
+            "label": "Wet"
+          },
+          {
+            "id": "wet-o2",
+            "label": "Dry"
+          },
+          {
+            "id": "wet-o3",
+            "label": "Dark"
+          },
+          {
+            "id": "wet-o4",
+            "label": "Warm"
+          }
+        ],
+        "correctOptionId": "wet-o1",
+        "topicId": "weather",
+        "mode": "context",
+        "visualId": "wet",
+        "authorship": "Preserved from supplied PK1_260927.html",
+        "legacyId": "wet"
+      }
+    },
+    {
+      "id": "dark",
+      "word": "Dark",
+      "meaning": "tối",
+      "originalText": "Dark",
+      "status": "ready",
+      "reason": "",
+      "sourceRefs": [
+        "source-pk1-2603-t4-l5"
+      ],
+      "question": {
+        "id": "q-dark-v1",
+        "itemId": "dark",
+        "word": "Dark",
+        "question": "There is very little light. Which word describes it?",
+        "translation": "Có rất ít ánh sáng. Từ nào dùng để miêu tả?",
+        "hint": "It is the opposite of bright.",
+        "explanation": "Dark means there is little or no light. Dark = tối.",
+        "options": [
+          {
+            "id": "dark-o1",
+            "label": "Bright"
+          },
+          {
+            "id": "dark-o2",
+            "label": "Wet"
+          },
+          {
+            "id": "dark-o3",
+            "label": "Dark"
+          },
+          {
+            "id": "dark-o4",
+            "label": "Cloudy"
+          }
+        ],
+        "correctOptionId": "dark-o3",
+        "topicId": "weather",
+        "mode": "context",
+        "visualId": "dark",
+        "authorship": "Preserved from supplied PK1_260927.html",
+        "legacyId": "dark"
+      }
+    },
+    {
+      "id": "boat",
+      "word": "Boat",
+      "meaning": "thuyền",
+      "originalText": "Boat",
+      "status": "ready",
+      "reason": "",
+      "sourceRefs": [
+        "source-pk1-2603-t4-l5"
+      ],
+      "question": {
+        "id": "q-boat-v1",
+        "itemId": "boat",
+        "word": "Boat",
+        "question": "What can float on water and carry people?",
+        "translation": "Vật gì có thể nổi trên nước và chở người?",
+        "hint": "You can ride in it on a river, lake, or sea.",
+        "explanation": "A boat is a small vehicle that travels on water. Boat = thuyền.",
+        "options": [
+          {
+            "id": "boat-o1",
+            "label": "Car"
+          },
+          {
+            "id": "boat-o2",
+            "label": "Train"
+          },
+          {
+            "id": "boat-o3",
+            "label": "Bus"
+          },
+          {
+            "id": "boat-o4",
+            "label": "Boat"
+          }
+        ],
+        "correctOptionId": "boat-o4",
+        "topicId": "weather",
+        "mode": "context",
+        "visualId": "boat",
+        "authorship": "Preserved from supplied PK1_260927.html",
+        "legacyId": "boat"
+      }
+    },
+    {
+      "id": "white-oak",
+      "word": "White oak",
+      "meaning": "cây sồi trắng",
+      "originalText": "White oak",
+      "status": "ready",
+      "reason": "",
+      "sourceRefs": [
+        "source-pk1-2603-t4-l6"
+      ],
+      "question": {
+        "id": "q-white-oak-v1",
+        "itemId": "white-oak",
+        "word": "White oak",
+        "question": "Which tree has rounded leaf lobes and grows acorns?",
+        "translation": "",
+        "hint": "It is a type of oak tree.",
+        "explanation": "White oak = cây sồi trắng.",
+        "options": [
+          {
+            "id": "white-oak-o1",
+            "label": "White oak"
+          },
+          {
+            "id": "white-oak-o2",
+            "label": "Palm tree"
+          },
+          {
+            "id": "white-oak-o3",
+            "label": "Apple tree"
+          },
+          {
+            "id": "white-oak-o4",
+            "label": "Pine tree"
+          }
+        ],
+        "correctOptionId": "white-oak-o1",
+        "topicId": "weather",
+        "mode": "context",
+        "visualId": "white-oak",
+        "authorship": "App-authored learning cue; source supplies the learning target, not this question.",
+        "researchReference": "https://research.fs.usda.gov/silvics/white-oak"
+      }
+    },
+    {
+      "id": "milkweed",
+      "word": "Milkweed",
+      "meaning": "cây bông tai",
+      "originalText": "Milkweed",
+      "status": "ready",
+      "reason": "",
+      "sourceRefs": [
+        "source-pk1-2603-t4-l6"
+      ],
+      "question": {
+        "id": "q-milkweed-v1",
+        "itemId": "milkweed",
+        "word": "Milkweed",
+        "question": "Which plant is food for monarch caterpillars?",
+        "translation": "",
+        "hint": "Its name begins with milk.",
+        "explanation": "Milkweed = cây bông tai.",
+        "options": [
+          {
+            "id": "milkweed-o1",
+            "label": "Milkweed"
+          },
+          {
+            "id": "milkweed-o2",
+            "label": "Rose"
+          },
+          {
+            "id": "milkweed-o3",
+            "label": "Pine tree"
+          },
+          {
+            "id": "milkweed-o4",
+            "label": "White oak"
+          }
+        ],
+        "correctOptionId": "milkweed-o1",
+        "topicId": "weather",
+        "mode": "context",
+        "visualId": "milkweed",
+        "authorship": "App-authored learning cue; source supplies the learning target, not this question.",
+        "researchReference": "https://www.nps.gov/articles/000/milkweed-and-monarchs.htm"
+      }
+    },
+    {
+      "id": "rabbit",
+      "word": "Rabbit",
+      "meaning": "con thỏ",
+      "originalText": "Rabbit",
+      "status": "ready",
+      "reason": "",
+      "sourceRefs": [
+        "source-pk1-2603-t4-l6"
+      ],
+      "question": {
+        "id": "q-rabbit-v1",
+        "itemId": "rabbit",
+        "word": "Rabbit",
+        "question": "Which animal has long ears and likes to hop?",
+        "translation": "",
+        "hint": "It has a short fluffy tail.",
+        "explanation": "Rabbit = con thỏ.",
+        "options": [
+          {
+            "id": "rabbit-o1",
+            "label": "Rabbit"
+          },
+          {
+            "id": "rabbit-o2",
+            "label": "Deer"
+          },
+          {
+            "id": "rabbit-o3",
+            "label": "Cow"
+          },
+          {
+            "id": "rabbit-o4",
+            "label": "Duck"
+          }
+        ],
+        "correctOptionId": "rabbit-o1",
+        "topicId": "weather",
+        "mode": "context",
+        "visualId": "rabbit",
+        "authorship": "App-authored learning cue; source supplies the learning target, not this question."
+      }
+    },
+    {
+      "id": "deer",
+      "word": "Deer",
+      "meaning": "con hươu",
+      "originalText": "Deer",
+      "status": "ready",
+      "reason": "",
+      "sourceRefs": [
+        "source-pk1-2603-t4-l6"
+      ],
+      "question": {
+        "id": "q-deer-v1",
+        "itemId": "deer",
+        "word": "Deer",
+        "question": "Which animal can have antlers?",
+        "translation": "",
+        "hint": "Think of an animal that lives in the woods.",
+        "explanation": "Deer = con hươu.",
+        "options": [
+          {
+            "id": "deer-o1",
+            "label": "Deer"
+          },
+          {
+            "id": "deer-o2",
+            "label": "Rabbit"
+          },
+          {
+            "id": "deer-o3",
+            "label": "Duck"
+          },
+          {
+            "id": "deer-o4",
+            "label": "Cat"
+          }
+        ],
+        "correctOptionId": "deer-o1",
+        "topicId": "weather",
+        "mode": "context",
+        "visualId": "deer",
+        "authorship": "App-authored learning cue; source supplies the learning target, not this question."
+      }
+    },
+    {
+      "id": "snow",
+      "word": "Snow",
+      "meaning": "tuyết",
+      "originalText": "Snow",
+      "status": "ready",
+      "reason": "",
+      "sourceRefs": [
+        "source-pk1-2603-t4-l6"
+      ],
+      "question": {
+        "id": "q-snow-v1",
+        "itemId": "snow",
+        "word": "Snow",
+        "question": "What falls from clouds as soft white flakes?",
+        "translation": "",
+        "hint": "It is made of tiny ice crystals.",
+        "explanation": "Snow = tuyết.",
+        "options": [
+          {
+            "id": "snow-o1",
+            "label": "Snow"
+          },
+          {
+            "id": "snow-o2",
+            "label": "Rain"
+          },
+          {
+            "id": "snow-o3",
+            "label": "Sunshine"
+          },
+          {
+            "id": "snow-o4",
+            "label": "Wind"
+          }
+        ],
+        "correctOptionId": "snow-o1",
+        "topicId": "weather",
+        "mode": "context",
+        "visualId": "snow",
+        "authorship": "App-authored learning cue; source supplies the learning target, not this question."
+      }
+    },
+    {
+      "id": "flower",
+      "word": "Flower",
+      "meaning": "bông hoa",
+      "originalText": "Flower",
+      "status": "ready",
+      "reason": "",
+      "sourceRefs": [
+        "source-pk1-2603-t4-l6"
+      ],
+      "question": {
+        "id": "q-flower-v1",
+        "itemId": "flower",
+        "word": "Flower",
+        "question": "What is the part of a plant with petals called?",
+        "translation": "",
+        "hint": "It can be colourful.",
+        "explanation": "Flower = bông hoa.",
+        "options": [
+          {
+            "id": "flower-o1",
+            "label": "Flower"
+          },
+          {
+            "id": "flower-o2",
+            "label": "Root"
+          },
+          {
+            "id": "flower-o3",
+            "label": "Leaf"
+          },
+          {
+            "id": "flower-o4",
+            "label": "Seed"
+          }
+        ],
+        "correctOptionId": "flower-o1",
+        "topicId": "weather",
+        "mode": "context",
+        "visualId": "flower",
+        "authorship": "App-authored learning cue; source supplies the learning target, not this question."
+      }
+    },
+    {
+      "id": "cloudy-windy-day",
+      "word": "Cloudy windy day",
+      "meaning": "ngày nhiều mây và có gió",
+      "originalText": "Cloudy windy day",
+      "status": "ready",
+      "reason": "",
+      "sourceRefs": [
+        "source-pk1-2603-t4-l7"
+      ],
+      "question": {
+        "id": "q-cloudy-windy-day-v1",
+        "itemId": "cloudy-windy-day",
+        "word": "Cloudy windy day",
+        "question": "There are many clouds and the wind is blowing. Which day is it?",
+        "translation": "",
+        "hint": "Look for both clouds and wind.",
+        "explanation": "Cloudy windy day = ngày nhiều mây và có gió.",
+        "options": [
+          {
+            "id": "cloudy-windy-day-o1",
+            "label": "Cloudy windy day"
+          },
+          {
+            "id": "cloudy-windy-day-o2",
+            "label": "Rainy windy day"
+          },
+          {
+            "id": "cloudy-windy-day-o3",
+            "label": "Sunny calm day"
+          },
+          {
+            "id": "cloudy-windy-day-o4",
+            "label": "Snowy calm day"
+          }
+        ],
+        "correctOptionId": "cloudy-windy-day-o1",
+        "topicId": "weather",
+        "mode": "context",
+        "visualId": "cloudy-windy-day",
+        "authorship": "App-authored learning cue; source supplies the learning target, not this question."
+      }
+    },
+    {
+      "id": "rainy-windy-day",
+      "word": "Rainy windy day",
+      "meaning": "ngày mưa và có gió",
+      "originalText": "Rainy windy day",
+      "status": "ready",
+      "reason": "",
+      "sourceRefs": [
+        "source-pk1-2603-t4-l7"
+      ],
+      "question": {
+        "id": "q-rainy-windy-day-v1",
+        "itemId": "rainy-windy-day",
+        "word": "Rainy windy day",
+        "question": "Rain is falling and the wind is blowing. Which day is it?",
+        "translation": "",
+        "hint": "Look for both rain and wind.",
+        "explanation": "Rainy windy day = ngày mưa và có gió.",
+        "options": [
+          {
+            "id": "rainy-windy-day-o1",
+            "label": "Cloudy windy day"
+          },
+          {
+            "id": "rainy-windy-day-o2",
+            "label": "Rainy windy day"
+          },
+          {
+            "id": "rainy-windy-day-o3",
+            "label": "Sunny calm day"
+          },
+          {
+            "id": "rainy-windy-day-o4",
+            "label": "Snowy calm day"
+          }
+        ],
+        "correctOptionId": "rainy-windy-day-o2",
+        "topicId": "weather",
+        "mode": "context",
+        "visualId": "rainy-windy-day",
+        "authorship": "App-authored learning cue; source supplies the learning target, not this question."
+      }
+    }
+  ],
+  "lessons": [
+    {
+      "id": "pk1-2603-t1-l1",
+      "classId": "PK1_2603",
+      "displayClass": "PK1",
+      "topicId": "abc",
+      "theme": "1 - ABC Workshop",
+      "lessonNumber": 1,
+      "name": "PK1_1 - ABC Workshop_1",
+      "date": "2026-05-09",
+      "title": "Letters A - D",
+      "sourceId": "source-pk1-2603-t1-l1",
+      "targets": [
+        {
+          "itemId": "letter-a-upper",
+          "role": "core"
+        },
+        {
+          "itemId": "letter-a-lower",
+          "role": "core"
+        },
+        {
+          "itemId": "letter-b-upper",
+          "role": "core"
+        },
+        {
+          "itemId": "letter-b-lower",
+          "role": "core"
+        },
+        {
+          "itemId": "letter-c-upper",
+          "role": "core"
+        },
+        {
+          "itemId": "letter-c-lower",
+          "role": "core"
+        },
+        {
+          "itemId": "letter-d-upper",
+          "role": "core"
+        },
+        {
+          "itemId": "letter-d-lower",
+          "role": "core"
+        },
+        {
+          "itemId": "apple",
+          "role": "key"
+        },
+        {
+          "itemId": "ball",
+          "role": "key"
+        },
+        {
+          "itemId": "cow",
+          "role": "key"
+        },
+        {
+          "itemId": "duck",
+          "role": "key"
+        },
+        {
+          "itemId": "uppercase",
+          "role": "key"
+        },
+        {
+          "itemId": "lowercase",
+          "role": "key"
+        },
+        {
+          "itemId": "customer",
+          "role": "key"
+        }
+      ],
+      "sourceQuestions": [
+        "How are you?",
+        "What's your name?",
+        "What is this letter?",
+        "Do you have a(n) ... in your name?"
+      ],
+      "sourceAnswers": [
+        "I'm good.",
+        "My name is ...",
+        "This is letter A-D.",
+        "Yes, I do/No, I don't."
+      ],
+      "sourceNotes": "Source core words are grouped as A a; B b; C c; D d. Both written forms are explicit targets.",
+      "reading": "Parent-led home reading reference; not a scored speaking assessment."
+    },
+    {
+      "id": "pk1-2603-t4-l1",
+      "classId": "PK1_2603",
+      "displayClass": "PK1",
+      "topicId": "weather",
+      "theme": "4 - Weather Report",
+      "lessonNumber": 1,
+      "name": "PK1_4 - Weather Report_1",
+      "date": "2026-09-13",
+      "title": "Hot, Warm, Cool and Cold",
+      "sourceId": "source-pk1-2603-t4-l1",
+      "targets": [
+        {
+          "itemId": "hot",
+          "role": "core"
+        },
+        {
+          "itemId": "warm",
+          "role": "core"
+        },
+        {
+          "itemId": "cool",
+          "role": "core"
+        },
+        {
+          "itemId": "cold",
+          "role": "core"
+        },
+        {
+          "itemId": "desert",
+          "role": "key"
+        },
+        {
+          "itemId": "arctic",
+          "role": "key"
+        },
+        {
+          "itemId": "mitten",
+          "role": "key"
+        },
+        {
+          "itemId": "run",
+          "role": "key"
+        },
+        {
+          "itemId": "swim",
+          "role": "key"
+        },
+        {
+          "itemId": "fan",
+          "role": "key"
+        },
+        {
+          "itemId": "fireplace",
+          "role": "key"
+        },
+        {
+          "itemId": "weather-report",
+          "role": "key"
+        },
+        {
+          "itemId": "ice-cream",
+          "role": "key"
+        }
+      ],
+      "sourceQuestions": [
+        "How do you feel?"
+      ],
+      "sourceAnswers": [
+        "I feel hot/warm/cool/cold"
+      ],
+      "sourceNotes": "Source note: children may express a feeling without yet answering in a full sentence.",
+      "reading": "Parent-led home reading reference; not a scored speaking assessment."
+    },
+    {
+      "id": "pk1-2603-t4-l2",
+      "classId": "PK1_2603",
+      "displayClass": "PK1",
+      "topicId": "weather",
+      "theme": "4 - Weather Report",
+      "lessonNumber": 2,
+      "name": "PK1_4 - Weather Report_2",
+      "date": "2026-09-19",
+      "title": "Spring, Summer, Autumn and Winter",
+      "sourceId": "source-pk1-2603-t4-l2",
+      "targets": [
+        {
+          "itemId": "spring",
+          "role": "core"
+        },
+        {
+          "itemId": "summer",
+          "role": "core"
+        },
+        {
+          "itemId": "autumn",
+          "role": "core"
+        },
+        {
+          "itemId": "winter",
+          "role": "core"
+        },
+        {
+          "itemId": "sprout",
+          "role": "key"
+        },
+        {
+          "itemId": "turning-green-bloom-pending",
+          "role": "key"
+        },
+        {
+          "itemId": "leaves",
+          "role": "key"
+        },
+        {
+          "itemId": "falling-down",
+          "role": "key"
+        }
+      ],
+      "sourceQuestions": [
+        "What season is it?",
+        "What season do you like?",
+        "How do you feel in spring / summer / autumn / winter?"
+      ],
+      "sourceAnswers": [
+        "It is spring / summer / autumn / winter.",
+        "I like summer.I can eat ice cream in summer.",
+        "I feel hot/warm/cool/cold in spring /summer/autumn winter."
+      ],
+      "sourceNotes": "Unresolved: Turning green Bloom appears on one line; do not silently split.",
+      "reading": "Parent-led home reading reference; not a scored speaking assessment."
+    },
+    {
+      "id": "pk1-2603-t4-l3",
+      "classId": "PK1_2603",
+      "displayClass": "PK1",
+      "topicId": "weather",
+      "theme": "4 - Weather Report",
+      "lessonNumber": 3,
+      "name": "PK1_4 - Weather Report_3",
+      "date": "2026-09-20",
+      "title": "Exploration: Weather machine & Make a movie",
+      "sourceId": "source-pk1-2603-t4-l3",
+      "targets": [
+        {
+          "itemId": "hot",
+          "role": "core"
+        },
+        {
+          "itemId": "cold",
+          "role": "core"
+        },
+        {
+          "itemId": "warm",
+          "role": "core"
+        },
+        {
+          "itemId": "cool",
+          "role": "core"
+        },
+        {
+          "itemId": "spring",
+          "role": "core"
+        },
+        {
+          "itemId": "summer",
+          "role": "core"
+        },
+        {
+          "itemId": "autumn",
+          "role": "core"
+        },
+        {
+          "itemId": "winter",
+          "role": "core"
+        },
+        {
+          "itemId": "weather",
+          "role": "key"
+        },
+        {
+          "itemId": "light-pending",
+          "role": "key"
+        },
+        {
+          "itemId": "heavy-pending",
+          "role": "key"
+        },
+        {
+          "itemId": "rain",
+          "role": "key"
+        }
+      ],
+      "sourceQuestions": [
+        "What's weather like in this picture?",
+        "How does he/she feel?",
+        "What's the season that comes after spring?",
+        "What do we wear in hot/cold weather?",
+        "What do we wear in summer/winter...?"
+      ],
+      "sourceAnswers": [
+        "It's hot/cold/warm/cool.",
+        "He/she feels hot/cold.",
+        "Summer comes after spring.",
+        "We wear ..."
+      ],
+      "sourceNotes": "Unresolved senses of light and heavy. Original question grammar is preserved here, not silently edited.",
+      "reading": "Parent-led home reading reference; not a scored speaking assessment."
+    },
+    {
+      "id": "pk1-2603-t4-l4",
+      "classId": "PK1_2603",
+      "displayClass": "PK1",
+      "topicId": "weather",
+      "theme": "4 - Weather Report",
+      "lessonNumber": 4,
+      "name": "PK1_4 - Weather Report_4",
+      "date": "2026-09-26",
+      "title": "Sunny and Windy",
+      "sourceId": "source-pk1-2603-t4-l4",
+      "targets": [
+        {
+          "itemId": "sunny",
+          "role": "core"
+        },
+        {
+          "itemId": "windy",
+          "role": "core"
+        },
+        {
+          "itemId": "shine",
+          "role": "key"
+        },
+        {
+          "itemId": "sprout",
+          "role": "key"
+        },
+        {
+          "itemId": "play",
+          "role": "key"
+        },
+        {
+          "itemId": "fly",
+          "role": "key"
+        },
+        {
+          "itemId": "man",
+          "role": "key"
+        },
+        {
+          "itemId": "children",
+          "role": "key"
+        }
+      ],
+      "sourceQuestions": [
+        "What is the weather like?",
+        "What season is it?",
+        "What season do you like?",
+        "How do you feel on sunny/ windy days?"
+      ],
+      "sourceAnswers": [
+        "It is sunny/windy...",
+        "It is spring / summer / autumn / winter .",
+        "I like spring / summer / autumn / winter .",
+        "I feel hot/warm/cool/cold on sunny/ windy days."
+      ],
+      "sourceNotes": "",
+      "reading": "Parent-led home reading reference; not a scored speaking assessment."
+    },
+    {
+      "id": "pk1-2603-t4-l5",
+      "classId": "PK1_2603",
+      "displayClass": "PK1",
+      "topicId": "weather",
+      "theme": "4 - Weather Report",
+      "lessonNumber": 5,
+      "name": "PK1_4 - Weather Report_5",
+      "date": "2026-09-27",
+      "title": "Cloudy and Rainy",
+      "sourceId": "source-pk1-2603-t4-l5",
+      "targets": [
+        {
+          "itemId": "cloudy",
+          "role": "core"
+        },
+        {
+          "itemId": "rainy",
+          "role": "core"
+        },
+        {
+          "itemId": "umbrella",
+          "role": "key"
+        },
+        {
+          "itemId": "wet",
+          "role": "key"
+        },
+        {
+          "itemId": "dark",
+          "role": "key"
+        },
+        {
+          "itemId": "play",
+          "role": "key"
+        },
+        {
+          "itemId": "boat",
+          "role": "key"
+        }
+      ],
+      "sourceQuestions": [
+        "What is the weather like?",
+        "What season is it?",
+        "What season do you like?",
+        "How do you feel on sunny/ windy days?"
+      ],
+      "sourceAnswers": [
+        "It is sunny/windy...",
+        "It is spring / summer / autumn / winter .",
+        "I like spring / summer / autumn / winter .",
+        "I feel hot/warm/cool/cold on sunny/ windy days."
+      ],
+      "sourceNotes": "Source mismatch retained: sentence patterns say sunny/windy although the lesson title is Cloudy and Rainy. Quiz wording follows the supplied HTML.",
+      "reading": "Parent-led home reading reference; not a scored speaking assessment."
+    },
+    {
+      "id": "pk1-2603-t4-l6",
+      "classId": "PK1_2603",
+      "displayClass": "PK1",
+      "topicId": "weather",
+      "theme": "4 - Weather Report",
+      "lessonNumber": 6,
+      "name": "PK1_4 - Weather Report_6",
+      "date": "2026-10-03",
+      "title": "Exploration: Acorn Pond & Make a movie",
+      "sourceId": "source-pk1-2603-t4-l6",
+      "targets": [
+        {
+          "itemId": "spring",
+          "role": "core"
+        },
+        {
+          "itemId": "summer",
+          "role": "core"
+        },
+        {
+          "itemId": "autumn",
+          "role": "core"
+        },
+        {
+          "itemId": "winter",
+          "role": "core"
+        },
+        {
+          "itemId": "white-oak",
+          "role": "key"
+        },
+        {
+          "itemId": "milkweed",
+          "role": "key"
+        },
+        {
+          "itemId": "rabbit",
+          "role": "key"
+        },
+        {
+          "itemId": "deer",
+          "role": "key"
+        },
+        {
+          "itemId": "snow",
+          "role": "key"
+        },
+        {
+          "itemId": "flower",
+          "role": "key"
+        }
+      ],
+      "sourceQuestions": [
+        "What's the season?",
+        "How many seasons are there in a year?",
+        "What can you see in spring/ summer/ autumn/winter?",
+        "What's the weather like?"
+      ],
+      "sourceAnswers": [
+        "It's spring/ summer/ autumn/ winter",
+        "There are 4 seasons in a year.",
+        "I can see ..in spring/ summer/ autumn/ winter.",
+        "It's sunny/ rainy/ cloudy/ windy"
+      ],
+      "sourceNotes": "Season questions are framed as this four-season lesson, not a claim about every climate.",
+      "reading": "Parent-led home reading reference; not a scored speaking assessment."
+    },
+    {
+      "id": "pk1-2603-t4-l7",
+      "classId": "PK1_2603",
+      "displayClass": "PK1",
+      "topicId": "weather",
+      "theme": "4 - Weather Report",
+      "lessonNumber": 7,
+      "name": "PK1_4 - Weather Report_7",
+      "date": "2026-10-04",
+      "title": "Rainy Windy Day and Cloudy Windy Day",
+      "sourceId": "source-pk1-2603-t4-l7",
+      "targets": [
+        {
+          "itemId": "cloudy-windy-day",
+          "role": "core"
+        },
+        {
+          "itemId": "rainy-windy-day",
+          "role": "core"
+        },
+        {
+          "itemId": "hot",
+          "role": "key"
+        },
+        {
+          "itemId": "warm",
+          "role": "key"
+        },
+        {
+          "itemId": "cool",
+          "role": "key"
+        },
+        {
+          "itemId": "cold",
+          "role": "key"
+        }
+      ],
+      "sourceQuestions": [
+        "What is the weather like today?",
+        "What season is it?",
+        "What season do you like?",
+        "How do you feel on sunny/ windy days?"
+      ],
+      "sourceAnswers": [
+        "It is sunny/ windy...",
+        "It is spring/ summer/ autumn/ winter.",
+        "I like spring/ summer/ autumn/ winter.",
+        "I feel hot/ warm/ cool/ cold on sunny/ windy days."
+      ],
+      "sourceNotes": "Source sentence patterns retained even where they do not match the compound-weather lesson title.",
+      "reading": "Parent-led home reading reference; not a scored speaking assessment."
+    }
+  ],
+  "ambiguities": [
+    {
+      "itemId": "turning-green-bloom-pending",
+      "text": "Turning green Bloom",
+      "reason": "Source places Turning green Bloom on one line. Confirm whether turning green and bloom are separate targets."
+    },
+    {
+      "itemId": "light-pending",
+      "text": "light",
+      "reason": "The source does not specify the intended sense of light. Confirm whether this describes rain or another concept."
+    },
+    {
+      "itemId": "heavy-pending",
+      "text": "heavy",
+      "reason": "The source does not specify the intended sense of heavy. Confirm whether this describes rain or another concept."
+    }
+  ],
+  "notes": [
+    "Core and key targets are both required for full-lesson coverage.",
+    "Weekly packs use Monday-Sunday by the supplied lesson date.",
+    "Home reading/speaking is parent-led and never assigned a pronunciation score.",
+    "New clues and explanations are app-authored, except seven questions explicitly preserved from the supplied HTML."
+  ]
+}

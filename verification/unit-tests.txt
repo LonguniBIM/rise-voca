@@ -1,0 +1,202 @@
+TAP version 13
+# Subtest: canonical library and exact lesson coverage
+ok 1 - canonical library and exact lesson coverage
+  ---
+  duration_ms: 8.850522
+  type: 'test'
+  ...
+# Subtest: repeated words retain independent lesson requirements
+ok 2 - repeated words retain independent lesson requirements
+  ---
+  duration_ms: 0.884547
+  type: 'test'
+  ...
+# Subtest: ambiguous source lessons cannot silently become full lessons
+ok 3 - ambiguous source lessons cannot silently become full lessons
+  ---
+  duration_ms: 2.193114
+  type: 'test'
+  ...
+# Subtest: uppercase and lowercase have separate targets and exact answers
+ok 4 - uppercase and lowercase have separate targets and exact answers
+  ---
+  duration_ms: 0.795474
+  type: 'test'
+  ...
+# Subtest: review deduplicates shared item and rejects invalid counts
+ok 5 - review deduplicates shared item and rejects invalid counts
+  ---
+  duration_ms: 1.637726
+  type: 'test'
+  ...
+# Subtest: two wrong then right records exactly three attempts and one first correct
+ok 6 - two wrong then right records exactly three attempts and one first correct
+  ---
+  duration_ms: 1.240939
+  type: 'test'
+  ...
+# Subtest: duplicate submitted event cannot count twice
+ok 7 - duplicate submitted event cannot count twice
+  ---
+  duration_ms: 0.398051
+  type: 'test'
+  ...
+# Subtest: hint is one-time and does not award unassisted first try
+ok 8 - hint is one-time and does not award unassisted first try
+  ---
+  duration_ms: 0.724734
+  type: 'test'
+  ...
+# Subtest: listening request is observable support not a wrong answer
+ok 9 - listening request is observable support not a wrong answer
+  ---
+  duration_ms: 0.631234
+  type: 'test'
+  ...
+# Subtest: snapshot survives JSON pause resume without reshuffling
+ok 10 - snapshot survives JSON pause resume without reshuffling
+  ---
+  duration_ms: 1.309153
+  type: 'test'
+  ...
+# Subtest: round boundaries are durable and do not expose next question early
+ok 11 - round boundaries are durable and do not expose next question early
+  ---
+  duration_ms: 1.462392
+  type: 'test'
+  ...
+# Subtest: skip remains skipped and completion never scores it
+ok 12 - skip remains skipped and completion never scores it
+  ---
+  duration_ms: 0.826196
+  type: 'test'
+  ...
+# Subtest: early finish preserves unseen status and denominators
+ok 13 - early finish preserves unseen status and denominators
+  ---
+  duration_ms: 0.496427
+  type: 'test'
+  ...
+# Subtest: latest practice rule does not infer mastery
+ok 14 - latest practice rule does not infer mastery
+  ---
+  duration_ms: 0.556402
+  type: 'test'
+  ...
+# Subtest: full backup preserves unfinished state and repeated imports are idempotent
+ok 15 - full backup preserves unfinished state and repeated imports are idempotent
+  ---
+  duration_ms: 2.075796
+  type: 'test'
+  ...
+# Subtest: same-ID different content is a conflict, not a duplicate
+ok 16 - same-ID different content is a conflict, not a duplicate
+  ---
+  duration_ms: 0.659262
+  type: 'test'
+  ...
+# Subtest: reject malformed evidence, invalid schema, prototype keys and oversize backup
+ok 17 - reject malformed evidence, invalid schema, prototype keys and oversize backup
+  ---
+  duration_ms: 11.31149
+  type: 'test'
+  ...
+# Subtest: reject duplicate first-correct and fake support
+ok 18 - reject duplicate first-correct and fake support
+  ---
+  duration_ms: 0.656576
+  type: 'test'
+  ...
+# Subtest: Vietnam full-day boundaries include local midnight and exclude next day
+ok 19 - Vietnam full-day boundaries include local midnight and exclude next day
+  ---
+  duration_ms: 0.594041
+  type: 'test'
+  ...
+# Subtest: filters use actually encountered lessons/topics
+ok 20 - filters use actually encountered lessons/topics
+  ---
+  duration_ms: 0.229965
+  type: 'test'
+  ...
+# Subtest: CSV keeps Unicode and defuses spreadsheet formulas
+ok 21 - CSV keeps Unicode and defuses spreadsheet formulas
+  ---
+  duration_ms: 0.208111
+  type: 'test'
+  ...
+# Subtest: reports and library browsing are pure
+ok 22 - reports and library browsing are pure
+  ---
+  duration_ms: 15.682082
+  type: 'test'
+  ...
+# Subtest: saved exact voice wins when online
+ok 23 - saved exact voice wins when online
+  ---
+  duration_ms: 2.555297
+  type: 'test'
+  ...
+# Subtest: missing saved voice falls back without overwriting preference
+ok 24 - missing saved voice falls back without overwriting preference
+  ---
+  duration_ms: 0.302259
+  type: 'test'
+  ...
+# Subtest: name and language resolve a renamed voice URI
+ok 25 - name and language resolve a renamed voice URI
+  ---
+  duration_ms: 0.191254
+  type: 'test'
+  ...
+# Subtest: accent then local English then other English then system
+ok 26 - accent then local English then other English then system
+  ---
+  duration_ms: 1.649365
+  type: 'test'
+  ...
+# Subtest: offline local preference overrides saved remote but retains preference
+ok 27 - offline local preference overrides saved remote but retains preference
+  ---
+  duration_ms: 0.157551
+  type: 'test'
+  ...
+# Subtest: invalid speeds/accents fall back safely
+ok 28 - invalid speeds/accents fall back safely
+  ---
+  duration_ms: 1.477969
+  type: 'test'
+  ...
+# Subtest: dynamic startup delayed voices and voiceschanged populate actual device list
+ok 29 - dynamic startup delayed voices and voiceschanged populate actual device list
+  ---
+  duration_ms: 1.71684
+  type: 'test'
+  ...
+# Subtest: foreground, manual refresh, and page resume refresh voices
+ok 30 - foreground, manual refresh, and page resume refresh voices
+  ---
+  duration_ms: 0.661321
+  type: 'test'
+  ...
+# Subtest: test voice is standalone and reads current speed
+ok 31 - test voice is standalone and reads current speed
+  ---
+  duration_ms: 0.652048
+  type: 'test'
+  ...
+# Subtest: missing or failed speech never crashes learning
+ok 32 - missing or failed speech never crashes learning
+  ---
+  duration_ms: 0.41004
+  type: 'test'
+  ...
+1..32
+# tests 32
+# suites 0
+# pass 32
+# fail 0
+# cancelled 0
+# skipped 0
+# todo 0
+# duration_ms 138.896659

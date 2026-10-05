@@ -1,0 +1,994 @@
+{
+  "schemaVersion": 1,
+  "libraryId": "rise-voca-pk1",
+  "libraryFingerprint": "78e5b7e77957078da7a316800c57dedc07e008fa0a7dc6dca03221c2e05f7d22",
+  "contentVersion": "2026.10.05.1",
+  "week": {
+    "id": "week-2026-05-04",
+    "start": "2026-05-04",
+    "end": "2026-05-10",
+    "label": "2026-05-04 to 2026-05-10",
+    "lessonIds": [
+      "pk1-2603-t1-l1"
+    ]
+  },
+  "lessons": [
+    {
+      "id": "pk1-2603-t1-l1",
+      "classId": "PK1_2603",
+      "displayClass": "PK1",
+      "topicId": "abc",
+      "theme": "1 - ABC Workshop",
+      "lessonNumber": 1,
+      "name": "PK1_1 - ABC Workshop_1",
+      "date": "2026-05-09",
+      "title": "Letters A - D",
+      "sourceId": "source-pk1-2603-t1-l1",
+      "targets": [
+        {
+          "itemId": "letter-a-upper",
+          "role": "core"
+        },
+        {
+          "itemId": "letter-a-lower",
+          "role": "core"
+        },
+        {
+          "itemId": "letter-b-upper",
+          "role": "core"
+        },
+        {
+          "itemId": "letter-b-lower",
+          "role": "core"
+        },
+        {
+          "itemId": "letter-c-upper",
+          "role": "core"
+        },
+        {
+          "itemId": "letter-c-lower",
+          "role": "core"
+        },
+        {
+          "itemId": "letter-d-upper",
+          "role": "core"
+        },
+        {
+          "itemId": "letter-d-lower",
+          "role": "core"
+        },
+        {
+          "itemId": "apple",
+          "role": "key"
+        },
+        {
+          "itemId": "ball",
+          "role": "key"
+        },
+        {
+          "itemId": "cow",
+          "role": "key"
+        },
+        {
+          "itemId": "duck",
+          "role": "key"
+        },
+        {
+          "itemId": "uppercase",
+          "role": "key"
+        },
+        {
+          "itemId": "lowercase",
+          "role": "key"
+        },
+        {
+          "itemId": "customer",
+          "role": "key"
+        }
+      ],
+      "sourceQuestions": [
+        "How are you?",
+        "What's your name?",
+        "What is this letter?",
+        "Do you have a(n) ... in your name?"
+      ],
+      "sourceAnswers": [
+        "I'm good.",
+        "My name is ...",
+        "This is letter A-D.",
+        "Yes, I do/No, I don't."
+      ],
+      "sourceNotes": "Source core words are grouped as A a; B b; C c; D d. Both written forms are explicit targets.",
+      "reading": "Parent-led home reading reference; not a scored speaking assessment."
+    }
+  ],
+  "items": [
+    {
+      "id": "letter-a-upper",
+      "word": "A",
+      "meaning": "chữ A viết hoa",
+      "originalText": "A",
+      "status": "ready",
+      "reason": "",
+      "sourceRefs": [
+        "source-pk1-2603-t1-l1"
+      ],
+      "question": {
+        "id": "q-letter-a-upper-v1",
+        "itemId": "letter-a-upper",
+        "word": "A",
+        "question": "Which letter do you see?",
+        "translation": "",
+        "hint": "Look at the shape of the letter.",
+        "explanation": "A = chữ A viết hoa.",
+        "options": [
+          {
+            "id": "letter-a-upper-o1",
+            "label": "A"
+          },
+          {
+            "id": "letter-a-upper-o2",
+            "label": "B"
+          },
+          {
+            "id": "letter-a-upper-o3",
+            "label": "C"
+          },
+          {
+            "id": "letter-a-upper-o4",
+            "label": "D"
+          }
+        ],
+        "correctOptionId": "letter-a-upper-o1",
+        "topicId": "abc",
+        "mode": "letter",
+        "visualId": "letter-a-upper",
+        "authorship": "App-authored learning cue; source supplies the learning target, not this question."
+      }
+    },
+    {
+      "id": "letter-a-lower",
+      "word": "a",
+      "meaning": "chữ A viết thường",
+      "originalText": "a",
+      "status": "ready",
+      "reason": "",
+      "sourceRefs": [
+        "source-pk1-2603-t1-l1"
+      ],
+      "question": {
+        "id": "q-letter-a-lower-v1",
+        "itemId": "letter-a-lower",
+        "word": "a",
+        "question": "Which letter do you see?",
+        "translation": "",
+        "hint": "Look at the shape of the letter.",
+        "explanation": "a = chữ A viết thường.",
+        "options": [
+          {
+            "id": "letter-a-lower-o1",
+            "label": "a"
+          },
+          {
+            "id": "letter-a-lower-o2",
+            "label": "b"
+          },
+          {
+            "id": "letter-a-lower-o3",
+            "label": "c"
+          },
+          {
+            "id": "letter-a-lower-o4",
+            "label": "d"
+          }
+        ],
+        "correctOptionId": "letter-a-lower-o1",
+        "topicId": "abc",
+        "mode": "letter",
+        "visualId": "letter-a-lower",
+        "authorship": "App-authored learning cue; source supplies the learning target, not this question."
+      }
+    },
+    {
+      "id": "letter-b-upper",
+      "word": "B",
+      "meaning": "chữ B viết hoa",
+      "originalText": "B",
+      "status": "ready",
+      "reason": "",
+      "sourceRefs": [
+        "source-pk1-2603-t1-l1"
+      ],
+      "question": {
+        "id": "q-letter-b-upper-v1",
+        "itemId": "letter-b-upper",
+        "word": "B",
+        "question": "Which letter do you see?",
+        "translation": "",
+        "hint": "Look at the shape of the letter.",
+        "explanation": "B = chữ B viết hoa.",
+        "options": [
+          {
+            "id": "letter-b-upper-o1",
+            "label": "A"
+          },
+          {
+            "id": "letter-b-upper-o2",
+            "label": "B"
+          },
+          {
+            "id": "letter-b-upper-o3",
+            "label": "C"
+          },
+          {
+            "id": "letter-b-upper-o4",
+            "label": "D"
+          }
+        ],
+        "correctOptionId": "letter-b-upper-o2",
+        "topicId": "abc",
+        "mode": "letter",
+        "visualId": "letter-b-upper",
+        "authorship": "App-authored learning cue; source supplies the learning target, not this question."
+      }
+    },
+    {
+      "id": "letter-b-lower",
+      "word": "b",
+      "meaning": "chữ B viết thường",
+      "originalText": "b",
+      "status": "ready",
+      "reason": "",
+      "sourceRefs": [
+        "source-pk1-2603-t1-l1"
+      ],
+      "question": {
+        "id": "q-letter-b-lower-v1",
+        "itemId": "letter-b-lower",
+        "word": "b",
+        "question": "Which letter do you see?",
+        "translation": "",
+        "hint": "Look at the shape of the letter.",
+        "explanation": "b = chữ B viết thường.",
+        "options": [
+          {
+            "id": "letter-b-lower-o1",
+            "label": "a"
+          },
+          {
+            "id": "letter-b-lower-o2",
+            "label": "b"
+          },
+          {
+            "id": "letter-b-lower-o3",
+            "label": "c"
+          },
+          {
+            "id": "letter-b-lower-o4",
+            "label": "d"
+          }
+        ],
+        "correctOptionId": "letter-b-lower-o2",
+        "topicId": "abc",
+        "mode": "letter",
+        "visualId": "letter-b-lower",
+        "authorship": "App-authored learning cue; source supplies the learning target, not this question."
+      }
+    },
+    {
+      "id": "letter-c-upper",
+      "word": "C",
+      "meaning": "chữ C viết hoa",
+      "originalText": "C",
+      "status": "ready",
+      "reason": "",
+      "sourceRefs": [
+        "source-pk1-2603-t1-l1"
+      ],
+      "question": {
+        "id": "q-letter-c-upper-v1",
+        "itemId": "letter-c-upper",
+        "word": "C",
+        "question": "Which letter do you see?",
+        "translation": "",
+        "hint": "Look at the shape of the letter.",
+        "explanation": "C = chữ C viết hoa.",
+        "options": [
+          {
+            "id": "letter-c-upper-o1",
+            "label": "A"
+          },
+          {
+            "id": "letter-c-upper-o2",
+            "label": "B"
+          },
+          {
+            "id": "letter-c-upper-o3",
+            "label": "C"
+          },
+          {
+            "id": "letter-c-upper-o4",
+            "label": "D"
+          }
+        ],
+        "correctOptionId": "letter-c-upper-o3",
+        "topicId": "abc",
+        "mode": "letter",
+        "visualId": "letter-c-upper",
+        "authorship": "App-authored learning cue; source supplies the learning target, not this question."
+      }
+    },
+    {
+      "id": "letter-c-lower",
+      "word": "c",
+      "meaning": "chữ C viết thường",
+      "originalText": "c",
+      "status": "ready",
+      "reason": "",
+      "sourceRefs": [
+        "source-pk1-2603-t1-l1"
+      ],
+      "question": {
+        "id": "q-letter-c-lower-v1",
+        "itemId": "letter-c-lower",
+        "word": "c",
+        "question": "Which letter do you see?",
+        "translation": "",
+        "hint": "Look at the shape of the letter.",
+        "explanation": "c = chữ C viết thường.",
+        "options": [
+          {
+            "id": "letter-c-lower-o1",
+            "label": "a"
+          },
+          {
+            "id": "letter-c-lower-o2",
+            "label": "b"
+          },
+          {
+            "id": "letter-c-lower-o3",
+            "label": "c"
+          },
+          {
+            "id": "letter-c-lower-o4",
+            "label": "d"
+          }
+        ],
+        "correctOptionId": "letter-c-lower-o3",
+        "topicId": "abc",
+        "mode": "letter",
+        "visualId": "letter-c-lower",
+        "authorship": "App-authored learning cue; source supplies the learning target, not this question."
+      }
+    },
+    {
+      "id": "letter-d-upper",
+      "word": "D",
+      "meaning": "chữ D viết hoa",
+      "originalText": "D",
+      "status": "ready",
+      "reason": "",
+      "sourceRefs": [
+        "source-pk1-2603-t1-l1"
+      ],
+      "question": {
+        "id": "q-letter-d-upper-v1",
+        "itemId": "letter-d-upper",
+        "word": "D",
+        "question": "Which letter do you see?",
+        "translation": "",
+        "hint": "Look at the shape of the letter.",
+        "explanation": "D = chữ D viết hoa.",
+        "options": [
+          {
+            "id": "letter-d-upper-o1",
+            "label": "A"
+          },
+          {
+            "id": "letter-d-upper-o2",
+            "label": "B"
+          },
+          {
+            "id": "letter-d-upper-o3",
+            "label": "C"
+          },
+          {
+            "id": "letter-d-upper-o4",
+            "label": "D"
+          }
+        ],
+        "correctOptionId": "letter-d-upper-o4",
+        "topicId": "abc",
+        "mode": "letter",
+        "visualId": "letter-d-upper",
+        "authorship": "App-authored learning cue; source supplies the learning target, not this question."
+      }
+    },
+    {
+      "id": "letter-d-lower",
+      "word": "d",
+      "meaning": "chữ D viết thường",
+      "originalText": "d",
+      "status": "ready",
+      "reason": "",
+      "sourceRefs": [
+        "source-pk1-2603-t1-l1"
+      ],
+      "question": {
+        "id": "q-letter-d-lower-v1",
+        "itemId": "letter-d-lower",
+        "word": "d",
+        "question": "Which letter do you see?",
+        "translation": "",
+        "hint": "Look at the shape of the letter.",
+        "explanation": "d = chữ D viết thường.",
+        "options": [
+          {
+            "id": "letter-d-lower-o1",
+            "label": "a"
+          },
+          {
+            "id": "letter-d-lower-o2",
+            "label": "b"
+          },
+          {
+            "id": "letter-d-lower-o3",
+            "label": "c"
+          },
+          {
+            "id": "letter-d-lower-o4",
+            "label": "d"
+          }
+        ],
+        "correctOptionId": "letter-d-lower-o4",
+        "topicId": "abc",
+        "mode": "letter",
+        "visualId": "letter-d-lower",
+        "authorship": "App-authored learning cue; source supplies the learning target, not this question."
+      }
+    },
+    {
+      "id": "apple",
+      "word": "Apple",
+      "meaning": "quả táo",
+      "originalText": "Apple",
+      "status": "ready",
+      "reason": "",
+      "sourceRefs": [
+        "source-pk1-2603-t1-l1"
+      ],
+      "question": {
+        "id": "q-apple-v1",
+        "itemId": "apple",
+        "word": "Apple",
+        "question": "It is a round fruit with a core. Its name starts with A. What is it?",
+        "translation": "",
+        "hint": "It is a round fruit that can be red or green.",
+        "explanation": "Apple = quả táo.",
+        "options": [
+          {
+            "id": "apple-o1",
+            "label": "Apple"
+          },
+          {
+            "id": "apple-o2",
+            "label": "Banana"
+          },
+          {
+            "id": "apple-o3",
+            "label": "Orange"
+          },
+          {
+            "id": "apple-o4",
+            "label": "Pear"
+          }
+        ],
+        "correctOptionId": "apple-o1",
+        "topicId": "abc",
+        "mode": "context",
+        "visualId": "apple",
+        "authorship": "App-authored learning cue; source supplies the learning target, not this question."
+      }
+    },
+    {
+      "id": "ball",
+      "word": "Ball",
+      "meaning": "quả bóng",
+      "originalText": "Ball",
+      "status": "ready",
+      "reason": "",
+      "sourceRefs": [
+        "source-pk1-2603-t1-l1"
+      ],
+      "question": {
+        "id": "q-ball-v1",
+        "itemId": "ball",
+        "word": "Ball",
+        "question": "What can you kick or roll in a game?",
+        "translation": "",
+        "hint": "It is round.",
+        "explanation": "Ball = quả bóng.",
+        "options": [
+          {
+            "id": "ball-o1",
+            "label": "Ball"
+          },
+          {
+            "id": "ball-o2",
+            "label": "Book"
+          },
+          {
+            "id": "ball-o3",
+            "label": "Cup"
+          },
+          {
+            "id": "ball-o4",
+            "label": "Hat"
+          }
+        ],
+        "correctOptionId": "ball-o1",
+        "topicId": "abc",
+        "mode": "context",
+        "visualId": "ball",
+        "authorship": "App-authored learning cue; source supplies the learning target, not this question."
+      }
+    },
+    {
+      "id": "cow",
+      "word": "Cow",
+      "meaning": "con bò",
+      "originalText": "Cow",
+      "status": "ready",
+      "reason": "",
+      "sourceRefs": [
+        "source-pk1-2603-t1-l1"
+      ],
+      "question": {
+        "id": "q-cow-v1",
+        "itemId": "cow",
+        "word": "Cow",
+        "question": "Which farm animal says moo?",
+        "translation": "",
+        "hint": "People can get milk from this animal.",
+        "explanation": "Cow = con bò.",
+        "options": [
+          {
+            "id": "cow-o1",
+            "label": "Cow"
+          },
+          {
+            "id": "cow-o2",
+            "label": "Duck"
+          },
+          {
+            "id": "cow-o3",
+            "label": "Cat"
+          },
+          {
+            "id": "cow-o4",
+            "label": "Dog"
+          }
+        ],
+        "correctOptionId": "cow-o1",
+        "topicId": "abc",
+        "mode": "context",
+        "visualId": "cow",
+        "authorship": "App-authored learning cue; source supplies the learning target, not this question."
+      }
+    },
+    {
+      "id": "duck",
+      "word": "Duck",
+      "meaning": "con vịt",
+      "originalText": "Duck",
+      "status": "ready",
+      "reason": "",
+      "sourceRefs": [
+        "source-pk1-2603-t1-l1"
+      ],
+      "question": {
+        "id": "q-duck-v1",
+        "itemId": "duck",
+        "word": "Duck",
+        "question": "Which bird says quack?",
+        "translation": "",
+        "hint": "It can swim in a pond.",
+        "explanation": "Duck = con vịt.",
+        "options": [
+          {
+            "id": "duck-o1",
+            "label": "Duck"
+          },
+          {
+            "id": "duck-o2",
+            "label": "Cow"
+          },
+          {
+            "id": "duck-o3",
+            "label": "Cat"
+          },
+          {
+            "id": "duck-o4",
+            "label": "Dog"
+          }
+        ],
+        "correctOptionId": "duck-o1",
+        "topicId": "abc",
+        "mode": "context",
+        "visualId": "duck",
+        "authorship": "App-authored learning cue; source supplies the learning target, not this question."
+      }
+    },
+    {
+      "id": "uppercase",
+      "word": "Uppercase",
+      "meaning": "chữ hoa",
+      "originalText": "Uppercase",
+      "status": "ready",
+      "reason": "",
+      "sourceRefs": [
+        "source-pk1-2603-t1-l1"
+      ],
+      "question": {
+        "id": "q-uppercase-v1",
+        "itemId": "uppercase",
+        "word": "Uppercase",
+        "question": "A is a capital letter. What do we call this form?",
+        "translation": "",
+        "hint": "It is the big letter form.",
+        "explanation": "Uppercase = chữ hoa.",
+        "options": [
+          {
+            "id": "uppercase-o1",
+            "label": "Uppercase"
+          },
+          {
+            "id": "uppercase-o2",
+            "label": "Lowercase"
+          },
+          {
+            "id": "uppercase-o3",
+            "label": "Number"
+          },
+          {
+            "id": "uppercase-o4",
+            "label": "Shape"
+          }
+        ],
+        "correctOptionId": "uppercase-o1",
+        "topicId": "abc",
+        "mode": "context",
+        "visualId": "uppercase",
+        "authorship": "App-authored learning cue; source supplies the learning target, not this question."
+      }
+    },
+    {
+      "id": "lowercase",
+      "word": "Lowercase",
+      "meaning": "chữ thường",
+      "originalText": "Lowercase",
+      "status": "ready",
+      "reason": "",
+      "sourceRefs": [
+        "source-pk1-2603-t1-l1"
+      ],
+      "question": {
+        "id": "q-lowercase-v1",
+        "itemId": "lowercase",
+        "word": "Lowercase",
+        "question": "a is a small letter. What do we call this form?",
+        "translation": "",
+        "hint": "It is the small letter form.",
+        "explanation": "Lowercase = chữ thường.",
+        "options": [
+          {
+            "id": "lowercase-o1",
+            "label": "Uppercase"
+          },
+          {
+            "id": "lowercase-o2",
+            "label": "Lowercase"
+          },
+          {
+            "id": "lowercase-o3",
+            "label": "Number"
+          },
+          {
+            "id": "lowercase-o4",
+            "label": "Shape"
+          }
+        ],
+        "correctOptionId": "lowercase-o2",
+        "topicId": "abc",
+        "mode": "context",
+        "visualId": "lowercase",
+        "authorship": "App-authored learning cue; source supplies the learning target, not this question."
+      }
+    },
+    {
+      "id": "customer",
+      "word": "Customer",
+      "meaning": "khách hàng",
+      "originalText": "Customer",
+      "status": "ready",
+      "reason": "",
+      "sourceRefs": [
+        "source-pk1-2603-t1-l1"
+      ],
+      "question": {
+        "id": "q-customer-v1",
+        "itemId": "customer",
+        "word": "Customer",
+        "question": "A person buys something in a shop. What is that person called?",
+        "translation": "",
+        "hint": "This person pays the shop for something.",
+        "explanation": "Customer = khách hàng.",
+        "options": [
+          {
+            "id": "customer-o1",
+            "label": "Customer"
+          },
+          {
+            "id": "customer-o2",
+            "label": "Teacher"
+          },
+          {
+            "id": "customer-o3",
+            "label": "Farmer"
+          },
+          {
+            "id": "customer-o4",
+            "label": "Pilot"
+          }
+        ],
+        "correctOptionId": "customer-o1",
+        "topicId": "abc",
+        "mode": "context",
+        "visualId": "customer",
+        "authorship": "App-authored learning cue; source supplies the learning target, not this question."
+      }
+    }
+  ],
+  "illustrations": [
+    {
+      "id": "letter-a-upper",
+      "itemId": "letter-a-upper",
+      "kind": "letter",
+      "visual": "A",
+      "provider": "Native Unicode + original CSS",
+      "sourceUrl": null,
+      "license": null,
+      "assetPath": null,
+      "sha256": null,
+      "styleVersion": "emoji-css-v1",
+      "status": "non-pictorial",
+      "reason": "",
+      "attribution": "Device-rendered Unicode; no font files redistributed. Original CSS layout.",
+      "identity": "dfcb1d3dfe57be3a07a634ca8555801620e86dedd9378b2050e84450800fd08e"
+    },
+    {
+      "id": "letter-a-lower",
+      "itemId": "letter-a-lower",
+      "kind": "letter",
+      "visual": "a",
+      "provider": "Native Unicode + original CSS",
+      "sourceUrl": null,
+      "license": null,
+      "assetPath": null,
+      "sha256": null,
+      "styleVersion": "emoji-css-v1",
+      "status": "non-pictorial",
+      "reason": "",
+      "attribution": "Device-rendered Unicode; no font files redistributed. Original CSS layout.",
+      "identity": "501dc36a1bd5cb116a7b350f29f841e28e449d82e9b92a5f72a55f3ac7f030a7"
+    },
+    {
+      "id": "letter-b-upper",
+      "itemId": "letter-b-upper",
+      "kind": "letter",
+      "visual": "B",
+      "provider": "Native Unicode + original CSS",
+      "sourceUrl": null,
+      "license": null,
+      "assetPath": null,
+      "sha256": null,
+      "styleVersion": "emoji-css-v1",
+      "status": "non-pictorial",
+      "reason": "",
+      "attribution": "Device-rendered Unicode; no font files redistributed. Original CSS layout.",
+      "identity": "3c7ec375f0a08441121fac576da4170a6b8ad0fb51044eacc348c8ee527c20ee"
+    },
+    {
+      "id": "letter-b-lower",
+      "itemId": "letter-b-lower",
+      "kind": "letter",
+      "visual": "b",
+      "provider": "Native Unicode + original CSS",
+      "sourceUrl": null,
+      "license": null,
+      "assetPath": null,
+      "sha256": null,
+      "styleVersion": "emoji-css-v1",
+      "status": "non-pictorial",
+      "reason": "",
+      "attribution": "Device-rendered Unicode; no font files redistributed. Original CSS layout.",
+      "identity": "147c148091ae26bd674ef2ece1c0df90112c0bc28247463b187a6f931eef1583"
+    },
+    {
+      "id": "letter-c-upper",
+      "itemId": "letter-c-upper",
+      "kind": "letter",
+      "visual": "C",
+      "provider": "Native Unicode + original CSS",
+      "sourceUrl": null,
+      "license": null,
+      "assetPath": null,
+      "sha256": null,
+      "styleVersion": "emoji-css-v1",
+      "status": "non-pictorial",
+      "reason": "",
+      "attribution": "Device-rendered Unicode; no font files redistributed. Original CSS layout.",
+      "identity": "ad96420301d99caeea89f4b6bb0ef9768583c2f165f2007f52b7101fe231801a"
+    },
+    {
+      "id": "letter-c-lower",
+      "itemId": "letter-c-lower",
+      "kind": "letter",
+      "visual": "c",
+      "provider": "Native Unicode + original CSS",
+      "sourceUrl": null,
+      "license": null,
+      "assetPath": null,
+      "sha256": null,
+      "styleVersion": "emoji-css-v1",
+      "status": "non-pictorial",
+      "reason": "",
+      "attribution": "Device-rendered Unicode; no font files redistributed. Original CSS layout.",
+      "identity": "d3dbb9fb0a2ac9bb8bb0625372f21c8e3c7919899eb3342121bdd0ea9af0f227"
+    },
+    {
+      "id": "letter-d-upper",
+      "itemId": "letter-d-upper",
+      "kind": "letter",
+      "visual": "D",
+      "provider": "Native Unicode + original CSS",
+      "sourceUrl": null,
+      "license": null,
+      "assetPath": null,
+      "sha256": null,
+      "styleVersion": "emoji-css-v1",
+      "status": "non-pictorial",
+      "reason": "",
+      "attribution": "Device-rendered Unicode; no font files redistributed. Original CSS layout.",
+      "identity": "a3efca8d08278647f8a3699c403107a06aa6ce085d164ba2451e695e04d42ba3"
+    },
+    {
+      "id": "letter-d-lower",
+      "itemId": "letter-d-lower",
+      "kind": "letter",
+      "visual": "d",
+      "provider": "Native Unicode + original CSS",
+      "sourceUrl": null,
+      "license": null,
+      "assetPath": null,
+      "sha256": null,
+      "styleVersion": "emoji-css-v1",
+      "status": "non-pictorial",
+      "reason": "",
+      "attribution": "Device-rendered Unicode; no font files redistributed. Original CSS layout.",
+      "identity": "14353f2318f238f35a807f342de8f5bcd8e1449961d8b4bdaaba59b1e7165ae6"
+    },
+    {
+      "id": "apple",
+      "itemId": "apple",
+      "kind": "emoji",
+      "visual": "🍎",
+      "provider": "Native Unicode + original CSS",
+      "sourceUrl": null,
+      "license": null,
+      "assetPath": null,
+      "sha256": null,
+      "styleVersion": "emoji-css-v1",
+      "status": "needs-review",
+      "reason": "",
+      "attribution": "Device-rendered Unicode; no font files redistributed. Original CSS layout.",
+      "identity": "1530d075386d49e47d73e1387bc64a68d761320729db06ad10ca2bdefd325bbb"
+    },
+    {
+      "id": "ball",
+      "itemId": "ball",
+      "kind": "emoji",
+      "visual": "⚽",
+      "provider": "Native Unicode + original CSS",
+      "sourceUrl": null,
+      "license": null,
+      "assetPath": null,
+      "sha256": null,
+      "styleVersion": "emoji-css-v1",
+      "status": "needs-review",
+      "reason": "",
+      "attribution": "Device-rendered Unicode; no font files redistributed. Original CSS layout.",
+      "identity": "e080c2b9a6c2b2d8152ebc77c0634d82fab303380fb2b68a1ca7b8d91a99301a"
+    },
+    {
+      "id": "cow",
+      "itemId": "cow",
+      "kind": "emoji",
+      "visual": "🐄",
+      "provider": "Native Unicode + original CSS",
+      "sourceUrl": null,
+      "license": null,
+      "assetPath": null,
+      "sha256": null,
+      "styleVersion": "emoji-css-v1",
+      "status": "needs-review",
+      "reason": "",
+      "attribution": "Device-rendered Unicode; no font files redistributed. Original CSS layout.",
+      "identity": "83f4c456a4bf7e5084544797975a2c77e612d67dc11c4f1234b8bc5d1320adc1"
+    },
+    {
+      "id": "duck",
+      "itemId": "duck",
+      "kind": "emoji",
+      "visual": "🦆",
+      "provider": "Native Unicode + original CSS",
+      "sourceUrl": null,
+      "license": null,
+      "assetPath": null,
+      "sha256": null,
+      "styleVersion": "emoji-css-v1",
+      "status": "needs-review",
+      "reason": "",
+      "attribution": "Device-rendered Unicode; no font files redistributed. Original CSS layout.",
+      "identity": "2cd36b520746aa80bd5997897798c8df119aacb709928e1e6f9fc65a1404fa6d"
+    },
+    {
+      "id": "uppercase",
+      "itemId": "uppercase",
+      "kind": "letter",
+      "visual": "A",
+      "provider": "Native Unicode + original CSS",
+      "sourceUrl": null,
+      "license": null,
+      "assetPath": null,
+      "sha256": null,
+      "styleVersion": "emoji-css-v1",
+      "status": "needs-review",
+      "reason": "",
+      "attribution": "Device-rendered Unicode; no font files redistributed. Original CSS layout.",
+      "identity": "0e0c326eddf477971e792b83617322bd3faddfcc8cbded0080b996f77cfd1dd5"
+    },
+    {
+      "id": "lowercase",
+      "itemId": "lowercase",
+      "kind": "letter",
+      "visual": "a",
+      "provider": "Native Unicode + original CSS",
+      "sourceUrl": null,
+      "license": null,
+      "assetPath": null,
+      "sha256": null,
+      "styleVersion": "emoji-css-v1",
+      "status": "needs-review",
+      "reason": "",
+      "attribution": "Device-rendered Unicode; no font files redistributed. Original CSS layout.",
+      "identity": "1a7b11ab49a8d34b1dcf472aca014341668eb6fa0b666e54862088645b2533fa"
+    },
+    {
+      "id": "customer",
+      "itemId": "customer",
+      "kind": "missing",
+      "visual": "",
+      "provider": null,
+      "sourceUrl": null,
+      "license": null,
+      "assetPath": null,
+      "sha256": null,
+      "styleVersion": "emoji-css-v1",
+      "status": "missing",
+      "reason": "Exact-meaning picture not yet selected.",
+      "attribution": "",
+      "identity": "87f8a3b3905b46a9bdd2a978c3ab1e711194f6d592d34f655d29d46de3f30010"
+    }
+  ]
+}

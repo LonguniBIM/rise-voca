@@ -1,0 +1,26 @@
+{
+  "status": "PASS",
+  "testType": "DOM-only: about:blank, mocked fetch/UUID/TTS, temporary-memory storage",
+  "checks": [
+    "eight lesson cards; two explicit source-ambiguity gates",
+    "dynamic voice settings and Test voice without any session",
+    "saved voice disappears: preferred-accent fallback retains preference",
+    "speed synchronization and paused-session Test voice isolation",
+    "two wrong, one correct; repeat answer cannot duplicate first correct",
+    "numeric/Space/Ctrl keyboard flow and hint support",
+    "round, continue, skip and full finish preserve evidence",
+    "replay creates a fresh session while retaining completed history",
+    "quiz touch targets and no overflow at four widths",
+    "image approval/rejection is separate from learning history",
+    "home/review/history/settings/gallery layouts at four widths",
+    "history aggregate views render from actual in-memory sessions",
+    "no uncaught page errors during DOM smoke"
+  ],
+  "count": 13,
+  "notTested": [
+    "Real IndexedDB and persistence after process close",
+    "Real-origin service worker/CacheStorage/offline reopen",
+    "GitHub Pages deployment",
+    "Physical tablet/phone installation and audible speech"
+  ]
+}

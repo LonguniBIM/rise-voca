@@ -1,0 +1,128 @@
+[
+  {
+    "id": "cloudy",
+    "word": "Cloudy",
+    "visual": "☁️",
+    "sparkOne": "🌥️",
+    "sparkTwo": "🌫️",
+    "background": "linear-gradient(155deg,#b9c8d8 0%,#eef3f8 52%,#cfd8e4 100%)",
+    "question": "The sky is full of clouds. What is the weather?",
+    "translation": "Bầu trời có nhiều mây. Thời tiết thế nào?",
+    "options": [
+      "Sunny",
+      "Cloudy",
+      "Rainy",
+      "Windy"
+    ],
+    "hint": "Look for the weather word that means there are many clouds.",
+    "explanation": "Cloudy means the sky has many clouds. Cloudy = trời nhiều mây."
+  },
+  {
+    "id": "rainy",
+    "word": "Rainy",
+    "visual": "🌧️",
+    "sparkOne": "💧",
+    "sparkTwo": "☔",
+    "background": "linear-gradient(155deg,#8eb7d8 0%,#dcecf8 52%,#b8c7dd 100%)",
+    "question": "Raindrops are falling from the clouds. What is the weather?",
+    "translation": "Những giọt mưa đang rơi từ đám mây. Thời tiết thế nào?",
+    "options": [
+      "Cloudy",
+      "Sunny",
+      "Rainy",
+      "Windy"
+    ],
+    "hint": "Think about the weather when water falls from the sky.",
+    "explanation": "Rainy means there is rain. Rainy = trời mưa."
+  },
+  {
+    "id": "umbrella",
+    "word": "Umbrella",
+    "visual": "☔",
+    "sparkOne": "🌧️",
+    "sparkTwo": "💧",
+    "background": "linear-gradient(155deg,#9fd7ee 0%,#e7f7ff 52%,#c5d6f2 100%)",
+    "question": "What do you hold above your head to stay dry in the rain?",
+    "translation": "Em cầm gì trên đầu để không bị ướt khi trời mưa?",
+    "options": [
+      "Hat",
+      "Boat",
+      "Coat",
+      "Umbrella"
+    ],
+    "hint": "It opens above your head and keeps the rain off you.",
+    "explanation": "An umbrella helps keep you dry in the rain. Umbrella = cái ô / cái dù."
+  },
+  {
+    "id": "wet",
+    "word": "Wet",
+    "visual": "💦",
+    "sparkOne": "🌧️",
+    "sparkTwo": "💧",
+    "background": "linear-gradient(155deg,#86d8f0 0%,#e9fbff 52%,#bfe8ef 100%)",
+    "question": "Your clothes have rainwater on them. How do they feel?",
+    "translation": "Quần áo của em có nước mưa trên đó. Chúng thế nào?",
+    "options": [
+      "Wet",
+      "Dry",
+      "Dark",
+      "Warm"
+    ],
+    "hint": "This word means covered with water.",
+    "explanation": "Wet means covered with water. Wet = ướt."
+  },
+  {
+    "id": "dark",
+    "word": "Dark",
+    "visual": "🌑",
+    "sparkOne": "☁️",
+    "sparkTwo": "💡",
+    "background": "linear-gradient(155deg,#59647a 0%,#9ba8ba 52%,#d5dce8 100%)",
+    "question": "There is very little light. Which word describes it?",
+    "translation": "Có rất ít ánh sáng. Từ nào dùng để miêu tả?",
+    "options": [
+      "Bright",
+      "Wet",
+      "Dark",
+      "Cloudy"
+    ],
+    "hint": "It is the opposite of bright.",
+    "explanation": "Dark means there is little or no light. Dark = tối."
+  },
+  {
+    "id": "play",
+    "word": "Play",
+    "visual": "⚽",
+    "sparkOne": "🧸",
+    "sparkTwo": "😄",
+    "background": "linear-gradient(155deg,#ffd3e1 0%,#fff1f6 52%,#ffe9a8 100%)",
+    "question": "The children have fun with toys and games. What do they do?",
+    "translation": "Các bạn nhỏ vui với đồ chơi và trò chơi. Các bạn đang làm gì?",
+    "options": [
+      "Work",
+      "Play",
+      "Sleep",
+      "Fly"
+    ],
+    "hint": "You do this with toys, games, or friends for fun.",
+    "explanation": "Play means to do something for fun. Play = chơi."
+  },
+  {
+    "id": "boat",
+    "word": "Boat",
+    "visual": "⛵",
+    "sparkOne": "🌊",
+    "sparkTwo": "💨",
+    "background": "linear-gradient(155deg,#77c8ee 0%,#dff7ff 52%,#9adbd7 100%)",
+    "question": "What can float on water and carry people?",
+    "translation": "Vật gì có thể nổi trên nước và chở người?",
+    "options": [
+      "Car",
+      "Train",
+      "Bus",
+      "Boat"
+    ],
+    "hint": "You can ride in it on a river, lake, or sea.",
+    "explanation": "A boat is a small vehicle that travels on water. Boat = thuyền."
+  }
+]

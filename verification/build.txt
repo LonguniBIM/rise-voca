@@ -1,0 +1,27 @@
+{
+  "version": "1.0.0-7022e012bcfa",
+  "files": 23,
+  "coverage": {
+    "items": 61,
+    "ready": 58,
+    "pending": 3,
+    "distinctAnswerSpellings": 54,
+    "lessonMemberships": 79,
+    "lessons": 8,
+    "fullLessons": 6,
+    "weeks": 5,
+    "topics": 2,
+    "retainedMappings": 7,
+    "newCandidates": 40,
+    "nonPictorial": 8,
+    "missingMappings": [
+      "customer",
+      "turning-green-bloom-pending",
+      "light-pending",
+      "heavy-pending",
+      "white-oak",
+      "milkweed"
+    ],
+    "externalImageFiles": 0
+  }
+}

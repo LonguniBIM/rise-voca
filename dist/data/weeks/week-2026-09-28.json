@@ -1,0 +1,1104 @@
+{
+  "schemaVersion": 1,
+  "libraryId": "rise-voca-pk1",
+  "libraryFingerprint": "78e5b7e77957078da7a316800c57dedc07e008fa0a7dc6dca03221c2e05f7d22",
+  "contentVersion": "2026.10.05.1",
+  "week": {
+    "id": "week-2026-09-28",
+    "start": "2026-09-28",
+    "end": "2026-10-04",
+    "label": "2026-09-28 to 2026-10-04",
+    "lessonIds": [
+      "pk1-2603-t4-l6",
+      "pk1-2603-t4-l7"
+    ]
+  },
+  "lessons": [
+    {
+      "id": "pk1-2603-t4-l6",
+      "classId": "PK1_2603",
+      "displayClass": "PK1",
+      "topicId": "weather",
+      "theme": "4 - Weather Report",
+      "lessonNumber": 6,
+      "name": "PK1_4 - Weather Report_6",
+      "date": "2026-10-03",
+      "title": "Exploration: Acorn Pond & Make a movie",
+      "sourceId": "source-pk1-2603-t4-l6",
+      "targets": [
+        {
+          "itemId": "spring",
+          "role": "core"
+        },
+        {
+          "itemId": "summer",
+          "role": "core"
+        },
+        {
+          "itemId": "autumn",
+          "role": "core"
+        },
+        {
+          "itemId": "winter",
+          "role": "core"
+        },
+        {
+          "itemId": "white-oak",
+          "role": "key"
+        },
+        {
+          "itemId": "milkweed",
+          "role": "key"
+        },
+        {
+          "itemId": "rabbit",
+          "role": "key"
+        },
+        {
+          "itemId": "deer",
+          "role": "key"
+        },
+        {
+          "itemId": "snow",
+          "role": "key"
+        },
+        {
+          "itemId": "flower",
+          "role": "key"
+        }
+      ],
+      "sourceQuestions": [
+        "What's the season?",
+        "How many seasons are there in a year?",
+        "What can you see in spring/ summer/ autumn/winter?",
+        "What's the weather like?"
+      ],
+      "sourceAnswers": [
+        "It's spring/ summer/ autumn/ winter",
+        "There are 4 seasons in a year.",
+        "I can see ..in spring/ summer/ autumn/ winter.",
+        "It's sunny/ rainy/ cloudy/ windy"
+      ],
+      "sourceNotes": "Season questions are framed as this four-season lesson, not a claim about every climate.",
+      "reading": "Parent-led home reading reference; not a scored speaking assessment."
+    },
+    {
+      "id": "pk1-2603-t4-l7",
+      "classId": "PK1_2603",
+      "displayClass": "PK1",
+      "topicId": "weather",
+      "theme": "4 - Weather Report",
+      "lessonNumber": 7,
+      "name": "PK1_4 - Weather Report_7",
+      "date": "2026-10-04",
+      "title": "Rainy Windy Day and Cloudy Windy Day",
+      "sourceId": "source-pk1-2603-t4-l7",
+      "targets": [
+        {
+          "itemId": "cloudy-windy-day",
+          "role": "core"
+        },
+        {
+          "itemId": "rainy-windy-day",
+          "role": "core"
+        },
+        {
+          "itemId": "hot",
+          "role": "key"
+        },
+        {
+          "itemId": "warm",
+          "role": "key"
+        },
+        {
+          "itemId": "cool",
+          "role": "key"
+        },
+        {
+          "itemId": "cold",
+          "role": "key"
+        }
+      ],
+      "sourceQuestions": [
+        "What is the weather like today?",
+        "What season is it?",
+        "What season do you like?",
+        "How do you feel on sunny/ windy days?"
+      ],
+      "sourceAnswers": [
+        "It is sunny/ windy...",
+        "It is spring/ summer/ autumn/ winter.",
+        "I like spring/ summer/ autumn/ winter.",
+        "I feel hot/ warm/ cool/ cold on sunny/ windy days."
+      ],
+      "sourceNotes": "Source sentence patterns retained even where they do not match the compound-weather lesson title.",
+      "reading": "Parent-led home reading reference; not a scored speaking assessment."
+    }
+  ],
+  "items": [
+    {
+      "id": "hot",
+      "word": "Hot",
+      "meaning": "nóng",
+      "originalText": "Hot",
+      "status": "ready",
+      "reason": "",
+      "sourceRefs": [
+        "source-pk1-2603-t4-l1",
+        "source-pk1-2603-t4-l3",
+        "source-pk1-2603-t4-l7"
+      ],
+      "question": {
+        "id": "q-hot-v1",
+        "itemId": "hot",
+        "word": "Hot",
+        "question": "You feel very warm and sweaty. How do you feel?",
+        "translation": "",
+        "hint": "You would like a fan to help you feel better.",
+        "explanation": "Hot = nóng.",
+        "options": [
+          {
+            "id": "hot-o1",
+            "label": "Hot"
+          },
+          {
+            "id": "hot-o2",
+            "label": "Warm"
+          },
+          {
+            "id": "hot-o3",
+            "label": "Cool"
+          },
+          {
+            "id": "hot-o4",
+            "label": "Cold"
+          }
+        ],
+        "correctOptionId": "hot-o1",
+        "topicId": "weather",
+        "mode": "context",
+        "visualId": "hot",
+        "authorship": "App-authored learning cue; source supplies the learning target, not this question."
+      }
+    },
+    {
+      "id": "warm",
+      "word": "Warm",
+      "meaning": "ấm",
+      "originalText": "Warm",
+      "status": "ready",
+      "reason": "",
+      "sourceRefs": [
+        "source-pk1-2603-t4-l1",
+        "source-pk1-2603-t4-l3",
+        "source-pk1-2603-t4-l7"
+      ],
+      "question": {
+        "id": "q-warm-v1",
+        "itemId": "warm",
+        "word": "Warm",
+        "question": "The air feels a little hot, but not too hot. How does it feel?",
+        "translation": "",
+        "hint": "It is between hot and cool.",
+        "explanation": "Warm = ấm.",
+        "options": [
+          {
+            "id": "warm-o1",
+            "label": "Hot"
+          },
+          {
+            "id": "warm-o2",
+            "label": "Warm"
+          },
+          {
+            "id": "warm-o3",
+            "label": "Cool"
+          },
+          {
+            "id": "warm-o4",
+            "label": "Cold"
+          }
+        ],
+        "correctOptionId": "warm-o2",
+        "topicId": "weather",
+        "mode": "context",
+        "visualId": "warm",
+        "authorship": "App-authored learning cue; source supplies the learning target, not this question."
+      }
+    },
+    {
+      "id": "cool",
+      "word": "Cool",
+      "meaning": "mát",
+      "originalText": "Cool",
+      "status": "ready",
+      "reason": "",
+      "sourceRefs": [
+        "source-pk1-2603-t4-l1",
+        "source-pk1-2603-t4-l3",
+        "source-pk1-2603-t4-l7"
+      ],
+      "question": {
+        "id": "q-cool-v1",
+        "itemId": "cool",
+        "word": "Cool",
+        "question": "A gentle breeze feels a little cold, but not too cold. How does it feel?",
+        "translation": "",
+        "hint": "It is between warm and cold.",
+        "explanation": "Cool = mát.",
+        "options": [
+          {
+            "id": "cool-o1",
+            "label": "Hot"
+          },
+          {
+            "id": "cool-o2",
+            "label": "Warm"
+          },
+          {
+            "id": "cool-o3",
+            "label": "Cool"
+          },
+          {
+            "id": "cool-o4",
+            "label": "Cold"
+          }
+        ],
+        "correctOptionId": "cool-o3",
+        "topicId": "weather",
+        "mode": "context",
+        "visualId": "cool",
+        "authorship": "App-authored learning cue; source supplies the learning target, not this question."
+      }
+    },
+    {
+      "id": "cold",
+      "word": "Cold",
+      "meaning": "lạnh",
+      "originalText": "Cold",
+      "status": "ready",
+      "reason": "",
+      "sourceRefs": [
+        "source-pk1-2603-t4-l1",
+        "source-pk1-2603-t4-l3",
+        "source-pk1-2603-t4-l7"
+      ],
+      "question": {
+        "id": "q-cold-v1",
+        "itemId": "cold",
+        "word": "Cold",
+        "question": "You are shivering and need a thick coat. How do you feel?",
+        "translation": "",
+        "hint": "You want to get warmer.",
+        "explanation": "Cold = lạnh.",
+        "options": [
+          {
+            "id": "cold-o1",
+            "label": "Hot"
+          },
+          {
+            "id": "cold-o2",
+            "label": "Warm"
+          },
+          {
+            "id": "cold-o3",
+            "label": "Cool"
+          },
+          {
+            "id": "cold-o4",
+            "label": "Cold"
+          }
+        ],
+        "correctOptionId": "cold-o4",
+        "topicId": "weather",
+        "mode": "context",
+        "visualId": "cold",
+        "authorship": "App-authored learning cue; source supplies the learning target, not this question."
+      }
+    },
+    {
+      "id": "spring",
+      "word": "Spring",
+      "meaning": "mùa xuân",
+      "originalText": "Spring",
+      "status": "ready",
+      "reason": "",
+      "sourceRefs": [
+        "source-pk1-2603-t4-l2",
+        "source-pk1-2603-t4-l3",
+        "source-pk1-2603-t4-l6"
+      ],
+      "question": {
+        "id": "q-spring-v1",
+        "itemId": "spring",
+        "word": "Spring",
+        "question": "In our four-season lesson, which season comes after winter?",
+        "translation": "",
+        "hint": "It is the season before summer.",
+        "explanation": "Spring = mùa xuân.",
+        "options": [
+          {
+            "id": "spring-o1",
+            "label": "Spring"
+          },
+          {
+            "id": "spring-o2",
+            "label": "Summer"
+          },
+          {
+            "id": "spring-o3",
+            "label": "Autumn"
+          },
+          {
+            "id": "spring-o4",
+            "label": "Winter"
+          }
+        ],
+        "correctOptionId": "spring-o1",
+        "topicId": "weather",
+        "mode": "context",
+        "visualId": "spring",
+        "authorship": "App-authored learning cue; source supplies the learning target, not this question."
+      }
+    },
+    {
+      "id": "summer",
+      "word": "Summer",
+      "meaning": "mùa hè",
+      "originalText": "Summer",
+      "status": "ready",
+      "reason": "",
+      "sourceRefs": [
+        "source-pk1-2603-t4-l2",
+        "source-pk1-2603-t4-l3",
+        "source-pk1-2603-t4-l6"
+      ],
+      "question": {
+        "id": "q-summer-v1",
+        "itemId": "summer",
+        "word": "Summer",
+        "question": "In our four-season lesson, which season comes after spring?",
+        "translation": "",
+        "hint": "It is the season before autumn.",
+        "explanation": "Summer = mùa hè.",
+        "options": [
+          {
+            "id": "summer-o1",
+            "label": "Spring"
+          },
+          {
+            "id": "summer-o2",
+            "label": "Summer"
+          },
+          {
+            "id": "summer-o3",
+            "label": "Autumn"
+          },
+          {
+            "id": "summer-o4",
+            "label": "Winter"
+          }
+        ],
+        "correctOptionId": "summer-o2",
+        "topicId": "weather",
+        "mode": "context",
+        "visualId": "summer",
+        "authorship": "App-authored learning cue; source supplies the learning target, not this question."
+      }
+    },
+    {
+      "id": "autumn",
+      "word": "Autumn",
+      "meaning": "mùa thu",
+      "originalText": "Autumn",
+      "status": "ready",
+      "reason": "",
+      "sourceRefs": [
+        "source-pk1-2603-t4-l2",
+        "source-pk1-2603-t4-l3",
+        "source-pk1-2603-t4-l6"
+      ],
+      "question": {
+        "id": "q-autumn-v1",
+        "itemId": "autumn",
+        "word": "Autumn",
+        "question": "In our four-season lesson, which season comes after summer?",
+        "translation": "",
+        "hint": "It is the season before winter.",
+        "explanation": "Autumn = mùa thu.",
+        "options": [
+          {
+            "id": "autumn-o1",
+            "label": "Spring"
+          },
+          {
+            "id": "autumn-o2",
+            "label": "Summer"
+          },
+          {
+            "id": "autumn-o3",
+            "label": "Autumn"
+          },
+          {
+            "id": "autumn-o4",
+            "label": "Winter"
+          }
+        ],
+        "correctOptionId": "autumn-o3",
+        "topicId": "weather",
+        "mode": "context",
+        "visualId": "autumn",
+        "authorship": "App-authored learning cue; source supplies the learning target, not this question."
+      }
+    },
+    {
+      "id": "winter",
+      "word": "Winter",
+      "meaning": "mùa đông",
+      "originalText": "Winter",
+      "status": "ready",
+      "reason": "",
+      "sourceRefs": [
+        "source-pk1-2603-t4-l2",
+        "source-pk1-2603-t4-l3",
+        "source-pk1-2603-t4-l6"
+      ],
+      "question": {
+        "id": "q-winter-v1",
+        "itemId": "winter",
+        "word": "Winter",
+        "question": "In our four-season lesson, which season comes after autumn?",
+        "translation": "",
+        "hint": "It is the season before spring.",
+        "explanation": "Winter = mùa đông.",
+        "options": [
+          {
+            "id": "winter-o1",
+            "label": "Spring"
+          },
+          {
+            "id": "winter-o2",
+            "label": "Summer"
+          },
+          {
+            "id": "winter-o3",
+            "label": "Autumn"
+          },
+          {
+            "id": "winter-o4",
+            "label": "Winter"
+          }
+        ],
+        "correctOptionId": "winter-o4",
+        "topicId": "weather",
+        "mode": "context",
+        "visualId": "winter",
+        "authorship": "App-authored learning cue; source supplies the learning target, not this question."
+      }
+    },
+    {
+      "id": "white-oak",
+      "word": "White oak",
+      "meaning": "cây sồi trắng",
+      "originalText": "White oak",
+      "status": "ready",
+      "reason": "",
+      "sourceRefs": [
+        "source-pk1-2603-t4-l6"
+      ],
+      "question": {
+        "id": "q-white-oak-v1",
+        "itemId": "white-oak",
+        "word": "White oak",
+        "question": "Which tree has rounded leaf lobes and grows acorns?",
+        "translation": "",
+        "hint": "It is a type of oak tree.",
+        "explanation": "White oak = cây sồi trắng.",
+        "options": [
+          {
+            "id": "white-oak-o1",
+            "label": "White oak"
+          },
+          {
+            "id": "white-oak-o2",
+            "label": "Palm tree"
+          },
+          {
+            "id": "white-oak-o3",
+            "label": "Apple tree"
+          },
+          {
+            "id": "white-oak-o4",
+            "label": "Pine tree"
+          }
+        ],
+        "correctOptionId": "white-oak-o1",
+        "topicId": "weather",
+        "mode": "context",
+        "visualId": "white-oak",
+        "authorship": "App-authored learning cue; source supplies the learning target, not this question.",
+        "researchReference": "https://research.fs.usda.gov/silvics/white-oak"
+      }
+    },
+    {
+      "id": "milkweed",
+      "word": "Milkweed",
+      "meaning": "cây bông tai",
+      "originalText": "Milkweed",
+      "status": "ready",
+      "reason": "",
+      "sourceRefs": [
+        "source-pk1-2603-t4-l6"
+      ],
+      "question": {
+        "id": "q-milkweed-v1",
+        "itemId": "milkweed",
+        "word": "Milkweed",
+        "question": "Which plant is food for monarch caterpillars?",
+        "translation": "",
+        "hint": "Its name begins with milk.",
+        "explanation": "Milkweed = cây bông tai.",
+        "options": [
+          {
+            "id": "milkweed-o1",
+            "label": "Milkweed"
+          },
+          {
+            "id": "milkweed-o2",
+            "label": "Rose"
+          },
+          {
+            "id": "milkweed-o3",
+            "label": "Pine tree"
+          },
+          {
+            "id": "milkweed-o4",
+            "label": "White oak"
+          }
+        ],
+        "correctOptionId": "milkweed-o1",
+        "topicId": "weather",
+        "mode": "context",
+        "visualId": "milkweed",
+        "authorship": "App-authored learning cue; source supplies the learning target, not this question.",
+        "researchReference": "https://www.nps.gov/articles/000/milkweed-and-monarchs.htm"
+      }
+    },
+    {
+      "id": "rabbit",
+      "word": "Rabbit",
+      "meaning": "con thỏ",
+      "originalText": "Rabbit",
+      "status": "ready",
+      "reason": "",
+      "sourceRefs": [
+        "source-pk1-2603-t4-l6"
+      ],
+      "question": {
+        "id": "q-rabbit-v1",
+        "itemId": "rabbit",
+        "word": "Rabbit",
+        "question": "Which animal has long ears and likes to hop?",
+        "translation": "",
+        "hint": "It has a short fluffy tail.",
+        "explanation": "Rabbit = con thỏ.",
+        "options": [
+          {
+            "id": "rabbit-o1",
+            "label": "Rabbit"
+          },
+          {
+            "id": "rabbit-o2",
+            "label": "Deer"
+          },
+          {
+            "id": "rabbit-o3",
+            "label": "Cow"
+          },
+          {
+            "id": "rabbit-o4",
+            "label": "Duck"
+          }
+        ],
+        "correctOptionId": "rabbit-o1",
+        "topicId": "weather",
+        "mode": "context",
+        "visualId": "rabbit",
+        "authorship": "App-authored learning cue; source supplies the learning target, not this question."
+      }
+    },
+    {
+      "id": "deer",
+      "word": "Deer",
+      "meaning": "con hươu",
+      "originalText": "Deer",
+      "status": "ready",
+      "reason": "",
+      "sourceRefs": [
+        "source-pk1-2603-t4-l6"
+      ],
+      "question": {
+        "id": "q-deer-v1",
+        "itemId": "deer",
+        "word": "Deer",
+        "question": "Which animal can have antlers?",
+        "translation": "",
+        "hint": "Think of an animal that lives in the woods.",
+        "explanation": "Deer = con hươu.",
+        "options": [
+          {
+            "id": "deer-o1",
+            "label": "Deer"
+          },
+          {
+            "id": "deer-o2",
+            "label": "Rabbit"
+          },
+          {
+            "id": "deer-o3",
+            "label": "Duck"
+          },
+          {
+            "id": "deer-o4",
+            "label": "Cat"
+          }
+        ],
+        "correctOptionId": "deer-o1",
+        "topicId": "weather",
+        "mode": "context",
+        "visualId": "deer",
+        "authorship": "App-authored learning cue; source supplies the learning target, not this question."
+      }
+    },
+    {
+      "id": "snow",
+      "word": "Snow",
+      "meaning": "tuyết",
+      "originalText": "Snow",
+      "status": "ready",
+      "reason": "",
+      "sourceRefs": [
+        "source-pk1-2603-t4-l6"
+      ],
+      "question": {
+        "id": "q-snow-v1",
+        "itemId": "snow",
+        "word": "Snow",
+        "question": "What falls from clouds as soft white flakes?",
+        "translation": "",
+        "hint": "It is made of tiny ice crystals.",
+        "explanation": "Snow = tuyết.",
+        "options": [
+          {
+            "id": "snow-o1",
+            "label": "Snow"
+          },
+          {
+            "id": "snow-o2",
+            "label": "Rain"
+          },
+          {
+            "id": "snow-o3",
+            "label": "Sunshine"
+          },
+          {
+            "id": "snow-o4",
+            "label": "Wind"
+          }
+        ],
+        "correctOptionId": "snow-o1",
+        "topicId": "weather",
+        "mode": "context",
+        "visualId": "snow",
+        "authorship": "App-authored learning cue; source supplies the learning target, not this question."
+      }
+    },
+    {
+      "id": "flower",
+      "word": "Flower",
+      "meaning": "bông hoa",
+      "originalText": "Flower",
+      "status": "ready",
+      "reason": "",
+      "sourceRefs": [
+        "source-pk1-2603-t4-l6"
+      ],
+      "question": {
+        "id": "q-flower-v1",
+        "itemId": "flower",
+        "word": "Flower",
+        "question": "What is the part of a plant with petals called?",
+        "translation": "",
+        "hint": "It can be colourful.",
+        "explanation": "Flower = bông hoa.",
+        "options": [
+          {
+            "id": "flower-o1",
+            "label": "Flower"
+          },
+          {
+            "id": "flower-o2",
+            "label": "Root"
+          },
+          {
+            "id": "flower-o3",
+            "label": "Leaf"
+          },
+          {
+            "id": "flower-o4",
+            "label": "Seed"
+          }
+        ],
+        "correctOptionId": "flower-o1",
+        "topicId": "weather",
+        "mode": "context",
+        "visualId": "flower",
+        "authorship": "App-authored learning cue; source supplies the learning target, not this question."
+      }
+    },
+    {
+      "id": "cloudy-windy-day",
+      "word": "Cloudy windy day",
+      "meaning": "ngày nhiều mây và có gió",
+      "originalText": "Cloudy windy day",
+      "status": "ready",
+      "reason": "",
+      "sourceRefs": [
+        "source-pk1-2603-t4-l7"
+      ],
+      "question": {
+        "id": "q-cloudy-windy-day-v1",
+        "itemId": "cloudy-windy-day",
+        "word": "Cloudy windy day",
+        "question": "There are many clouds and the wind is blowing. Which day is it?",
+        "translation": "",
+        "hint": "Look for both clouds and wind.",
+        "explanation": "Cloudy windy day = ngày nhiều mây và có gió.",
+        "options": [
+          {
+            "id": "cloudy-windy-day-o1",
+            "label": "Cloudy windy day"
+          },
+          {
+            "id": "cloudy-windy-day-o2",
+            "label": "Rainy windy day"
+          },
+          {
+            "id": "cloudy-windy-day-o3",
+            "label": "Sunny calm day"
+          },
+          {
+            "id": "cloudy-windy-day-o4",
+            "label": "Snowy calm day"
+          }
+        ],
+        "correctOptionId": "cloudy-windy-day-o1",
+        "topicId": "weather",
+        "mode": "context",
+        "visualId": "cloudy-windy-day",
+        "authorship": "App-authored learning cue; source supplies the learning target, not this question."
+      }
+    },
+    {
+      "id": "rainy-windy-day",
+      "word": "Rainy windy day",
+      "meaning": "ngày mưa và có gió",
+      "originalText": "Rainy windy day",
+      "status": "ready",
+      "reason": "",
+      "sourceRefs": [
+        "source-pk1-2603-t4-l7"
+      ],
+      "question": {
+        "id": "q-rainy-windy-day-v1",
+        "itemId": "rainy-windy-day",
+        "word": "Rainy windy day",
+        "question": "Rain is falling and the wind is blowing. Which day is it?",
+        "translation": "",
+        "hint": "Look for both rain and wind.",
+        "explanation": "Rainy windy day = ngày mưa và có gió.",
+        "options": [
+          {
+            "id": "rainy-windy-day-o1",
+            "label": "Cloudy windy day"
+          },
+          {
+            "id": "rainy-windy-day-o2",
+            "label": "Rainy windy day"
+          },
+          {
+            "id": "rainy-windy-day-o3",
+            "label": "Sunny calm day"
+          },
+          {
+            "id": "rainy-windy-day-o4",
+            "label": "Snowy calm day"
+          }
+        ],
+        "correctOptionId": "rainy-windy-day-o2",
+        "topicId": "weather",
+        "mode": "context",
+        "visualId": "rainy-windy-day",
+        "authorship": "App-authored learning cue; source supplies the learning target, not this question."
+      }
+    }
+  ],
+  "illustrations": [
+    {
+      "id": "hot",
+      "itemId": "hot",
+      "kind": "emoji",
+      "visual": "🥵",
+      "provider": "Native Unicode + original CSS",
+      "sourceUrl": null,
+      "license": null,
+      "assetPath": null,
+      "sha256": null,
+      "styleVersion": "emoji-css-v1",
+      "status": "needs-review",
+      "reason": "",
+      "attribution": "Device-rendered Unicode; no font files redistributed. Original CSS layout.",
+      "identity": "40b6d32e58491cac7da616260776a2f60b988aa3c6df1d7a87835ec459a92e10"
+    },
+    {
+      "id": "warm",
+      "itemId": "warm",
+      "kind": "temperature",
+      "visual": "warm",
+      "provider": "Native Unicode + original CSS",
+      "sourceUrl": null,
+      "license": null,
+      "assetPath": null,
+      "sha256": null,
+      "styleVersion": "emoji-css-v1",
+      "status": "needs-review",
+      "reason": "",
+      "attribution": "Device-rendered Unicode; no font files redistributed. Original CSS layout.",
+      "identity": "63718cb82de97f5dbeb29db28256e705fd94e5d7963c894dd9010bc393045bcf"
+    },
+    {
+      "id": "cool",
+      "itemId": "cool",
+      "kind": "temperature",
+      "visual": "cool",
+      "provider": "Native Unicode + original CSS",
+      "sourceUrl": null,
+      "license": null,
+      "assetPath": null,
+      "sha256": null,
+      "styleVersion": "emoji-css-v1",
+      "status": "needs-review",
+      "reason": "",
+      "attribution": "Device-rendered Unicode; no font files redistributed. Original CSS layout.",
+      "identity": "a0c7d3be7ad08c843354b0ba46ec9e061de28fa55df2b32ffd9126ada30f7700"
+    },
+    {
+      "id": "cold",
+      "itemId": "cold",
+      "kind": "emoji",
+      "visual": "🥶",
+      "provider": "Native Unicode + original CSS",
+      "sourceUrl": null,
+      "license": null,
+      "assetPath": null,
+      "sha256": null,
+      "styleVersion": "emoji-css-v1",
+      "status": "needs-review",
+      "reason": "",
+      "attribution": "Device-rendered Unicode; no font files redistributed. Original CSS layout.",
+      "identity": "f9b57a6af94ad6077aeb861475bb8dfe28fbaba976f86ce13ae2feaf94319de6"
+    },
+    {
+      "id": "spring",
+      "itemId": "spring",
+      "kind": "emoji",
+      "visual": "🌱🌸",
+      "provider": "Native Unicode + original CSS",
+      "sourceUrl": null,
+      "license": null,
+      "assetPath": null,
+      "sha256": null,
+      "styleVersion": "emoji-css-v1",
+      "status": "needs-review",
+      "reason": "",
+      "attribution": "Device-rendered Unicode; no font files redistributed. Original CSS layout.",
+      "identity": "50b712193eb764b2054497fe555bf000f736daa906ede5b599d0afba5dacff74"
+    },
+    {
+      "id": "summer",
+      "itemId": "summer",
+      "kind": "emoji",
+      "visual": "☀️🏖️",
+      "provider": "Native Unicode + original CSS",
+      "sourceUrl": null,
+      "license": null,
+      "assetPath": null,
+      "sha256": null,
+      "styleVersion": "emoji-css-v1",
+      "status": "needs-review",
+      "reason": "",
+      "attribution": "Device-rendered Unicode; no font files redistributed. Original CSS layout.",
+      "identity": "fa2a3a7f7d3218776594d0cccf0da21092cf6721930d48ad12c2810d721a3329"
+    },
+    {
+      "id": "autumn",
+      "itemId": "autumn",
+      "kind": "emoji",
+      "visual": "🍂",
+      "provider": "Native Unicode + original CSS",
+      "sourceUrl": null,
+      "license": null,
+      "assetPath": null,
+      "sha256": null,
+      "styleVersion": "emoji-css-v1",
+      "status": "needs-review",
+      "reason": "",
+      "attribution": "Device-rendered Unicode; no font files redistributed. Original CSS layout.",
+      "identity": "2d873a7fb22ab6b821830e4720d1114a577cd6bdded642828526fe96bdc535c6"
+    },
+    {
+      "id": "winter",
+      "itemId": "winter",
+      "kind": "emoji",
+      "visual": "❄️⛄",
+      "provider": "Native Unicode + original CSS",
+      "sourceUrl": null,
+      "license": null,
+      "assetPath": null,
+      "sha256": null,
+      "styleVersion": "emoji-css-v1",
+      "status": "needs-review",
+      "reason": "",
+      "attribution": "Device-rendered Unicode; no font files redistributed. Original CSS layout.",
+      "identity": "194168513ef382c6d6a4251d11abab4ea3817e74aee267e801fb665e082973d9"
+    },
+    {
+      "id": "white-oak",
+      "itemId": "white-oak",
+      "kind": "missing",
+      "visual": "",
+      "provider": null,
+      "sourceUrl": null,
+      "license": null,
+      "assetPath": null,
+      "sha256": null,
+      "styleVersion": "emoji-css-v1",
+      "status": "missing",
+      "reason": "Exact-meaning picture not yet selected.",
+      "attribution": "",
+      "identity": "e191a801057e6adf2b7c6616e82d087d1f42f57da62515424760e2cd9172edcb"
+    },
+    {
+      "id": "milkweed",
+      "itemId": "milkweed",
+      "kind": "missing",
+      "visual": "",
+      "provider": null,
+      "sourceUrl": null,
+      "license": null,
+      "assetPath": null,
+      "sha256": null,
+      "styleVersion": "emoji-css-v1",
+      "status": "missing",
+      "reason": "Exact-meaning picture not yet selected.",
+      "attribution": "",
+      "identity": "34bf4cea57180cd41525e2b16c1b7460133e3dd535fec970ed42635a524887fc"
+    },
+    {
+      "id": "rabbit",
+      "itemId": "rabbit",
+      "kind": "emoji",
+      "visual": "🐇",
+      "provider": "Native Unicode + original CSS",
+      "sourceUrl": null,
+      "license": null,
+      "assetPath": null,
+      "sha256": null,
+      "styleVersion": "emoji-css-v1",
+      "status": "needs-review",
+      "reason": "",
+      "attribution": "Device-rendered Unicode; no font files redistributed. Original CSS layout.",
+      "identity": "f254cd39eb133c4a64adc91e101250a8b9979e06a1913fa7bf475107d6471383"
+    },
+    {
+      "id": "deer",
+      "itemId": "deer",
+      "kind": "emoji",
+      "visual": "🦌",
+      "provider": "Native Unicode + original CSS",
+      "sourceUrl": null,
+      "license": null,
+      "assetPath": null,
+      "sha256": null,
+      "styleVersion": "emoji-css-v1",
+      "status": "needs-review",
+      "reason": "",
+      "attribution": "Device-rendered Unicode; no font files redistributed. Original CSS layout.",
+      "identity": "6bef3f01a8de27a216ab54922ee5d599ae33e328ae6f3b79288d40331f4158e2"
+    },
+    {
+      "id": "snow",
+      "itemId": "snow",
+      "kind": "emoji",
+      "visual": "❄️",
+      "provider": "Native Unicode + original CSS",
+      "sourceUrl": null,
+      "license": null,
+      "assetPath": null,
+      "sha256": null,
+      "styleVersion": "emoji-css-v1",
+      "status": "needs-review",
+      "reason": "",
+      "attribution": "Device-rendered Unicode; no font files redistributed. Original CSS layout.",
+      "identity": "8bebab927afc94daf7065fff8e7ddf51fb74ead2bd6f1d1de5ec2b816f62f6f0"
+    },
+    {
+      "id": "flower",
+      "itemId": "flower",
+      "kind": "emoji",
+      "visual": "🌸",
+      "provider": "Native Unicode + original CSS",
+      "sourceUrl": null,
+      "license": null,
+      "assetPath": null,
+      "sha256": null,
+      "styleVersion": "emoji-css-v1",
+      "status": "needs-review",
+      "reason": "",
+      "attribution": "Device-rendered Unicode; no font files redistributed. Original CSS layout.",
+      "identity": "d1a5cdf59c4451018c107636c98048694d108bc5741b5e5fd0fad877c458bd21"
+    },
+    {
+      "id": "cloudy-windy-day",
+      "itemId": "cloudy-windy-day",
+      "kind": "emoji",
+      "visual": "☁️🌬️",
+      "provider": "Native Unicode + original CSS",
+      "sourceUrl": null,
+      "license": null,
+      "assetPath": null,
+      "sha256": null,
+      "styleVersion": "emoji-css-v1",
+      "status": "needs-review",
+      "reason": "",
+      "attribution": "Device-rendered Unicode; no font files redistributed. Original CSS layout.",
+      "identity": "3d084615dfe7ca183c7b23fe1d89996be0de34472497c9a24578f02c21947b61"
+    },
+    {
+      "id": "rainy-windy-day",
+      "itemId": "rainy-windy-day",
+      "kind": "emoji",
+      "visual": "🌧️🌬️",
+      "provider": "Native Unicode + original CSS",
+      "sourceUrl": null,
+      "license": null,
+      "assetPath": null,
+      "sha256": null,
+      "styleVersion": "emoji-css-v1",
+      "status": "needs-review",
+      "reason": "",
+      "attribution": "Device-rendered Unicode; no font files redistributed. Original CSS layout.",
+      "identity": "6d30fb2312f04cb51734492df01b25b86432ab8bbad61151930c2a88cfc3d772"
+    }
+  ]
+}

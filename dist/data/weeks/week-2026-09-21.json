@@ -1,0 +1,987 @@
+{
+  "schemaVersion": 1,
+  "libraryId": "rise-voca-pk1",
+  "libraryFingerprint": "78e5b7e77957078da7a316800c57dedc07e008fa0a7dc6dca03221c2e05f7d22",
+  "contentVersion": "2026.10.05.1",
+  "week": {
+    "id": "week-2026-09-21",
+    "start": "2026-09-21",
+    "end": "2026-09-27",
+    "label": "2026-09-21 to 2026-09-27",
+    "lessonIds": [
+      "pk1-2603-t4-l4",
+      "pk1-2603-t4-l5"
+    ]
+  },
+  "lessons": [
+    {
+      "id": "pk1-2603-t4-l4",
+      "classId": "PK1_2603",
+      "displayClass": "PK1",
+      "topicId": "weather",
+      "theme": "4 - Weather Report",
+      "lessonNumber": 4,
+      "name": "PK1_4 - Weather Report_4",
+      "date": "2026-09-26",
+      "title": "Sunny and Windy",
+      "sourceId": "source-pk1-2603-t4-l4",
+      "targets": [
+        {
+          "itemId": "sunny",
+          "role": "core"
+        },
+        {
+          "itemId": "windy",
+          "role": "core"
+        },
+        {
+          "itemId": "shine",
+          "role": "key"
+        },
+        {
+          "itemId": "sprout",
+          "role": "key"
+        },
+        {
+          "itemId": "play",
+          "role": "key"
+        },
+        {
+          "itemId": "fly",
+          "role": "key"
+        },
+        {
+          "itemId": "man",
+          "role": "key"
+        },
+        {
+          "itemId": "children",
+          "role": "key"
+        }
+      ],
+      "sourceQuestions": [
+        "What is the weather like?",
+        "What season is it?",
+        "What season do you like?",
+        "How do you feel on sunny/ windy days?"
+      ],
+      "sourceAnswers": [
+        "It is sunny/windy...",
+        "It is spring / summer / autumn / winter .",
+        "I like spring / summer / autumn / winter .",
+        "I feel hot/warm/cool/cold on sunny/ windy days."
+      ],
+      "sourceNotes": "",
+      "reading": "Parent-led home reading reference; not a scored speaking assessment."
+    },
+    {
+      "id": "pk1-2603-t4-l5",
+      "classId": "PK1_2603",
+      "displayClass": "PK1",
+      "topicId": "weather",
+      "theme": "4 - Weather Report",
+      "lessonNumber": 5,
+      "name": "PK1_4 - Weather Report_5",
+      "date": "2026-09-27",
+      "title": "Cloudy and Rainy",
+      "sourceId": "source-pk1-2603-t4-l5",
+      "targets": [
+        {
+          "itemId": "cloudy",
+          "role": "core"
+        },
+        {
+          "itemId": "rainy",
+          "role": "core"
+        },
+        {
+          "itemId": "umbrella",
+          "role": "key"
+        },
+        {
+          "itemId": "wet",
+          "role": "key"
+        },
+        {
+          "itemId": "dark",
+          "role": "key"
+        },
+        {
+          "itemId": "play",
+          "role": "key"
+        },
+        {
+          "itemId": "boat",
+          "role": "key"
+        }
+      ],
+      "sourceQuestions": [
+        "What is the weather like?",
+        "What season is it?",
+        "What season do you like?",
+        "How do you feel on sunny/ windy days?"
+      ],
+      "sourceAnswers": [
+        "It is sunny/windy...",
+        "It is spring / summer / autumn / winter .",
+        "I like spring / summer / autumn / winter .",
+        "I feel hot/warm/cool/cold on sunny/ windy days."
+      ],
+      "sourceNotes": "Source mismatch retained: sentence patterns say sunny/windy although the lesson title is Cloudy and Rainy. Quiz wording follows the supplied HTML.",
+      "reading": "Parent-led home reading reference; not a scored speaking assessment."
+    }
+  ],
+  "items": [
+    {
+      "id": "sprout",
+      "word": "Sprout",
+      "meaning": "nảy mầm",
+      "originalText": "Sprout",
+      "status": "ready",
+      "reason": "",
+      "sourceRefs": [
+        "source-pk1-2603-t4-l2",
+        "source-pk1-2603-t4-l4"
+      ],
+      "question": {
+        "id": "q-sprout-v1",
+        "itemId": "sprout",
+        "word": "Sprout",
+        "question": "A tiny new shoot begins to grow from a seed. What does the seed do?",
+        "translation": "",
+        "hint": "A new plant is beginning to grow.",
+        "explanation": "Sprout = nảy mầm.",
+        "options": [
+          {
+            "id": "sprout-o1",
+            "label": "Sprout"
+          },
+          {
+            "id": "sprout-o2",
+            "label": "Fly"
+          },
+          {
+            "id": "sprout-o3",
+            "label": "Swim"
+          },
+          {
+            "id": "sprout-o4",
+            "label": "Sleep"
+          }
+        ],
+        "correctOptionId": "sprout-o1",
+        "topicId": "weather",
+        "mode": "context",
+        "visualId": "sprout",
+        "authorship": "App-authored learning cue; source supplies the learning target, not this question."
+      }
+    },
+    {
+      "id": "sunny",
+      "word": "Sunny",
+      "meaning": "trời nắng",
+      "originalText": "Sunny",
+      "status": "ready",
+      "reason": "",
+      "sourceRefs": [
+        "source-pk1-2603-t4-l4"
+      ],
+      "question": {
+        "id": "q-sunny-v1",
+        "itemId": "sunny",
+        "word": "Sunny",
+        "question": "The sun is shining in a clear sky. What is the weather?",
+        "translation": "",
+        "hint": "You can see bright sunshine.",
+        "explanation": "Sunny = trời nắng.",
+        "options": [
+          {
+            "id": "sunny-o1",
+            "label": "Sunny"
+          },
+          {
+            "id": "sunny-o2",
+            "label": "Windy"
+          },
+          {
+            "id": "sunny-o3",
+            "label": "Cloudy"
+          },
+          {
+            "id": "sunny-o4",
+            "label": "Rainy"
+          }
+        ],
+        "correctOptionId": "sunny-o1",
+        "topicId": "weather",
+        "mode": "context",
+        "visualId": "sunny",
+        "authorship": "App-authored learning cue; source supplies the learning target, not this question."
+      }
+    },
+    {
+      "id": "windy",
+      "word": "Windy",
+      "meaning": "trời có gió",
+      "originalText": "Windy",
+      "status": "ready",
+      "reason": "",
+      "sourceRefs": [
+        "source-pk1-2603-t4-l4"
+      ],
+      "question": {
+        "id": "q-windy-v1",
+        "itemId": "windy",
+        "word": "Windy",
+        "question": "The air blows and makes the branches move. What is the weather?",
+        "translation": "",
+        "hint": "A flag may flap in this weather.",
+        "explanation": "Windy = trời có gió.",
+        "options": [
+          {
+            "id": "windy-o1",
+            "label": "Sunny"
+          },
+          {
+            "id": "windy-o2",
+            "label": "Windy"
+          },
+          {
+            "id": "windy-o3",
+            "label": "Cloudy"
+          },
+          {
+            "id": "windy-o4",
+            "label": "Rainy"
+          }
+        ],
+        "correctOptionId": "windy-o2",
+        "topicId": "weather",
+        "mode": "context",
+        "visualId": "windy",
+        "authorship": "App-authored learning cue; source supplies the learning target, not this question."
+      }
+    },
+    {
+      "id": "shine",
+      "word": "Shine",
+      "meaning": "chiếu sáng",
+      "originalText": "Shine",
+      "status": "ready",
+      "reason": "",
+      "sourceRefs": [
+        "source-pk1-2603-t4-l4"
+      ],
+      "question": {
+        "id": "q-shine-v1",
+        "itemId": "shine",
+        "word": "Shine",
+        "question": "What does the sun do when it gives out bright light?",
+        "translation": "",
+        "hint": "A lamp can do this too.",
+        "explanation": "Shine = chiếu sáng.",
+        "options": [
+          {
+            "id": "shine-o1",
+            "label": "Shine"
+          },
+          {
+            "id": "shine-o2",
+            "label": "Sleep"
+          },
+          {
+            "id": "shine-o3",
+            "label": "Swim"
+          },
+          {
+            "id": "shine-o4",
+            "label": "Fall"
+          }
+        ],
+        "correctOptionId": "shine-o1",
+        "topicId": "weather",
+        "mode": "context",
+        "visualId": "shine",
+        "authorship": "App-authored learning cue; source supplies the learning target, not this question."
+      }
+    },
+    {
+      "id": "play",
+      "word": "Play",
+      "meaning": "chơi",
+      "originalText": "Play",
+      "status": "ready",
+      "reason": "",
+      "sourceRefs": [
+        "source-pk1-2603-t4-l4",
+        "source-pk1-2603-t4-l5"
+      ],
+      "question": {
+        "id": "q-play-v1",
+        "itemId": "play",
+        "word": "Play",
+        "question": "The children have fun with toys and games. What do they do?",
+        "translation": "Các bạn nhỏ vui với đồ chơi và trò chơi. Các bạn đang làm gì?",
+        "hint": "You do this with toys, games, or friends for fun.",
+        "explanation": "Play means to do something for fun. Play = chơi.",
+        "options": [
+          {
+            "id": "play-o1",
+            "label": "Work"
+          },
+          {
+            "id": "play-o2",
+            "label": "Play"
+          },
+          {
+            "id": "play-o3",
+            "label": "Sleep"
+          },
+          {
+            "id": "play-o4",
+            "label": "Fly"
+          }
+        ],
+        "correctOptionId": "play-o2",
+        "topicId": "weather",
+        "mode": "context",
+        "visualId": "play",
+        "authorship": "Preserved from supplied PK1_260927.html",
+        "legacyId": "play"
+      }
+    },
+    {
+      "id": "fly",
+      "word": "Fly",
+      "meaning": "bay",
+      "originalText": "Fly",
+      "status": "ready",
+      "reason": "",
+      "sourceRefs": [
+        "source-pk1-2603-t4-l4"
+      ],
+      "question": {
+        "id": "q-fly-v1",
+        "itemId": "fly",
+        "word": "Fly",
+        "question": "A bird moves through the air with its wings. What does it do?",
+        "translation": "",
+        "hint": "It is not walking on the ground.",
+        "explanation": "Fly = bay.",
+        "options": [
+          {
+            "id": "fly-o1",
+            "label": "Fly"
+          },
+          {
+            "id": "fly-o2",
+            "label": "Swim"
+          },
+          {
+            "id": "fly-o3",
+            "label": "Run"
+          },
+          {
+            "id": "fly-o4",
+            "label": "Sleep"
+          }
+        ],
+        "correctOptionId": "fly-o1",
+        "topicId": "weather",
+        "mode": "context",
+        "visualId": "fly",
+        "authorship": "App-authored learning cue; source supplies the learning target, not this question."
+      }
+    },
+    {
+      "id": "man",
+      "word": "Man",
+      "meaning": "người đàn ông",
+      "originalText": "Man",
+      "status": "ready",
+      "reason": "",
+      "sourceRefs": [
+        "source-pk1-2603-t4-l4"
+      ],
+      "question": {
+        "id": "q-man-v1",
+        "itemId": "man",
+        "word": "Man",
+        "question": "Which word means an adult male person?",
+        "translation": "",
+        "hint": "This person is a grown-up.",
+        "explanation": "Man = người đàn ông.",
+        "options": [
+          {
+            "id": "man-o1",
+            "label": "Man"
+          },
+          {
+            "id": "man-o2",
+            "label": "Woman"
+          },
+          {
+            "id": "man-o3",
+            "label": "Boy"
+          },
+          {
+            "id": "man-o4",
+            "label": "Girl"
+          }
+        ],
+        "correctOptionId": "man-o1",
+        "topicId": "weather",
+        "mode": "context",
+        "visualId": "man",
+        "authorship": "App-authored learning cue; source supplies the learning target, not this question."
+      }
+    },
+    {
+      "id": "children",
+      "word": "Children",
+      "meaning": "trẻ em",
+      "originalText": "Children",
+      "status": "ready",
+      "reason": "",
+      "sourceRefs": [
+        "source-pk1-2603-t4-l4"
+      ],
+      "question": {
+        "id": "q-children-v1",
+        "itemId": "children",
+        "word": "Children",
+        "question": "Which word means more than one child?",
+        "translation": "",
+        "hint": "Think of a group of boys and girls.",
+        "explanation": "Children = trẻ em.",
+        "options": [
+          {
+            "id": "children-o1",
+            "label": "Children"
+          },
+          {
+            "id": "children-o2",
+            "label": "Child"
+          },
+          {
+            "id": "children-o3",
+            "label": "Man"
+          },
+          {
+            "id": "children-o4",
+            "label": "Woman"
+          }
+        ],
+        "correctOptionId": "children-o1",
+        "topicId": "weather",
+        "mode": "context",
+        "visualId": "children",
+        "authorship": "App-authored learning cue; source supplies the learning target, not this question."
+      }
+    },
+    {
+      "id": "cloudy",
+      "word": "Cloudy",
+      "meaning": "trời nhiều mây",
+      "originalText": "Cloudy",
+      "status": "ready",
+      "reason": "",
+      "sourceRefs": [
+        "source-pk1-2603-t4-l5"
+      ],
+      "question": {
+        "id": "q-cloudy-v1",
+        "itemId": "cloudy",
+        "word": "Cloudy",
+        "question": "The sky is full of clouds. What is the weather?",
+        "translation": "Bầu trời có nhiều mây. Thời tiết thế nào?",
+        "hint": "Look for the weather word that means there are many clouds.",
+        "explanation": "Cloudy means the sky has many clouds. Cloudy = trời nhiều mây.",
+        "options": [
+          {
+            "id": "cloudy-o1",
+            "label": "Sunny"
+          },
+          {
+            "id": "cloudy-o2",
+            "label": "Cloudy"
+          },
+          {
+            "id": "cloudy-o3",
+            "label": "Rainy"
+          },
+          {
+            "id": "cloudy-o4",
+            "label": "Windy"
+          }
+        ],
+        "correctOptionId": "cloudy-o2",
+        "topicId": "weather",
+        "mode": "context",
+        "visualId": "cloudy",
+        "authorship": "Preserved from supplied PK1_260927.html",
+        "legacyId": "cloudy"
+      }
+    },
+    {
+      "id": "rainy",
+      "word": "Rainy",
+      "meaning": "trời mưa",
+      "originalText": "Rainy",
+      "status": "ready",
+      "reason": "",
+      "sourceRefs": [
+        "source-pk1-2603-t4-l5"
+      ],
+      "question": {
+        "id": "q-rainy-v1",
+        "itemId": "rainy",
+        "word": "Rainy",
+        "question": "Raindrops are falling from the clouds. What is the weather?",
+        "translation": "Những giọt mưa đang rơi từ đám mây. Thời tiết thế nào?",
+        "hint": "Think about the weather when water falls from the sky.",
+        "explanation": "Rainy means there is rain. Rainy = trời mưa.",
+        "options": [
+          {
+            "id": "rainy-o1",
+            "label": "Cloudy"
+          },
+          {
+            "id": "rainy-o2",
+            "label": "Sunny"
+          },
+          {
+            "id": "rainy-o3",
+            "label": "Rainy"
+          },
+          {
+            "id": "rainy-o4",
+            "label": "Windy"
+          }
+        ],
+        "correctOptionId": "rainy-o3",
+        "topicId": "weather",
+        "mode": "context",
+        "visualId": "rainy",
+        "authorship": "Preserved from supplied PK1_260927.html",
+        "legacyId": "rainy"
+      }
+    },
+    {
+      "id": "umbrella",
+      "word": "Umbrella",
+      "meaning": "cái ô / cái dù",
+      "originalText": "Umbrella",
+      "status": "ready",
+      "reason": "",
+      "sourceRefs": [
+        "source-pk1-2603-t4-l5"
+      ],
+      "question": {
+        "id": "q-umbrella-v1",
+        "itemId": "umbrella",
+        "word": "Umbrella",
+        "question": "What do you hold above your head to stay dry in the rain?",
+        "translation": "Em cầm gì trên đầu để không bị ướt khi trời mưa?",
+        "hint": "It opens above your head and keeps the rain off you.",
+        "explanation": "An umbrella helps keep you dry in the rain. Umbrella = cái ô / cái dù.",
+        "options": [
+          {
+            "id": "umbrella-o1",
+            "label": "Hat"
+          },
+          {
+            "id": "umbrella-o2",
+            "label": "Boat"
+          },
+          {
+            "id": "umbrella-o3",
+            "label": "Coat"
+          },
+          {
+            "id": "umbrella-o4",
+            "label": "Umbrella"
+          }
+        ],
+        "correctOptionId": "umbrella-o4",
+        "topicId": "weather",
+        "mode": "context",
+        "visualId": "umbrella",
+        "authorship": "Preserved from supplied PK1_260927.html",
+        "legacyId": "umbrella"
+      }
+    },
+    {
+      "id": "wet",
+      "word": "Wet",
+      "meaning": "ướt",
+      "originalText": "Wet",
+      "status": "ready",
+      "reason": "",
+      "sourceRefs": [
+        "source-pk1-2603-t4-l5"
+      ],
+      "question": {
+        "id": "q-wet-v1",
+        "itemId": "wet",
+        "word": "Wet",
+        "question": "Your clothes have rainwater on them. How do they feel?",
+        "translation": "Quần áo của em có nước mưa trên đó. Chúng thế nào?",
+        "hint": "This word means covered with water.",
+        "explanation": "Wet means covered with water. Wet = ướt.",
+        "options": [
+          {
+            "id": "wet-o1",
+            "label": "Wet"
+          },
+          {
+            "id": "wet-o2",
+            "label": "Dry"
+          },
+          {
+            "id": "wet-o3",
+            "label": "Dark"
+          },
+          {
+            "id": "wet-o4",
+            "label": "Warm"
+          }
+        ],
+        "correctOptionId": "wet-o1",
+        "topicId": "weather",
+        "mode": "context",
+        "visualId": "wet",
+        "authorship": "Preserved from supplied PK1_260927.html",
+        "legacyId": "wet"
+      }
+    },
+    {
+      "id": "dark",
+      "word": "Dark",
+      "meaning": "tối",
+      "originalText": "Dark",
+      "status": "ready",
+      "reason": "",
+      "sourceRefs": [
+        "source-pk1-2603-t4-l5"
+      ],
+      "question": {
+        "id": "q-dark-v1",
+        "itemId": "dark",
+        "word": "Dark",
+        "question": "There is very little light. Which word describes it?",
+        "translation": "Có rất ít ánh sáng. Từ nào dùng để miêu tả?",
+        "hint": "It is the opposite of bright.",
+        "explanation": "Dark means there is little or no light. Dark = tối.",
+        "options": [
+          {
+            "id": "dark-o1",
+            "label": "Bright"
+          },
+          {
+            "id": "dark-o2",
+            "label": "Wet"
+          },
+          {
+            "id": "dark-o3",
+            "label": "Dark"
+          },
+          {
+            "id": "dark-o4",
+            "label": "Cloudy"
+          }
+        ],
+        "correctOptionId": "dark-o3",
+        "topicId": "weather",
+        "mode": "context",
+        "visualId": "dark",
+        "authorship": "Preserved from supplied PK1_260927.html",
+        "legacyId": "dark"
+      }
+    },
+    {
+      "id": "boat",
+      "word": "Boat",
+      "meaning": "thuyền",
+      "originalText": "Boat",
+      "status": "ready",
+      "reason": "",
+      "sourceRefs": [
+        "source-pk1-2603-t4-l5"
+      ],
+      "question": {
+        "id": "q-boat-v1",
+        "itemId": "boat",
+        "word": "Boat",
+        "question": "What can float on water and carry people?",
+        "translation": "Vật gì có thể nổi trên nước và chở người?",
+        "hint": "You can ride in it on a river, lake, or sea.",
+        "explanation": "A boat is a small vehicle that travels on water. Boat = thuyền.",
+        "options": [
+          {
+            "id": "boat-o1",
+            "label": "Car"
+          },
+          {
+            "id": "boat-o2",
+            "label": "Train"
+          },
+          {
+            "id": "boat-o3",
+            "label": "Bus"
+          },
+          {
+            "id": "boat-o4",
+            "label": "Boat"
+          }
+        ],
+        "correctOptionId": "boat-o4",
+        "topicId": "weather",
+        "mode": "context",
+        "visualId": "boat",
+        "authorship": "Preserved from supplied PK1_260927.html",
+        "legacyId": "boat"
+      }
+    }
+  ],
+  "illustrations": [
+    {
+      "id": "sprout",
+      "itemId": "sprout",
+      "kind": "emoji",
+      "visual": "🌱",
+      "provider": "Native Unicode + original CSS",
+      "sourceUrl": null,
+      "license": null,
+      "assetPath": null,
+      "sha256": null,
+      "styleVersion": "emoji-css-v1",
+      "status": "needs-review",
+      "reason": "",
+      "attribution": "Device-rendered Unicode; no font files redistributed. Original CSS layout.",
+      "identity": "b25654a5769df7d944a588a83644c23972ed574dadd847407b611ece6ab94d4b"
+    },
+    {
+      "id": "sunny",
+      "itemId": "sunny",
+      "kind": "emoji",
+      "visual": "☀️",
+      "provider": "Native Unicode + original CSS",
+      "sourceUrl": null,
+      "license": null,
+      "assetPath": null,
+      "sha256": null,
+      "styleVersion": "emoji-css-v1",
+      "status": "needs-review",
+      "reason": "",
+      "attribution": "Device-rendered Unicode; no font files redistributed. Original CSS layout.",
+      "identity": "636df92bfa0089cae4b1bcdd95558ca508c5ca7ffd2d9e14251c631788048c5e"
+    },
+    {
+      "id": "windy",
+      "itemId": "windy",
+      "kind": "emoji",
+      "visual": "🌬️🍃",
+      "provider": "Native Unicode + original CSS",
+      "sourceUrl": null,
+      "license": null,
+      "assetPath": null,
+      "sha256": null,
+      "styleVersion": "emoji-css-v1",
+      "status": "needs-review",
+      "reason": "",
+      "attribution": "Device-rendered Unicode; no font files redistributed. Original CSS layout.",
+      "identity": "b49e7936a7e184e2c0acd3249434534ae66419c05317fb50fadc490850689755"
+    },
+    {
+      "id": "shine",
+      "itemId": "shine",
+      "kind": "emoji",
+      "visual": "☀️✨",
+      "provider": "Native Unicode + original CSS",
+      "sourceUrl": null,
+      "license": null,
+      "assetPath": null,
+      "sha256": null,
+      "styleVersion": "emoji-css-v1",
+      "status": "needs-review",
+      "reason": "",
+      "attribution": "Device-rendered Unicode; no font files redistributed. Original CSS layout.",
+      "identity": "a397ac49417b10e69409a0efcdee652d93909d48e5905b07733ebca2d09d9883"
+    },
+    {
+      "id": "play",
+      "itemId": "play",
+      "kind": "emoji",
+      "visual": "⚽",
+      "provider": "Native Unicode + original CSS",
+      "sourceUrl": null,
+      "license": null,
+      "assetPath": null,
+      "sha256": null,
+      "styleVersion": "emoji-css-v1",
+      "status": "retained-reference",
+      "reason": "",
+      "attribution": "Device-rendered Unicode; no font files redistributed. Original CSS layout.",
+      "sparkOne": "🧸",
+      "sparkTwo": "😄",
+      "identity": "a5684ebc08ecfb1962c0d251ec2a7f2d7ae690f2476a5b68dadaed94a4bed008"
+    },
+    {
+      "id": "fly",
+      "itemId": "fly",
+      "kind": "emoji",
+      "visual": "🐦🪶",
+      "provider": "Native Unicode + original CSS",
+      "sourceUrl": null,
+      "license": null,
+      "assetPath": null,
+      "sha256": null,
+      "styleVersion": "emoji-css-v1",
+      "status": "needs-review",
+      "reason": "",
+      "attribution": "Device-rendered Unicode; no font files redistributed. Original CSS layout.",
+      "identity": "327b11cbcc0c1528abbef4889476b1166a03dece33df00f7f337beb8bc57acf6"
+    },
+    {
+      "id": "man",
+      "itemId": "man",
+      "kind": "emoji",
+      "visual": "👨",
+      "provider": "Native Unicode + original CSS",
+      "sourceUrl": null,
+      "license": null,
+      "assetPath": null,
+      "sha256": null,
+      "styleVersion": "emoji-css-v1",
+      "status": "needs-review",
+      "reason": "",
+      "attribution": "Device-rendered Unicode; no font files redistributed. Original CSS layout.",
+      "identity": "7561c656039e99133c869438a9884635ad2ee44c68e1c48aa6ffddbd9dd173f5"
+    },
+    {
+      "id": "children",
+      "itemId": "children",
+      "kind": "emoji",
+      "visual": "🧒👧",
+      "provider": "Native Unicode + original CSS",
+      "sourceUrl": null,
+      "license": null,
+      "assetPath": null,
+      "sha256": null,
+      "styleVersion": "emoji-css-v1",
+      "status": "needs-review",
+      "reason": "",
+      "attribution": "Device-rendered Unicode; no font files redistributed. Original CSS layout.",
+      "identity": "d7383d45874f7fe62a87ed6de2c8a9af1b81e1fade02163acb13a582e33c6f84"
+    },
+    {
+      "id": "cloudy",
+      "itemId": "cloudy",
+      "kind": "emoji",
+      "visual": "☁️",
+      "provider": "Native Unicode + original CSS",
+      "sourceUrl": null,
+      "license": null,
+      "assetPath": null,
+      "sha256": null,
+      "styleVersion": "emoji-css-v1",
+      "status": "retained-reference",
+      "reason": "",
+      "attribution": "Device-rendered Unicode; no font files redistributed. Original CSS layout.",
+      "sparkOne": "🌥️",
+      "sparkTwo": "🌫️",
+      "identity": "398d2036c64c69d1521da26e7abce2fc881a8eb763079ee019e7fa2d68e4962f"
+    },
+    {
+      "id": "rainy",
+      "itemId": "rainy",
+      "kind": "emoji",
+      "visual": "🌧️",
+      "provider": "Native Unicode + original CSS",
+      "sourceUrl": null,
+      "license": null,
+      "assetPath": null,
+      "sha256": null,
+      "styleVersion": "emoji-css-v1",
+      "status": "retained-reference",
+      "reason": "",
+      "attribution": "Device-rendered Unicode; no font files redistributed. Original CSS layout.",
+      "sparkOne": "💧",
+      "sparkTwo": "☔",
+      "identity": "49a1d0b5de8340786518a9d182f4160b4062b45841ebda6174211e8550add8bc"
+    },
+    {
+      "id": "umbrella",
+      "itemId": "umbrella",
+      "kind": "emoji",
+      "visual": "☔",
+      "provider": "Native Unicode + original CSS",
+      "sourceUrl": null,
+      "license": null,
+      "assetPath": null,
+      "sha256": null,
+      "styleVersion": "emoji-css-v1",
+      "status": "retained-reference",
+      "reason": "",
+      "attribution": "Device-rendered Unicode; no font files redistributed. Original CSS layout.",
+      "sparkOne": "🌧️",
+      "sparkTwo": "💧",
+      "identity": "777d315c575813200587bf9c1f37291b7a8973f1686dd4b7e268d84b316a35f4"
+    },
+    {
+      "id": "wet",
+      "itemId": "wet",
+      "kind": "emoji",
+      "visual": "💦",
+      "provider": "Native Unicode + original CSS",
+      "sourceUrl": null,
+      "license": null,
+      "assetPath": null,
+      "sha256": null,
+      "styleVersion": "emoji-css-v1",
+      "status": "retained-reference",
+      "reason": "",
+      "attribution": "Device-rendered Unicode; no font files redistributed. Original CSS layout.",
+      "sparkOne": "🌧️",
+      "sparkTwo": "💧",
+      "identity": "bbee5eda1fc235291f0409ddbadafa84743213358dac13f8da2d4f1fa3fa71cd"
+    },
+    {
+      "id": "dark",
+      "itemId": "dark",
+      "kind": "emoji",
+      "visual": "🌑",
+      "provider": "Native Unicode + original CSS",
+      "sourceUrl": null,
+      "license": null,
+      "assetPath": null,
+      "sha256": null,
+      "styleVersion": "emoji-css-v1",
+      "status": "retained-reference",
+      "reason": "",
+      "attribution": "Device-rendered Unicode; no font files redistributed. Original CSS layout.",
+      "sparkOne": "☁️",
+      "sparkTwo": "💡",
+      "identity": "579030ce435f54da33c8ab319536bc96a3f7e2aa403274a9d20578fc1ee5fc3a"
+    },
+    {
+      "id": "boat",
+      "itemId": "boat",
+      "kind": "emoji",
+      "visual": "⛵",
+      "provider": "Native Unicode + original CSS",
+      "sourceUrl": null,
+      "license": null,
+      "assetPath": null,
+      "sha256": null,
+      "styleVersion": "emoji-css-v1",
+      "status": "retained-reference",
+      "reason": "",
+      "attribution": "Device-rendered Unicode; no font files redistributed. Original CSS layout.",
+      "sparkOne": "🌊",
+      "sparkTwo": "💨",
+      "identity": "ea0d03ddebb267f7dde76d5d4fbe428e792dc9f1d89d495327b2008d0afdb909"
+    }
+  ]
+}
