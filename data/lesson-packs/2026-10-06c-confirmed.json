@@ -1,0 +1,43 @@
+{
+  "schemaVersion": 1,
+  "id": "pk1-parent-confirmations-2026-10-06",
+  "contentVersion": "2026.10.06.3",
+  "resolutions": [{"itemId":"earth-sense-pending","decision":"Earth means soil/ground in Unit 3 Lessons 7 and 9, not the planet.","authority":"Explicit parent confirmations in chat, 2026-10-06; supersedes the earlier combined Turning green Bloom decision."}],
+  "replacements": [{"id":"earth-sense-pending","word":"Earth","meaning":"đất / mặt đất","clue":"What do we call the soil or ground where plants grow?","wrong":["Water","Air","Ice"],"hint":"Think of the ground in a garden.","explanation":"Earth here means soil or ground, not the planet. Earth = đất / mặt đất.","visual":"","kind":"missing"}],
+  "words": [
+    ["turning-green","Turning green","chuyển sang màu xanh","New leaves grow and a plant becomes green. What is happening?",["Falling down","Drying out","Freezing over"],"Think of the new green leaves on a growing plant.","🌿","weather"],
+    ["bloom","Bloom","nở hoa","Flowers open on a plant. What do they do?",["Fall","Freeze","Dry"],"Think of a flower opening its petals.","🌸","weather"]
+  ],
+  "lessons": [],
+  "corrections": {
+    "schemaVersion": 1,
+    "authority": "Explicit parent confirmations in chat, 2026-10-06; supersedes the earlier combined Turning green Bloom decision.",
+    "operations": [
+      {"code":"M01","type":"lesson","lessonId":"pk1-2603-t1-l5","fields":{"theme":"2 - Ant Disaster","topicId":"numbers","name":"PK1_2 - Ant Disaster_5","song":"Number Song","reading":"Parent-led reading: Ant Disaster. Story discussion is not scored.","sourceNotes":"Parent confirmed Unit 2 - Ant Disaster, Lesson 5 and Number Song for 04/07/2026. The historical lesson ID and original printed metadata are retained."},"expect":{"date":"2026-07-04","theme":"1 - ABC Workshop"},"resolveMetadataIssue":true},
+      {"code":"M01","type":"lesson","lessonId":"pk1-2603-t1-l5-20260523","fields":{"sourceNotes":"Letters M-P is Unit 1, Lesson 5 on 23/05/2026. The formerly conflicting July sheet is now correctly classified as Unit 2. Both historical lesson IDs are retained."},"expect":{"date":"2026-05-23"},"resolveMetadataIssue":true},
+      {"code":"C03","type":"set-targets","lessonId":"pk1-2603-t3-l5","role":"key","itemIds":["magic","glasses","map","magic-beans","umbrella","pen"]},
+      {"code":"C03","type":"lesson","lessonId":"pk1-2603-t3-l5","fields":{"sourceNotes":"Parent confirmed Pen is the last Key Word. The six listed key words are complete."}},
+      {"code":"C05","type":"set-targets","lessonId":"pk1-2603-t3-l8","role":"key","itemIds":["giraffe","bear","rabbit","bean","peach","penguin","tree"]},
+      {"code":"C05","type":"lesson","lessonId":"pk1-2603-t3-l8","fields":{"sourceNotes":"Parent completed the clipped Key Words with Penguin and Tree. Tree is the confirmed target, not Tree trunk."}},
+      {"code":"C04","type":"lesson","lessonId":"pk1-2603-t3-l7","fields":{"sourceNotes":"Parent confirmed Earth means soil/ground in this lesson, not the planet. The source vocabulary is complete."}},
+      {"code":"C06","type":"lesson","lessonId":"pk1-2603-t3-l9","fields":{"sourceNotes":"Parent confirmed Earth means soil/ground in this lesson, not the planet. The source vocabulary is complete."}},
+      {"code":"C01","type":"review-union","lessonId":"pk1-2603-t1-l11","role":"key","from":1,"to":10,"keepExplicit":true},
+      {"code":"C01","type":"lesson","lessonId":"pk1-2603-t1-l11","fields":{"sourceNotes":"Parent confirmed review of every Key Word from Unit 1 Lessons 1-10. Repeated items are included once within this lesson; the explicitly printed Bird is also retained. Both uppercase and lowercase A-Z remain core targets."}},
+      {"code":"C02","type":"review-union","lessonId":"pk1-2603-t1-l12","role":"key","from":1,"to":10,"keepExplicit":true},
+      {"code":"C02","type":"lesson","lessonId":"pk1-2603-t1-l12","fields":{"sourceNotes":"Parent confirmed review of every Key Word from Unit 1 Lessons 1-10. Repeated items are included once within this lesson; the explicitly printed Bird is also retained. Both uppercase and lowercase A-Z remain core targets."}},
+      {"code":"C07","type":"review-union","lessonId":"pk1-2603-t3-l10","role":"core","from":1,"to":9,"keepExplicit":true},
+      {"code":"C07","type":"lesson","lessonId":"pk1-2603-t3-l10","fields":{"sourceNotes":"Parent confirmed review of all Core Words from Unit 3 Lessons 1-9. All eleven colour targets are included; existing Key Words remain unchanged."}},
+      {"code":"C08","type":"review-union","lessonId":"pk1-2603-t3-l11","role":"core","from":1,"to":9,"keepExplicit":true},
+      {"code":"C08","type":"lesson","lessonId":"pk1-2603-t3-l11","fields":{"sourceNotes":"Parent confirmed review of all Core Words from Unit 3 Lessons 1-9. All eleven colour targets are included; existing Key Words remain unchanged."}},
+      {"code":"C09","type":"review-union","lessonId":"pk1-2603-t3-l12","role":"core","from":1,"to":9,"keepExplicit":true},
+      {"code":"C09","type":"lesson","lessonId":"pk1-2603-t3-l12","fields":{"sourceNotes":"Parent confirmed review of all Core Words from Unit 3 Lessons 1-9. All eleven colour targets are included; existing Key Words remain unchanged."}},
+      {"code":"M02","type":"copy-speaking","lessonId":"pk1-2603-t3-l6","fromLessonId":"pk1-2603-t3-l5"},
+      {"code":"M02","type":"lesson","lessonId":"pk1-2603-t3-l6","fields":{"sourceNotes":"Parent confirmed the Key Questions and Key Sentences should be copied exactly from Unit 3 Lesson 5. The original letter-based appendix is retained in originalSource only; speaking remains unscored."},"resolveMetadataIssue":true},
+      {"code":"M03","type":"lesson","lessonId":"pk1-2603-t4-l5","fields":{"sourceQuestions":["What is the weather like?","What season is it?","What season do you like?","How do you feel on cloudy/rainy days?"],"sourceAnswers":["It is cloudy/rainy...","It is spring / summer / autumn / winter .","I like spring / summer / autumn / winter .","I feel hot/warm/cool/cold on cloudy/rainy days."],"sourceNotes":"Parent confirmed cloudy/rainy in the speaking patterns. The original seven quiz questions, choices, hints and explanations are unchanged."}},
+      {"code":"V01","type":"split-item","itemId":"turning-green-bloom-pending","into":["turning-green","bloom"]},
+      {"code":"V01","type":"lesson","lessonId":"pk1-2603-t4-l2","fields":{"sourceNotes":"Latest parent instruction splits Turning green and Bloom into two distinct targets. The former combined item is archived; saved sessions retain their original question snapshots."}},
+      {"code":"V02","type":"lesson","lessonId":"pk1-2603-t4-l3","fields":{"sourceNotes":"Parent confirmed Light rain and Heavy rain as the weather meanings. Their historical item IDs remain unchanged."}},
+      {"code":"RESOLVED","type":"archive-items","itemIds":["source-20260613-key-ellipsis","source-20260614-key-ellipsis","source-20260815-key-tail","source-20260823-key-edges","source-20260905-core-edges","source-20260906-core-edges","source-20260912-core-edges","turning-green-bloom-pending"],"reason":"Parent clarified all affected target lists or explicitly replaced the combined phrase. Retained for provenance, excluded from new sessions."}
+    ]
+  }
+}

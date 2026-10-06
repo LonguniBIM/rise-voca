@@ -16,19 +16,19 @@ Settings retain `speechLang`, `voiceURI`, `voiceName`, `voiceLang`, `speed`, and
 
 Automatic and manual listening requests are labelled in Session details. A request does not prove that sound played or that the child heard it. Test voice, settings and picture previews never create learning evidence. No speech recognition or pronunciation score is used. Real Safari/iPadOS/Android voices and audible offline playback still need physical-device checks.
 
-## Content release 2026.10.06.2
+## Parent confirmations: content 2026.10.06.3
 
-The 43-image source archive was checked against the existing library: **25 existing lessons were skipped and 18 new lessons added**. The library now has **43 lessons in 22 Monday-Sunday packs and four themes**, with **231 ready questions**, one unresolved vocabulary sense and seven source-gap bookkeeping records. Source gaps are not learning words. Thirty-four lessons are complete; nine offer partial review while source details are clarified. Every full lesson's coverage is tested.
+The latest parent-confirmed corrections keep the same 43 lessons and 22 weekly packs. They resolve the nine partial lessons, correct July 4 to Unit 2 - Ant Disaster / Lesson 5 / Number Song, and update the requested speaking patterns. The release gate requires 233 active ready items and all 43 lessons ready; use CI and the deployed build marker as publication evidence.
 
-See `docs/ZIP43_IMPORT.md` and `data/import-audits/2026-10-06-zip43.json` for the full add/skip ledger, source hashes, unchanged old lessons and the date-qualified ID used for the new 23/05 Letters M-P sheet. Existing source issues were not rewritten by this add-only import.
+Unit 1 Lessons 11 and 12 review all Key Words from Lessons 1-10, with the explicitly printed Bird retained. Unit 3 Lessons 10-12 review all Core Words from Lessons 1-9. Per-lesson repeated-word coverage is preserved. Earth means soil/ground; Penguin and Tree complete Unit 3 Lesson 8, and Pen ends Lesson 5.
 
-The parent confirmed **Turning green Bloom** as one phrase and **Light rain / Heavy rain** as weather terms. Their stable existing IDs are retained, and all seven Weather Report lessons are complete. Lessons include explicit upper/lower letter forms, numbers 1-20 and colour recognition, without normalizing away case or singular/plural source forms.
+**Turning green** and **Bloom** are now separate targets, superseding the earlier combined decision. The old combined item and resolved source-gap records are archived for provenance, never converted into learning credit for the new targets. **Light rain / Heavy rain** remain unchanged. Historical session snapshots and IDs are retained; an older solved session does not complete an expanded target list.
 
-See `docs/CONTENT_MAINTENANCE.md` for the source-pack contract and earlier unresolved rows. Source filename/hash, printed theme and reading title are retained. Original scans and full copyrighted story text are not redistributed. New clues are explicitly app-authored; the speaking appendix is reference-only and is not speech assessment.
+See `docs/PARENT_CONFIRMATIONS.md` for the exact decisions and preservation contract. `docs/ZIP43_IMPORT.md` and `data/import-audits/2026-10-06-zip43.json` describe the earlier add-only import, not current unresolved issues. Printed source metadata remains available separately from parent-corrected effective metadata. Original scans and full stories are not redistributed.
 
 ## Illustrations
 
-Seven reference emoji mappings remain unchanged. There are 116 candidate mappings requiring parent review, including 19 added by the 43-sheet import. Eighty-three letter, numeral and solid-colour cards are intrinsic stimuli, not sourced artwork. No external illustration files or font files are bundled. Missing pictures stay explicit; context clues remain answerable without one.
+Seven reference emoji mappings remain unchanged. Turning green and Bloom have new candidate cues requiring parent review; the combined cue is archived. Earth is described as soil/ground without substituting a globe. Eighty-three letter, numeral and solid-colour cards are intrinsic stimuli, not sourced artwork. No external illustration files or font files are bundled. Missing pictures stay explicit; context clues remain answerable without one.
 
 Use **Parent & Settings > Review emoji & CSS illustrations** to inspect and approve/reject each candidate. Approval is local and keyed to exact item/recipe identity. Emoji artwork varies by device. An approved generic plant is never silently substituted for a specific species.
 

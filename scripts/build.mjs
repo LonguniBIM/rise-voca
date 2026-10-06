@@ -9,7 +9,7 @@ import {APP_VERSION,canonical,validateLibrary,lessonReadiness} from '../src/core
 const root=path.dirname(path.dirname(fileURLToPath(import.meta.url))),out=path.join(root,'dist');
 const read=p=>fs.readFileSync(path.join(root,p)),json=p=>JSON.parse(read(p)),hash=x=>crypto.createHash('sha256').update(x).digest('hex');
 const {library:lib,registry}=loadCatalog(root);validateLibrary(lib);
-const sourceFiles=['index.html','src/app.js','src/core.js','src/store.js','src/speech.js','src/styles.css','public/sw.js','data/library.json','data/illustrations.json','scripts/build.mjs','scripts/catalog.mjs','src/auto-read.js','src/lesson-stimuli.css',...catalogFiles(root)];
+const sourceFiles=['index.html','src/app.js','src/core.js','src/store.js','src/speech.js','src/styles.css','public/sw.js','data/library.json','data/illustrations.json','scripts/build.mjs','scripts/catalog.mjs','src/auto-read.js','src/lesson-stimuli.css','scripts/catalog-corrections.mjs','src/lesson-coverage.js',...catalogFiles(root)];
 const version=APP_VERSION+'-'+hash(sourceFiles.map(f=>f+'\0'+hash(read(f))).join('\n')).slice(0,12);
 lib.fingerprint=hash(canonical(lib));
 for(const r of registry.records)r.identity=hash(canonical({itemId:r.itemId,kind:r.kind,visual:r.visual,sparkOne:r.sparkOne||'',sparkTwo:r.sparkTwo||'',styleVersion:r.styleVersion}));

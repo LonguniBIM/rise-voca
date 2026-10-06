@@ -1,5 +1,11 @@
 # Maintain daily lessons and weekly packs
 
+## Latest parent-confirmed corrections
+
+For content 2026.10.06.3, follow `PARENT_CONFIRMATIONS.md` and the ordered correction pack. Turning green and Bloom are separate targets; Earth means soil/ground; all nine previously partial lessons have explicit parent resolutions; July 4 is Unit 2 Ant Disaster Lesson 5 / Number Song. Preserve original printed metadata and old history separately.
+
+The source questions and counts below describe earlier releases and are retained as historical context, not outstanding parent requests. Validate and check the deployed build before treating the newer content as published.
+
 ## Canonical inputs and generated outputs
 
 Keep `data/library.json` and `data/illustrations.json` as the original base catalogs. Add versioned authoring packs in `data/lesson-packs/`, ordered by filename. `scripts/catalog.mjs` composes all inputs; `scripts/build.mjs` produces the complete runtime catalogs in `dist/data/`, Monday-Sunday week packs and fingerprints. The app's Export library JSON always exports the complete composed library, not just the base file. Generated dist files are rebuilt in CI, not committed or edited separately.

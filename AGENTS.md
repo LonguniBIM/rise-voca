@@ -5,7 +5,8 @@
 - Use Unicode emoji and original CSS first. Never attach inaccurate images to claim coverage. Do not redistribute font files or source scans.
 - Every full lesson includes every core/key target assigned to that lesson, including repeats from other days. Shared items never imply shared lesson completion.
 - Names follow Class_Theme_Lesson, for example PK1_4 - Weather Report_6. Preserve source class PK1_2603 and stable IDs separately.
-- The parent confirmed Turning green Bloom as one phrase, and Light rain / Heavy rain. Retain their existing IDs. Do not guess other cropped/ambiguous source rows; see docs/CONTENT_MAINTENANCE.md.
+- The latest parent confirmation splits Turning green and Bloom into distinct items; the earlier combined decision is superseded. Earth means soil/ground, and Light rain / Heavy rain remain unchanged. Apply the versioned confirmations in docs/PARENT_CONFIRMATIONS.md; preserve old IDs and snapshots.
+- Review lessons use explicit source-lesson unions, not guessed vocabulary. July 4 is Unit 2 Ant Disaster Lesson 5 / Number Song, while its historical ID remains stable. Never let an older, smaller solved session complete an expanded lesson.
 - Canonical inputs are the base data/library.json and data/illustrations.json plus versioned data/lesson-packs/*.json. Build composed runtime catalogs and weekly packs deterministically; do not hand-edit or commit dist/.
 - Keep all learner history local. Never publish private backups, learner names, device review exports or credentials.
 - Voice settings use actual device voices, preserve unavailable preferences and handle delayed loading. Automatically read each clue defaults on, requests once per question, and never repeats on re-render. Test voice never creates learning evidence.

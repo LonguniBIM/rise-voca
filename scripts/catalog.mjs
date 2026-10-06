@@ -2,6 +2,7 @@
 import fs from 'node:fs';
 import path from 'node:path';
 import {validateLibrary} from '../src/core.js';
+import {applyCatalogCorrections} from './catalog-corrections.mjs';
 const AUTH = 'App-authored learning cue; the source supplies targets, not this question.';
 export function catalogFiles(root) {
   const dir = path.join(root, 'data/lesson-packs');
@@ -20,7 +21,7 @@ function visual(id,value='',kind='emoji',status=null,reason='') {
     reason:reason||(value?'':'No exact approved emoji/CSS illustration; use the authored verbal clue.'),
     attribution:'Device-rendered Unicode; no font files redistributed. Original CSS layout.'};
 }
-export function loadCatalog(root) {
+export function loadCatalog(root, {throughFile = null} = {}) {
   const read = file => JSON.parse(fs.readFileSync(path.join(root,file),'utf8'));
   const library=read('data/library.json'),registry=read('data/illustrations.json');
   const items=new Map(library.items.map(i=>[i.id,i]));
@@ -29,7 +30,9 @@ export function loadCatalog(root) {
     const item={id,word,meaning,originalText:word,status:'ready',reason:'',sourceRefs:[],question:cue(id,word,meaning,clue,wrong,hint,topic,mode)};
     library.items.push(item);items.set(id,item);registry.records.push(visual(id,value,kind,status));return item;
   };
-  for(const file of catalogFiles(root)) {
+  const selectedFiles = catalogFiles(root).filter(file => !throughFile || file <= throughFile);
+  if (throughFile && !selectedFiles.includes(throughFile)) throw new Error('Historical catalog boundary not found: ' + throughFile);
+  for(const file of selectedFiles) {
     const pack=read(file);
     if(pack.schemaVersion!==1 || !pack.contentVersion || !Array.isArray(pack.lessons))throw new Error('Unsupported lesson pack: '+file);
     for(const topic of pack.topics||[]){if(library.topics.some(t=>t.id===topic.id))throw new Error('Duplicate topic: '+topic.id);library.topics.push(topic);}
@@ -72,6 +75,11 @@ export function loadCatalog(root) {
       library.lessons.push(lesson);library.sources.push({id:sourceId,type:'parent-supplied lesson image',date:lesson.date,class:lesson.classId,title:lesson.title,...source,pack:file,distribution:'Vocabulary transcription only. Original scans are not published.'});
       for(const {itemId}of targets){const item=items.get(itemId);if(!item)throw new Error('Unknown target '+itemId);if(!item.sourceRefs.includes(sourceId))item.sourceRefs.push(sourceId);}
       if(metadataIssue)library.ambiguities.push({lessonId:lesson.id,text:lesson.date+' theme header',reason:metadataIssue});
+    }
+    if (pack.corrections) {
+      const next = applyCatalogCorrections({library, registry}, pack.corrections, {file, version: pack.contentVersion});
+      Object.assign(library, next.library); Object.assign(registry, next.registry);
+      items.clear(); for (const item of library.items) items.set(item.id, item);
     }
     library.contentVersion=pack.contentVersion;registry.version=pack.contentVersion;
   }
