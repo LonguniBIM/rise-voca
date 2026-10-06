@@ -16,7 +16,15 @@ test('snapshot survives JSON pause resume without reshuffling',()=>{const s=make
 test('round boundaries are durable and do not expose next question early',()=>{const s=make();for(let i=0;i<4;i++){D.submitAnswer(s,right(s));D.advance(s);}assert.equal(s.phase,'break');assert.equal(s.index,4);assert.equal(s.questions[4].seenAt,null);assert(D.validateSession(s));assert.equal(D.submitAnswer(s,right(s)),false);D.continueRound(s);assert(s.questions[4].seenAt);assert(D.validateSession(s));});
 test('skip remains skipped and completion never scores it',()=>{const s=make();while(s.status==='in-progress'){if(s.phase==='break')D.continueRound(s);else D.skipQuestion(s);}assert.equal(D.metrics(s).skipped,7);assert.equal(D.metrics(s).solved,0);assert.equal(s.status,'completed');assert(D.validateSession(s));assert.equal(D.advance(s),false);});
 test('early finish preserves unseen status and denominators',()=>{const s=make();D.submitAnswer(s,right(s));D.endEarly(s);const m=D.metrics(s);assert.equal(m.seen,1);assert.equal(m.unseen,6);assert.equal(m.attempted,1);assert.equal(m.planned,7);assert(D.validateSession(s));});
-test('latest practice rule does not infer mastery',()=>{const s=make();D.submitAnswer(s,wrong(s));D.submitAnswer(s,right(s));assert(D.practiceItemIds([s]).has('cloudy'));const t=make();t.questions[0].seenAt='2026-10-06T10:00:00.000Z';D.submitAnswer(t,right(t),'next','2026-10-06T10:01:00.000Z');assert(!D.practiceItemIds([s,t]).has('cloudy'));});
+test('latest practice rule does not infer mastery',()=>{
+ // Both histories use explicit event times; wall-clock time must not reorder this fixture.
+ const s=make();D.submitAnswer(s,wrong(s),'first-wrong','2026-10-05T10:00:01.000Z');D.submitAnswer(s,right(s),'first-correct','2026-10-05T10:00:02.000Z');
+ assert(D.practiceItemIds([s]).has('cloudy'));
+ const t=D.createSession(lib,[lesson],'lesson','all',null,()=>0.4,'2026-10-06T10:00:00.000Z');
+ D.submitAnswer(t,right(t),'next','2026-10-06T10:01:00.000Z');
+ assert(!D.practiceItemIds([s,t]).has('cloudy'));assert(!D.practiceItemIds([t,s]).has('cloudy'));
+ assert(D.validateSession(s));assert(D.validateSession(t));
+});
 test('full backup preserves unfinished state and repeated imports are idempotent',()=>{const s=make();D.addSupport(s,'hint');D.submitAnswer(s,wrong(s));D.pause(s);const b=D.validateBackup(JSON.stringify(D.makeBackup([s],lib)));assert.deepEqual(b.sessions,[s]);assert.equal(D.mergePlan([s],b.sessions).identical,1);assert.equal(D.mergePlan([],b.sessions).additions.length,1);});
 test('same-ID different content is a conflict, not a duplicate',()=>{const s=make(),changed=D.clone(s);changed.activeMs++;assert.throws(()=>D.mergePlan([s],[changed]),/Conflicting/);});
 test('reject malformed evidence, invalid schema, prototype keys and oversize backup',()=>{const s=make();D.submitAnswer(s,right(s));const bad=D.clone(s);bad.questions[0].firstCorrect.attempts=99;assert.throws(()=>D.validateSession(bad),/evidence/);const b=D.makeBackup([s],lib);assert.throws(()=>D.validateBackup(JSON.stringify({...b,schemaVersion:2})));assert.throws(()=>D.validateBackup('{"__proto__":{}}'));assert.throws(()=>D.validateBackup(' '.repeat(8*1024*1024+1)));});
