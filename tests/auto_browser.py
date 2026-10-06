@@ -23,7 +23,7 @@ def run(report):
    def play(name):page.locator('.lesson').filter(has=page.get_by_text(name,exact=True)).get_by_role('button',name="Let's learn",exact=True).click();settle()
    def session():return next(s for s in state()['sessions'] if s['lessonNames']==['PK1_4 - Weather Report_5'])
    try:
-    page.goto(url);expect(page.locator('.lesson')).to_have_count(25)
+    page.goto(url);expect(page.locator('.lesson')).to_have_count(len(json.loads((ROOT/'dist/data/library.json').read_text())['lessons']))
     nav('Parent & Settings');expect(page.locator('#auto-read-clue')).to_be_checked();page.evaluate('(v)=>__setVoices(v)',VOICES)
     page.locator('#test-voice').click();settle();assert state()['sessions']==[];ok('default checked and Test voice never creates a learning session')
     nav('My lessons');page.evaluate('window.__speech=[]');play('PK1_4 - Weather Report_5')

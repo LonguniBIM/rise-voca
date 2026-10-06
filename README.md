@@ -16,17 +16,19 @@ Settings retain `speechLang`, `voiceURI`, `voiceName`, `voiceLang`, `speed`, and
 
 Automatic and manual listening requests are labelled in Session details. A request does not prove that sound played or that the child heard it. Test voice, settings and picture previews never create learning evidence. No speech recognition or pronunciation score is used. Real Safari/iPadOS/Android voices and audible offline playback still need physical-device checks.
 
-## Content release 2026.10.06.1
+## Content release 2026.10.06.2
 
-The eight original lessons remain, with seventeen new source lessons: **25 lessons in 19 Monday-Sunday packs and four themes**. There are **191 ready questions**, one unresolved vocabulary sense and three source-gap bookkeeping records; the latter are not learning words. Twenty-one lessons are complete; four offer partial review while source details are clarified. Every full lesson's coverage is tested.
+The 43-image source archive was checked against the existing library: **25 existing lessons were skipped and 18 new lessons added**. The library now has **43 lessons in 22 Monday-Sunday packs and four themes**, with **231 ready questions**, one unresolved vocabulary sense and seven source-gap bookkeeping records. Source gaps are not learning words. Thirty-four lessons are complete; nine offer partial review while source details are clarified. Every full lesson's coverage is tested.
 
-The parent confirmed **Turning green Bloom** as one phrase and **Light rain / Heavy rain** as weather terms. Their stable existing IDs are retained, and all seven Weather Report lessons are now complete. New lessons add explicit upper/lower letter forms, numbers 1-20 and colour recognition, without normalizing away case or singular/plural source forms.
+See `docs/ZIP43_IMPORT.md` and `data/import-audits/2026-10-06-zip43.json` for the full add/skip ledger, source hashes, unchanged old lessons and the date-qualified ID used for the new 23/05 Letters M-P sheet. Existing source issues were not rewritten by this add-only import.
 
-See `docs/CONTENT_MAINTENANCE.md` for the source-pack contract and the unresolved rows. Source filename/hash, printed theme and reading title are retained. Original scans and full copyrighted story text are not redistributed. New clues are explicitly app-authored; the speaking appendix is reference-only and is not speech assessment.
+The parent confirmed **Turning green Bloom** as one phrase and **Light rain / Heavy rain** as weather terms. Their stable existing IDs are retained, and all seven Weather Report lessons are complete. Lessons include explicit upper/lower letter forms, numbers 1-20 and colour recognition, without normalizing away case or singular/plural source forms.
+
+See `docs/CONTENT_MAINTENANCE.md` for the source-pack contract and earlier unresolved rows. Source filename/hash, printed theme and reading title are retained. Original scans and full copyrighted story text are not redistributed. New clues are explicitly app-authored; the speaking appendix is reference-only and is not speech assessment.
 
 ## Illustrations
 
-Seven reference emoji mappings remain unchanged. Ninety-seven candidate mappings require parent review, including forty previously present and fifty-seven new/resolved cues. Sixty-seven letter, numeral and solid-colour cards are intrinsic stimuli, not sourced artwork. No external illustration files or font files are bundled. Missing pictures stay explicit; context clues remain answerable without one.
+Seven reference emoji mappings remain unchanged. There are 116 candidate mappings requiring parent review, including 19 added by the 43-sheet import. Eighty-three letter, numeral and solid-colour cards are intrinsic stimuli, not sourced artwork. No external illustration files or font files are bundled. Missing pictures stay explicit; context clues remain answerable without one.
 
 Use **Parent & Settings > Review emoji & CSS illustrations** to inspect and approve/reject each candidate. Approval is local and keyed to exact item/recipe identity. Emoji artwork varies by device. An approved generic plant is never silently substituted for a specific species.
 

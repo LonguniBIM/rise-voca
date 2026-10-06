@@ -17,6 +17,7 @@ VOICES=[{'name':'Fixture UK','lang':'en-GB','voiceURI':'fixture:gb','localServic
 READ="""async () => {const db=await new Promise((res,rej)=>{const r=indexedDB.open('rise-voca-v1',1);r.onsuccess=()=>res(r.result);r.onerror=()=>rej(r.error);});const tx=db.transaction(['sessions','meta']);const get=name=>new Promise((res,rej)=>{const r=tx.objectStore(name).getAll();r.onsuccess=()=>res(r.result);r.onerror=()=>rej(r.error);});const [sessions,meta]=await Promise.all([get('sessions'),get('meta')]);db.close();return {sessions,meta};}"""
 def run(report):
  checks=[];errors=[];network=[];failure_requests=[]
+ coverage=json.loads((ROOT/'dist/data/coverage.json').read_text())
  class Handler(http.server.SimpleHTTPRequestHandler):
   corrupt=False
   def log_message(self,*args): pass
@@ -46,7 +47,7 @@ def run(report):
    if executable:launch['executable_path']=executable
    profile=temp/'profile';ctx=p.chromium.launch_persistent_context(str(profile),viewport={'width':1024,'height':900},**launch);attach(ctx);page=ctx.pages[0];page.on('pageerror',lambda e:errors.append(str(e)));page.add_init_script(MOCK)
    try:
-    open_home(page);expect(page.locator('.lesson')).to_have_count(25);expect(page.get_by_role('button',name='Full lesson pending',exact=True)).to_have_count(4);ok('daily lesson catalog and explicit ambiguity gates')
+    open_home(page);expect(page.locator('.lesson')).to_have_count(coverage['lessons']);expect(page.get_by_role('button',name='Full lesson pending',exact=True)).to_have_count(coverage['lessons']-coverage['fullLessons']);ok('daily lesson catalog and explicit ambiguity gates')
     nav(page,'Parent & Settings');expect(page.locator('#auto-read-clue')).to_be_checked();page.locator('#auto-read-clue').uncheck();wait_saved(page);expect(page.locator('#device-voice option')).to_have_count(1);page.evaluate('(v)=>__setVoices(v)',VOICES);expect(page.locator('#device-voice option')).to_have_count(3);ok('dynamic delayed voice population')
     page.locator('#accent').select_option('en-GB');wait_saved(page);page.locator('#device-voice').select_option(label='Fixture US - en-US - on-device');wait_saved(page);page.locator('#settings-speed').select_option('0.75');wait_saved(page)
     before=state(page)['sessions'];page.locator('#test-voice').click();page.locator('#test-voice').click();assert state(page)['sessions']==before==[];assert page.evaluate('__speech.at(-1).rate')==0.75;ok('Test voice creates no sessions, attempts, listens or first-correct evidence')
