@@ -16,9 +16,15 @@ Settings retain `speechLang`, `voiceURI`, `voiceName`, `voiceLang`, `speed`, and
 
 Automatic and manual listening requests are labelled in Session details. A request does not prove that sound played or that the child heard it. Test voice, settings and picture previews never create learning evidence. No speech recognition or pronunciation score is used. Real Safari/iPadOS/Android voices and audible offline playback still need physical-device checks.
 
-## Parent confirmations: content 2026.10.06.3
+## Latest weekly content: 2026.10.14.1
 
-The latest parent-confirmed corrections keep the same 43 lessons and 22 weekly packs. They resolve the nine partial lessons, correct July 4 to Unit 2 - Ant Disaster / Lesson 5 / Number Song, and update the requested speaking patterns. The release gate requires 233 active ready items and all 43 lessons ready; use CI and the deployed build marker as publication evidence.
+Two new Weather Report lessons cover 10 and 11 October in the week of **05/10/2026-11/10/2026**: Lesson 8 (Snowy Day, seven targets) and Lesson 9 (mixed weather and Snowy Day, fourteen targets). The library has **45 full lessons, 23 weekly packs, four themes and 239 active ready items**. Six new vocabulary items are Snowy, Melt, Snowflake, Snowman, Ski and Snowball; all other required words reuse existing records without sharing lesson completion.
+
+See `docs/SNOWY_WEEK.md` for the source inventory, add-only checks and illustration status. The new sheets' sunny/windy speaking patterns are preserved as unscored reference with visible source notes; they are not silently corrected from another lesson. Five new emoji cues need parent review, and Snowball remains an answerable verbal clue without an exact attached picture. Existing source corrections, history, voice settings and newest-first weeks are unchanged. Check CI and the deployed build marker for release evidence.
+
+## Earlier parent confirmations: content 2026.10.06.3
+
+The parent-confirmed corrections at this release kept the same 43 lessons and 22 weekly packs. They resolved the nine partial lessons, corrected July 4 to Unit 2 - Ant Disaster / Lesson 5 / Number Song, and updated the requested speaking patterns. Its historical release gate requires 233 active ready items and all 43 lessons ready; the newer weekly counts are listed above.
 
 Unit 1 Lessons 11 and 12 review all Key Words from Lessons 1-10, with the explicitly printed Bird retained. Unit 3 Lessons 10-12 review all Core Words from Lessons 1-9. Per-lesson repeated-word coverage is preserved. Earth means soil/ground; Penguin and Tree complete Unit 3 Lesson 8, and Pen ends Lesson 5.
 

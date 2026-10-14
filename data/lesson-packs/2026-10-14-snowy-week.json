@@ -1,0 +1,69 @@
+{
+  "schemaVersion": 1,
+  "id": "pk1-weather-snowy-week-2026-10-05",
+  "contentVersion": "2026.10.14.1",
+  "words": [
+    ["snowy", "Snowy", "trời có tuyết", "Snow is falling from the clouds. What is the weather?", ["Sunny", "Rainy", "Windy"], "Look for the weather word for falling snow, not raindrops.", "🌨️", "weather"],
+    ["melt", "Melt", "tan chảy", "Snow gets warm and turns into water. What does it do?", ["Freeze", "Grow", "Fly"], "The snow changes from solid snow into liquid water.", "🧊💧", "weather"],
+    ["snowflake", "Snowflake", "bông tuyết", "What do we call one tiny piece of snow that falls from a cloud?", ["Raindrop", "Leaf", "Feather"], "It is one little piece of falling snow.", "❄️", "weather"],
+    ["snowman", "Snowman", "người tuyết", "What do you call a figure made of snow that looks like a person?", ["Sandcastle", "Boat", "Tree"], "People can build it from big balls of snow and add a carrot nose.", "⛄", "weather"],
+    ["ski", "Ski", "trượt tuyết", "You slide down a snowy hill on two long boards attached to your boots. What do you do?", ["Swim", "Run", "Fly"], "Think of moving over snow with long boards on your feet.", "⛷️", "weather"],
+    ["snowball", "Snowball", "quả cầu tuyết", "You press snow into a small round ball. What have you made?", ["Sandcastle", "Snowman", "Icicle"], "It is a round ball made of snow.", "", "weather"]
+  ],
+  "lessons": [
+    {
+      "id": "pk1-2603-t4-l8",
+      "classId": "PK1_2603",
+      "displayClass": "PK1",
+      "topicId": "weather",
+      "theme": "4 - Weather Report",
+      "lessonNumber": 8,
+      "name": "PK1_4 - Weather Report_8",
+      "date": "2026-10-10",
+      "title": "Snowy Day",
+      "song": "Weather Song",
+      "core": ["snowy"],
+      "key": ["warm", "melt", "snowflake", "snowman", "ski", "snowball"],
+      "sourceQuestions": ["What is the weather like today?", "What season is it?", "What season do you like?", "How do you feel on sunny/ windy days?"],
+      "sourceAnswers": ["It is sunny/ windy...", "It is spring/ summer/ autumn/ winter.", "I like spring/ summer/ autumn/ winter.", "I feel hot/ warm/ cool/ cold on sunny/ windy days."],
+      "sourceNotes": "Core Words and Key Words are fully readable. The source speaking appendix still says sunny/windy although the title is Snowy Day; it is preserved as unscored reference, not silently changed to snowy. New quiz clues and Vietnamese meanings are app-authored, not quotations. Ski is used as the snow activity in the authored clue. The existing Warm item is reused but is still required in this lesson.",
+      "sourceWarnings": [{"code": "WEATHER-L8-SPEAKING", "scope": "unscored-speaking-reference", "blocksVocabulary": false, "message": "The printed questions and answer patterns use sunny/windy in a Snowy Day lesson. Retained as supplied; no parent correction for this sheet has been given."}],
+      "reading": "Parent-led home reading: Weather Report. Story discussion is not scored; the original story is not bundled.",
+      "source": {
+        "filename": "2aOboR4JjU3mW1tmjWP4VSsl1k6WNxC9iy8W3ZhY.jpg",
+        "sha256": "f44918fdb0131f6ad88d28319f8b06a9e75d1340b4d7e7d4ee6e766252eae22d",
+        "printedCoreWords": "Snowy",
+        "printedKeyWords": "Warm; Melt; Snowflake; Snowman; Ski; Snowball",
+        "readingTitle": "Weather Report",
+        "transcription": "Direct visual reading of the parent-supplied image. Printed vocabulary and speaking patterns are retained; line wrapping is normalized. Original scans are not published."
+      }
+    },
+    {
+      "id": "pk1-2603-t4-l9",
+      "classId": "PK1_2603",
+      "displayClass": "PK1",
+      "topicId": "weather",
+      "theme": "4 - Weather Report",
+      "lessonNumber": 9,
+      "name": "PK1_4 - Weather Report_9",
+      "date": "2026-10-11",
+      "title": "Exploration: Rainy Windy Day and Cloudy Windy Day - Snowy Day",
+      "song": "Weather Song",
+      "core": ["cloudy-windy-day", "rainy-windy-day", "snowy"],
+      "key": ["umbrella", "wet", "dark", "play", "boat", "warm", "melt", "snowflake", "snowman", "ski", "snowball"],
+      "sourceQuestions": ["What is the weather like today?", "What season is it?", "What season do you like?", "How do you feel on sunny/ windy days?"],
+      "sourceAnswers": ["It is sunny/windy...", "It is spring/ summer/ autumn/ winter.", "I like spring/ summer/ autumn/ winter .", "I feel hot/ warm/ cool/ cold on sunny/ windy days."],
+      "sourceNotes": "All three Core Words and eleven Key Words are required, including words already studied in Lessons 5, 7 or 8. The printed sunny/windy speaking appendix is retained as unscored reference even though it does not cover all weather types in the title; the previous correction to Lesson 5 is not applied to this new sheet. New quiz clues and Vietnamese meanings are app-authored. Ski is used as the snow activity in the authored clue.",
+      "sourceWarnings": [{"code": "WEATHER-L9-SPEAKING", "scope": "unscored-speaking-reference", "blocksVocabulary": false, "message": "The printed speaking appendix uses sunny/windy while the title includes rainy windy, cloudy windy and snowy weather. Retained as supplied, not inferred from another lesson."}],
+      "reading": "Parent-led home reading: Weather Report. Revisit earlier story pages to review weather and seasons. This reference is not a scored speaking assessment.",
+      "source": {
+        "filename": "2aOboR4JjU7fLN7JZ4vz4pnDJZkTdV2hFoL9oW4e.jpg",
+        "sha256": "8c24b954f7f4c84683b4d518dc0488cc92f7cd5bd0b671594e533ce32cd5ef7c",
+        "printedCoreWords": "Cloudy windy day; Rainy windy day | Snowy",
+        "printedKeyWords": "Umbrella; Wet; Dark; Play; Boat | Warm; Melt; Snowflake; Snowman; Ski; Snowball",
+        "readingTitle": "Weather Report",
+        "transcription": "Direct visual reading of the parent-supplied image. Read vocabulary columns left to right, top to bottom. Preserve source speaking patterns; normalize line wrapping only. Original scans are not published."
+      }
+    }
+  ]
+}
