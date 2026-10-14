@@ -7,7 +7,9 @@ import * as D from '../src/core.js';
 const root=fileURLToPath(new URL('../',import.meta.url));
 const boundary='data/lesson-packs/2026-10-06b-zip43.json';
 const {library:before,registry:oldArt}=loadCatalog(root,{throughFile:boundary});
-const {library:lib,registry}=loadCatalog(root);
+// Keep this historical correction contract at its own release boundary.
+// The Snowy week and the current composed catalog are checked in snowy-week.test.mjs.
+const {library:lib,registry}=loadCatalog(root,{throughFile:'data/lesson-packs/2026-10-06c-confirmed.json'});
 const lesson=id=>lib.lessons.find(l=>l.id===id);
 const ids=(l,role)=>l.targets.filter(t=>!role||t.role===role).map(t=>t.itemId);
 const item=id=>lib.items.find(i=>i.id===id);
