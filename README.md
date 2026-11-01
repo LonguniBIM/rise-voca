@@ -1,10 +1,10 @@
 # Rise_Voca
 
-A four-choice English learning PWA for age five, with daily PK1 lessons, weekly packs, native Unicode emoji and original CSS. Learner history stays on the device. No accounts, microphone, AI API, advertising, analytics, or cloud sync.
+A four-choice English learning PWA for age five, with daily PK1 and PK2 lessons, weekly packs, native Unicode emoji and original CSS. Learner history stays on the device. No accounts, microphone, AI API, advertising, analytics, or cloud sync.
 
 ## Learn and resume
 
-Open **My lessons**, choose a week and a lesson. Every full lesson includes all its Core Words and Key Words, including words repeated on other days. A shared vocabulary item never shares lesson completion. Display names follow `Class_Theme_Lesson`, for example `PK1_4 - Weather Report_6`; source class `PK1_2603` remains separate.
+Open **My lessons**, choose a week and a lesson. Every full lesson includes all its Core Words and Key Words, including words repeated on other days. A shared vocabulary item never shares lesson completion. Display names follow `Class_Theme_Lesson`, for example `PK1_4 - Weather Report_6` or `PK2_5 - Toy Factory_1`; source classes `PK1_2603` and `PK2_2603` remain separate.
 
 Keep four choices, gentle retries, Hint, Listen, Skip, first-attempt stars, four-question breaks, Save & pause, Resume and Replay. Keyboard: 1-4/Numpad1-4 answers, Space listens, Ctrl alone shows a hint. Quick review supports multiple lessons and All / 5 / 10 / 15 / 20 / custom counts. Partial review does not complete a daily lesson.
 
@@ -16,9 +16,15 @@ Settings retain `speechLang`, `voiceURI`, `voiceName`, `voiceLang`, `speed`, and
 
 Automatic and manual listening requests are labelled in Session details. A request does not prove that sound played or that the child heard it. Test voice, settings and picture previews never create learning evidence. No speech recognition or pronunciation score is used. Real Safari/iPadOS/Android voices and audible offline playback still need physical-device checks.
 
-## Latest weekly content: 2026.10.14.1
+## Latest weekly content: 2026.11.01.1
 
-Two new Weather Report lessons cover 10 and 11 October in the week of **05/10/2026-11/10/2026**: Lesson 8 (Snowy Day, seven targets) and Lesson 9 (mixed weather and Snowy Day, fourteen targets). The library has **45 full lessons, 23 weekly packs, four themes and 239 active ready items**. Six new vocabulary items are Snowy, Melt, Snowflake, Snowman, Ski and Snowball; all other required words reuse existing records without sharing lesson completion.
+Five new lessons cover **17 October-1 November 2026**: Weather Report Lessons 10-12 and Toy Factory Lessons 1-2. The library now has **50 full lessons, 26 weekly packs, five themes and 257 active ready items**. The three Weather Report lessons contain 21, 23 and 23 targets; the two Toy Factory lessons contain nine and thirteen. Toy Factory retains the printed **PK2_2603** class and adds 18 vocabulary items. Existing words are reused while every lesson keeps independent progress.
+
+See `docs/WEATHER_TOY_FACTORY.md` for the source inventory and verification contract. All five lessons include their own unscored speaking patterns and home-reading references. Eight new emoji cues are candidates for parent review; ten new targets use verbal clues without an exact illustration. The latest week, **26/10/2026-01/11/2026**, appears first. Existing history, backups, voice settings and content identities remain compatible. Check CI and the deployed build marker for publication evidence.
+
+## Earlier weekly content: 2026.10.14.1
+
+Two Weather Report lessons were added for 10 and 11 October in the week of **05/10/2026-11/10/2026**: Lesson 8 (Snowy Day, seven targets) and Lesson 9 (mixed weather and Snowy Day, fourteen targets). That release had **45 full lessons, 23 weekly packs, four themes and 239 active ready items**. Its six new vocabulary items were Snowy, Melt, Snowflake, Snowman, Ski and Snowball; all other required words reused existing records without sharing lesson completion.
 
 See `docs/SNOWY_WEEK.md` for the source inventory, add-only checks and illustration status. The new sheets' sunny/windy speaking patterns are preserved as unscored reference with visible source notes; they are not silently corrected from another lesson. Five new emoji cues need parent review, and Snowball remains an answerable verbal clue without an exact attached picture. Existing source corrections, history, voice settings and newest-first weeks are unchanged. Check CI and the deployed build marker for release evidence.
 
