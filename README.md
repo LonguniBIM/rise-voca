@@ -16,11 +16,17 @@ Settings retain `speechLang`, `voiceURI`, `voiceName`, `voiceLang`, `speed`, and
 
 Automatic and manual listening requests are labelled in Session details. A request does not prove that sound played or that the child heard it. Test voice, settings and picture previews never create learning evidence. No speech recognition or pronunciation score is used. Real Safari/iPadOS/Android voices and audible offline playback still need physical-device checks.
 
-## Latest weekly content: 2026.11.01.1
+## Latest weekly content: 2026.11.08.1
 
-Five new lessons cover **17 October-1 November 2026**: Weather Report Lessons 10-12 and Toy Factory Lessons 1-2. The library now has **50 full lessons, 26 weekly packs, five themes and 257 active ready items**. The three Weather Report lessons contain 21, 23 and 23 targets; the two Toy Factory lessons contain nine and thirteen. Toy Factory retains the printed **PK2_2603** class and adds 18 vocabulary items. Existing words are reused while every lesson keeps independent progress.
+Toy Factory Lessons **3 and 4** cover **7 and 8 November 2026**, in the newest week **02/11/2026-08/11/2026**. Both retain the printed source class **PK2_2606**. Lesson 3 includes six Core Words and fourteen Key Words (**20 targets**); Lesson 4 includes the same six Core Words and five Key Words (**11 targets**). Their words reuse existing definitions, with independent lesson progress.
 
-See `docs/WEATHER_TOY_FACTORY.md` for the source inventory and verification contract. All five lessons include their own unscored speaking patterns and home-reading references. Eight new emoji cues are candidates for parent review; ten new targets use verbal clues without an exact illustration. The latest week, **26/10/2026-01/11/2026**, appears first. Existing history, backups, voice settings and content identities remain compatible. Check CI and the deployed build marker for publication evidence.
+The library now has **52 full lessons, 27 weekly packs, five themes and 257 active ready items**. No new vocabulary records or illustration recipes are needed for these two sheets. Their source questions, answer patterns and home-reading references are available under **Words & parent-led speaking**. Earlier PK2_2603 lessons and saved history remain unchanged. See `docs/TOY_FACTORY_NOVEMBER_7_8.md` for the source inventory and verification contract; check CI and the deployed build marker for publication evidence.
+
+## Earlier weekly content: 2026.11.01.1
+
+Five lessons were added for **17 October-1 November 2026**: Weather Report Lessons 10-12 and Toy Factory Lessons 1-2. That release had **50 full lessons, 26 weekly packs, five themes and 257 active ready items**. The three Weather Report lessons contain 21, 23 and 23 targets; the two Toy Factory lessons contain nine and thirteen. Those Toy Factory sheets retain the printed **PK2_2603** class and added 18 vocabulary items. Existing words are reused while every lesson keeps independent progress.
+
+See `docs/WEATHER_TOY_FACTORY.md` for that release's source inventory and verification contract. All five lessons include their own unscored speaking patterns and home-reading references. Eight emoji cues are candidates for parent review; ten targets use verbal clues without an exact illustration. Its Toy Factory week is **26/10/2026-01/11/2026**. Existing history, backups, voice settings and content identities remain compatible.
 
 ## Earlier weekly content: 2026.10.14.1
 

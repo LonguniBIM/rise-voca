@@ -1,0 +1,59 @@
+{
+  "schemaVersion": 1,
+  "id": "pk2-2606-toy-factory-week-2026-11-02",
+  "contentVersion": "2026.11.08.1",
+  "lessons": [
+    {
+      "id": "pk2-2606-t5-l3",
+      "classId": "PK2_2606",
+      "displayClass": "PK2",
+      "topicId": "toy-factory",
+      "theme": "5 - Toy Factory",
+      "lessonNumber": 3,
+      "name": "PK2_5 - Toy Factory_3",
+      "date": "2026-11-07",
+      "title": "Exploration: Head, Shoulders, Neck, Arms, Hands and Fingers",
+      "song": "Hokey Pokey",
+      "core": ["head", "shoulders", "neck", "arms", "hands", "fingers"],
+      "key": ["robot", "toy-factory", "dog", "bird", "jump", "cat", "magnifier", "walk", "pond", "frog", "stretch", "clap", "wiggle", "touch"],
+      "sourceQuestions": ["What is this?", "What are these?", "How many heads/necks ... do you have?", "Can you nod your head?", "Can you shrug your shoulders?", "Can you touch your neck?", "Stretch your arms", "Clap the hands", "Wiggle your fingers", "Touch your ..."],
+      "sourceAnswers": ["This is my head.", "These are my ...", "I have one head.", "Yes, I can."],
+      "sourceNotes": "The printed class is PK2_2606. All six Core Words and fourteen Key Words are included, with separate progress for this lesson. The supplied actions, including 'Clap the hands' and the unfinished prompt 'Touch your ...', are retained for parent-led speaking. Nod and shrug appear only in the speaking questions and are not additional vocabulary targets.",
+      "reading": "Parent-led home reading: Toy Factory. Reread the first two chapters together and review the upper-body parts. This is a summary of the reading instruction; the original story is not bundled and discussion is unscored.",
+      "source": {
+        "filename": "2aOboRAk2kg4PLPiC9EFmfu9KE9WGYI9FwxIBwye.jpg",
+        "sha256": "62151cde33df82839b58b2eda53b00bbf43ac446c1306ccfb182fa0f33201011",
+        "printedCoreWords": "head; shoulders; neck; arms; hands; fingers",
+        "printedKeyWords": "robot; toy factory; dog; bird; jump; cat; magnifier | walk; pond; frog; stretch; clap; wiggle; touch",
+        "readingTitle": "Toy Factory",
+        "transcription": "Direct visual reading of the parent-supplied image. Read vocabulary columns left to right, top to bottom. Preserve class PK2_2606, plural forms and the source speaking wording. Normalize display capitalization, line wrapping, spacing, ellipsis length and terminal punctuation only. Incomplete speaking prompts remain unfilled; no missing body part is inferred. Original scans are not published."
+      }
+    },
+    {
+      "id": "pk2-2606-t5-l4",
+      "classId": "PK2_2606",
+      "displayClass": "PK2",
+      "topicId": "toy-factory",
+      "theme": "5 - Toy Factory",
+      "lessonNumber": 4,
+      "name": "PK2_5 - Toy Factory_4",
+      "date": "2026-11-08",
+      "title": "Head, Shoulders, Neck, Arms, Hands and Fingers",
+      "song": "Hokey Pokey",
+      "core": ["head", "shoulders", "neck", "arms", "hands", "fingers"],
+      "key": ["robot", "toy-factory", "balloon", "boy", "girl"],
+      "sourceQuestions": ["What is this?", "What are these?", "Can you touch your ...?", "How many (head/hands)... do you have?"],
+      "sourceAnswers": ["This is ...", "These/They are my ...", "Yes, I can.", "I have ... (one head/two hands)"],
+      "sourceNotes": "The printed class is PK2_2606. All six Core Words and five Key Words are included, with separate progress for this lesson. Balloon is the singular target. The supplied speaking patterns, including 'head/hands' and 'These/They', are retained for parent-led practice. Ellipsis and slash spacing are normalized; speaking patterns are unscored.",
+      "reading": "Parent-led home reading: Toy Factory. Summary: help the robot reattach its upper-body parts, then look for its lower-body parts. The original story is not bundled and discussion is unscored.",
+      "source": {
+        "filename": "2aOboRAk2kk26KW027VY2ibO2XLWhWDNkxScBGEK.jpg",
+        "sha256": "ecd590682c3e116accd7edf54fb195b275359ba7bdffe6b2a870dbbff42c0b21",
+        "printedCoreWords": "head; shoulders; neck; arms; hands; fingers",
+        "printedKeyWords": "robot; toy factory; balloon; boy; girl",
+        "readingTitle": "Toy Factory",
+        "transcription": "Direct visual reading of the parent-supplied image. Preserve class PK2_2606, plural body-part forms, singular balloon and the source speaking wording. Normalize display capitalization, line wrapping, terminal punctuation and ellipsis/slash spacing only. Home reading is summarized in English. Original scans are not published."
+      }
+    }
+  ]
+}

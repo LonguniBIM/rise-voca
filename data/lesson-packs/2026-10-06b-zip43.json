@@ -24,8 +24,8 @@
     ["dress","Dress","váy liền","Which one-piece item of clothing has a top joined to a skirt?",["Coat","Shirt","Trousers"],"The top and skirt are joined together.","👗"],
     ["party","Party","buổi tiệc","Friends gather to celebrate with games and decorations. What is this event?",["Lesson","Nap","Bath"],"Think of a birthday celebration.","🎉"],
     ["penguin","Penguin","con chim cánh cụt","Which black-and-white bird swims well but cannot fly?",["Goose","Parrot","Owl"],"It walks upright and uses flippers to swim.","🐧"],
-    ["boy","Boy","bé trai","What do we call a young male child?",["Man","Woman","Grandmother"],"Choose the word for a male child, not an adult.","👦"],
-    ["girl","Girl","bé gái","What do we call a young female child?",["Woman","Man","Grandfather"],"Choose the word for a female child, not an adult.","👧"],
+    ["boy","Boy","bé trai","What do we call a young male child?",["Man","Woman","Grandmother"],"Choose the word for a male child, not an adult.","👦","colors"],
+    ["girl","Girl","bé gái","What do we call a young female child?",["Woman","Man","Grandfather"],"Choose the word for a female child, not an adult.","👧","colors"],
     ["shoes","Shoes","những chiếc giày","What do you wear on your feet over socks when you go outside?",["Gloves","Hats","Scarves"],"You usually wear one on each foot.","👟👟"]
   ],
   "letters": "ijklmnop",
