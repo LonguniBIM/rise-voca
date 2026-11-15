@@ -253,6 +253,8 @@ def run(report):
                             for asset in [record, *record.get('additionalAssets', [])]:
                                 assert asset['sourceUrl'] in links and asset['licenseUrl'] in links
                             no_overflow(page, 'gallery: ' + record['itemId'])
+                            if record['itemId'] == 'body-parts':
+                                card.screenshot(path=str(report.parent / 'illustrations-body-parts-phone.png'))
                         assert state(page)['sessions'] == []
                         ok(f'all {len(pictures)} SVG previews decode, expose credits and create no learning history')
 
