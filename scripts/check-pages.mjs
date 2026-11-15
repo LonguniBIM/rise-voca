@@ -3,6 +3,7 @@ import fs from 'node:fs';
 import path from 'node:path';
 import crypto from 'node:crypto';
 import {fileURLToPath} from 'node:url';
+import {readIllustrationAssets} from './illustration-assets.mjs';
 const hash = bytes => crypto.createHash('sha256').update(bytes).digest('hex');
 const required = ['index.html', 'BUILD_INFO.json', 'manifest.webmanifest', 'sw.js',
   'offline-manifest.json', 'data/library.json', 'data/illustrations.json',
@@ -34,6 +35,10 @@ export function checkDirectory(directory) {
   }
   for (const name of required.filter(name => !['sw.js', 'offline-manifest.json'].includes(name)))
     if (!paths.has(name)) throw new Error('Runtime asset missing from offline pack: ' + name);
+  for (const name of readIllustrationAssets(root,registry).keys())
+    if (!paths.has(name)) throw new Error('Illustration dependency is not cached: ' + name);
+  if(registry.records.some(record=>record.kind==='svg')&&!paths.has('THIRD_PARTY.md'))
+    throw new Error('Illustration credits are not cached');
   if (paths.has('.nojekyll')) throw new Error('Deployment marker must not be an offline dependency');
   if (!fs.existsSync(path.join(root, '.nojekyll'))) throw new Error('Missing deployment marker');
   const manifest = json('manifest.webmanifest');
@@ -82,6 +87,7 @@ export async function checkLive(directory, baseAddress) {
     if (hash(actual) !== hash(expected)) throw new Error('Published asset differs from validated build: ' + name);
     const mime = response.headers.get('content-type') || '';
     if (name.endsWith('.js') && !/(javascript|ecmascript)/i.test(mime)) throw new Error('Invalid JavaScript MIME: ' + name);
+    if (name.endsWith('.svg') && !/^image\/svg\+xml(?:;|$)/i.test(mime)) throw new Error('Invalid SVG MIME: ' + name);
   }
   return {version: local.version, verifiedFiles: local.files.length + 1, url: base.href};
 }

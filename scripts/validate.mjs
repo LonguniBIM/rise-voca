@@ -2,8 +2,10 @@ import fs from 'node:fs';
 import assert from 'node:assert/strict';
 import {validateLibrary,lessonReadiness} from '../src/core.js';
 import {loadCatalog} from './catalog.mjs';
+import {readIllustrationAssets} from './illustration-assets.mjs';
 const {library:lib,registry:images}=loadCatalog(process.cwd());
 validateLibrary(lib);
+readIllustrationAssets(process.cwd(),images);
 assert.equal(new Set(images.records.map(r=>r.itemId)).size,images.records.length);
 assert.equal(images.records.length,lib.items.length);
 for(const item of lib.items){assert(images.records.some(r=>r.itemId===item.id));if(item.status==='ready')assert(lib.topics.some(t=>t.id===item.question.topicId));for(const source of item.sourceRefs)assert(lib.sources.some(s=>s.id===source));}

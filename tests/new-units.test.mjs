@@ -27,6 +27,7 @@ test('the publishing validator accepts the source class PK2 and rejects a mislab
  const tmp=fs.mkdtempSync(path.join(os.tmpdir(),'rise-class-validation-'));
  try {
   fs.cpSync(path.join(root,'data'),path.join(tmp,'data'),{recursive:true});
+  fs.cpSync(path.join(root,'assets'),path.join(tmp,'assets'),{recursive:true});
   fs.cpSync(path.join(root,'tests/fixtures'),path.join(tmp,'tests/fixtures'),{recursive:true});
   const lesson={id:'pk2-class-fixture',classId:'PK2_2603',displayClass:'PK2',topicId:'class-fixture',theme:'5 - Toy Factory',lessonNumber:1,name:'PK2_5 - Toy Factory_1',date:'2026-10-31',title:'Class validation fixture',core:['dog'],key:['bird'],sourceQuestions:[],sourceAnswers:[],source:{filename:'synthetic-class-fixture'}};
   const fixture={schemaVersion:1,contentVersion:'class-fixture',topics:[{id:'class-fixture',name:'5 - Toy Factory'}],lessons:[lesson]};

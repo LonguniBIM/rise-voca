@@ -46,6 +46,12 @@ export function loadCatalog(root, {throughFile = null} = {}) {
     }
     library.resolutions=[...(library.resolutions||[]),...(pack.resolutions||[])];
     for(const w of pack.words||[])add(...w);
+    for(const illustration of pack.illustrations||[]){
+      const existing=registry.records.find(record=>record.itemId===illustration.itemId);
+      if(!existing||existing.kind!=='missing'||illustration.id!==existing.id||!['svg','emoji'].includes(illustration.kind)||illustration.status!=='needs-review'||(illustration.kind==='emoji'&&!illustration.visual))
+        throw new Error('Illustration addition must fill an existing missing picture with a reviewable candidate: '+illustration.itemId);
+      Object.assign(existing,illustration);
+    }
     for(const char of pack.letters||'')for(const form of ['upper','lower']){
       const id='letter-'+char+'-'+form;if(items.has(id))continue;
       const alphabet=form==='upper'?'ABCDEFGHIJKLMNOPQRSTUVWXYZ':'abcdefghijklmnopqrstuvwxyz',label=form==='upper'?char.toUpperCase():char;

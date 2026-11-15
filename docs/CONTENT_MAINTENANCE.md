@@ -1,5 +1,14 @@
 # Maintain daily lessons and weekly packs
 
+## Licensed illustrations (2026.11.15.1)
+
+For the current add-only SVG/emoji mapping workflow, local asset validation,
+license notices and device review rules, see `ILLUSTRATION_LIBRARIES.md`.
+The parent requested external libraries for meanings without a clear native
+emoji. Images and notices are bundled and verified offline; source URLs are
+provenance links, not runtime image dependencies. Earlier source and
+confirmation notes below remain historical context.
+
 ## Latest parent-confirmed corrections
 
 For content 2026.10.06.3, follow `PARENT_CONFIRMATIONS.md` and the ordered correction pack. Turning green and Bloom are separate targets; Earth means soil/ground; all nine previously partial lessons have explicit parent resolutions; July 4 is Unit 2 Ant Disaster Lesson 5 / Number Song. Preserve original printed metadata and old history separately.

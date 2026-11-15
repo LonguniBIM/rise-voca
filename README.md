@@ -1,10 +1,10 @@
 # Rise_Voca
 
-A four-choice English learning PWA for age five, with daily PK1 and PK2 lessons, weekly packs, native Unicode emoji and original CSS. Learner history stays on the device. No accounts, microphone, AI API, advertising, analytics, or cloud sync.
+A four-choice English learning PWA for age five, with daily PK1 and PK2 lessons, weekly packs, native Unicode emoji, original CSS and licensed local SVG illustrations. Learner history stays on the device. No accounts, microphone, AI API, advertising, analytics, or cloud sync.
 
 ## Learn and resume
 
-Open **My lessons**, choose a week and a lesson. Every full lesson includes all its Core Words and Key Words, including words repeated on other days. A shared vocabulary item never shares lesson completion. Display names follow `Class_Theme_Lesson`, for example `PK1_4 - Weather Report_6` or `PK2_5 - Toy Factory_1`; source classes `PK1_2603` and `PK2_2603` remain separate.
+Open **My lessons**, choose a week and a lesson. Every full lesson includes all its Core Words and Key Words, including words repeated on other days. A shared vocabulary item never shares lesson completion. Display names follow `Class_Theme_Lesson`, for example `PK1_4 - Weather Report_6` or `PK2_5 - Toy Factory_1`; source classes `PK1_2603`, `PK2_2603` and `PK2_2606` remain separate.
 
 Keep four choices, gentle retries, Hint, Listen, Skip, first-attempt stars, four-question breaks, Save & pause, Resume and Replay. Keyboard: 1-4/Numpad1-4 answers, Space listens, Ctrl alone shows a hint. Quick review supports multiple lessons and All / 5 / 10 / 15 / 20 / custom counts. Partial review does not complete a daily lesson.
 
@@ -16,11 +16,17 @@ Settings retain `speechLang`, `voiceURI`, `voiceName`, `voiceLang`, `speed`, and
 
 Automatic and manual listening requests are labelled in Session details. A request does not prove that sound played or that the child heard it. Test voice, settings and picture previews never create learning evidence. No speech recognition or pronunciation score is used. Real Safari/iPadOS/Android voices and audible offline playback still need physical-device checks.
 
-## Latest weekly content: 2026.11.08.1
+## Latest weekly content: 2026.11.15.1
+
+Toy Factory Lessons **5 and 6** cover **14 and 15 November 2026**, in the newest week **09/11/2026-15/11/2026**. Both preserve the printed class **PK2_2606**. Lesson 5 has **9 targets** (5 Core + 4 Key); Lesson 6 has **19 targets** (11 Core + 8 Key). Five new items distinguish **Foot, Feet, One foot, Two feet and Body parts**. Run and the other shared words reuse their existing definitions, while each lesson keeps independent progress. Source speaking, spelling and home-reading references remain parent-led and unscored.
+
+The library now has **54 full lessons, 28 weekly packs, five themes and 262 active ready items**. See `docs/TOY_FACTORY_NOVEMBER_14_15.md` for source coverage and preservation details. This release also adds 28 licensed SVG picture mappings and a native Blueberry candidate; see the illustration section below. Earlier lessons, saved sessions, voice settings and existing emoji/CSS approval identities remain compatible. Check CI and the deployed build marker for publication evidence.
+
+## Earlier weekly content: 2026.11.08.1
 
 Toy Factory Lessons **3 and 4** cover **7 and 8 November 2026**, in the newest week **02/11/2026-08/11/2026**. Both retain the printed source class **PK2_2606**. Lesson 3 includes six Core Words and fourteen Key Words (**20 targets**); Lesson 4 includes the same six Core Words and five Key Words (**11 targets**). Their words reuse existing definitions, with independent lesson progress.
 
-The library now has **52 full lessons, 27 weekly packs, five themes and 257 active ready items**. No new vocabulary records or illustration recipes are needed for these two sheets. Their source questions, answer patterns and home-reading references are available under **Words & parent-led speaking**. Earlier PK2_2603 lessons and saved history remain unchanged. See `docs/TOY_FACTORY_NOVEMBER_7_8.md` for the source inventory and verification contract; check CI and the deployed build marker for publication evidence.
+That release had **52 full lessons, 27 weekly packs, five themes and 257 active ready items**. No new vocabulary records or illustration recipes are needed for these two sheets. Their source questions, answer patterns and home-reading references are available under **Words & parent-led speaking**. Earlier PK2_2603 lessons and saved history remain unchanged. See `docs/TOY_FACTORY_NOVEMBER_7_8.md` for the source inventory and verification contract; check CI and the deployed build marker for publication evidence.
 
 ## Earlier weekly content: 2026.11.01.1
 
@@ -46,9 +52,13 @@ See `docs/PARENT_CONFIRMATIONS.md` for the exact decisions and preservation cont
 
 ## Illustrations
 
-Seven reference emoji mappings remain unchanged. Turning green and Bloom have new candidate cues requiring parent review; the combined cue is archived. Earth is described as soil/ground without substituting a globe. Eighty-three letter, numeral and solid-colour cards are intrinsic stimuli, not sourced artwork. No external illustration files or font files are bundled. Missing pictures stay explicit; context clues remain answerable without one.
+Native emoji and original CSS remain in use where they clearly represent a word. **28 newly mapped words now have licensed SVG pictures**, stored with the app for offline use: 25 mappings from Mulberry Symbols, two from Material Design Icons and one from Game-icons.net. Body parts shows three original symbols together. A new native Blueberry cue fills one additional gap. All existing non-missing emoji/CSS recipes and the seven reference mappings are preserved.
 
-Use **Parent & Settings > Review emoji & CSS illustrations** to inspect and approve/reject each candidate. Approval is local and keyed to exact item/recipe identity. Emoji artwork varies by device. An approved generic plant is never silently substituted for a specific species.
+Open **Parent & Settings > Review illustrations** to preview each candidate, inspect its meaning and source, and approve or reject it on this device. A new picture appears in lessons after approval. The Approve button waits until every SVG component loads successfully. Approval is specific to the word and exact picture; previews and review decisions never award learning credit. Emoji artwork can vary by device.
+
+Nine words still have no exact selected picture: Customer, White oak, Milkweed, Trace, Queen, Pepperonis, Snowball, Shoulders and Stretch. Their authored clues remain usable. Earth uses an explicit soil/ground image, not a globe. Letter, numeral and solid-colour cards remain intrinsic stimuli. No font files or school scans are bundled.
+
+See `docs/ILLUSTRATION_LIBRARIES.md` for accepted mappings, remaining gaps, source pins and authoring rules, and `THIRD_PARTY.md` for attribution and bundled licenses. Image files, notices and credits are included in the verified offline pack; lesson playback makes no third-party image requests. Image metadata exports contain local paths and provenance, not embedded image bytes.
 
 ## History, privacy and backups
 
@@ -72,6 +82,7 @@ python -m pip install playwright==1.57.0
 python -m playwright install chromium
 python tests/browser.py --report test-results/browser.json
 python tests/auto_browser.py --report test-results/automatic-clues.json
+python tests/illustrations_browser.py --report test-results/illustrations.json
 ```
 
 The application build needs Node.js 22+ and no npm dependencies. Browser tests use disposable profiles and synthetic voices. The optional `tests/dom_smoke.py` is explicitly mock-only and cannot establish persistence or offline behavior. Historical reports in `verification/` and `docs/DELIVERY_STATUS.md` describe the original handoff, not current CI status; consult the workflow run for each commit.

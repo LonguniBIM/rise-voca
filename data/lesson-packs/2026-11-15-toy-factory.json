@@ -1,0 +1,191 @@
+{
+  "schemaVersion": 1,
+  "id": "pk2-2606-toy-factory-week-2026-11-09",
+  "contentVersion": "2026.11.15.1",
+  "words": [
+    [
+      "foot",
+      "Foot",
+      "bàn chân",
+      "What is the body part at the end of one leg called?",
+      [
+        "Hand",
+        "Knee",
+        "Ear"
+      ],
+      "It has toes and goes inside a shoe.",
+      "🦶",
+      "toy-factory"
+    ],
+    [
+      "feet",
+      "Feet",
+      "các bàn chân",
+      "What do we call the body parts at the ends of your legs?",
+      [
+        "Hands",
+        "Knees",
+        "Ears"
+      ],
+      "This is the word for more than one foot.",
+      "🦶🦶",
+      "toy-factory"
+    ],
+    [
+      "one-foot",
+      "One foot",
+      "một bàn chân",
+      "The robot finds just one body part with toes. What has it found?",
+      [
+        "Two feet",
+        "One hand",
+        "Two hands"
+      ],
+      "Count one, then choose the name of the body part that has toes.",
+      "🦶",
+      "toy-factory"
+    ],
+    [
+      "two-feet",
+      "Two feet",
+      "hai bàn chân",
+      "The robot finds both body parts with toes, one for each leg. What has it found?",
+      [
+        "One foot",
+        "Two hands",
+        "Two ears"
+      ],
+      "Count two, then choose the name of the body parts that have toes.",
+      "🦶🦶",
+      "toy-factory"
+    ],
+    [
+      "body-parts",
+      "Body parts",
+      "các bộ phận cơ thể",
+      "Your head, arms, hands and feet are all examples of what?",
+      [
+        "Toys",
+        "Clothes",
+        "Furniture"
+      ],
+      "They are different parts of your body.",
+      "",
+      "toy-factory"
+    ]
+  ],
+  "lessons": [
+    {
+      "id": "pk2-2606-t5-l5",
+      "classId": "PK2_2606",
+      "displayClass": "PK2",
+      "topicId": "toy-factory",
+      "theme": "5 - Toy Factory",
+      "lessonNumber": 5,
+      "name": "PK2_5 - Toy Factory_5",
+      "date": "2026-11-14",
+      "title": "Foot/Feet, Walk, Jump and Run",
+      "song": "Hokey Pokey",
+      "core": [
+        "foot",
+        "feet",
+        "walk",
+        "jump",
+        "run"
+      ],
+      "key": [
+        "robot",
+        "one-foot",
+        "two-feet",
+        "body-parts"
+      ],
+      "sourceQuestions": [
+        "What is this?",
+        "What are these?",
+        "How many ... do you have?",
+        "Can you walk/jump/run?",
+        "Can you spell the word (jump)...?"
+      ],
+      "sourceAnswers": [
+        "This is my ...",
+        "These/They are my ...",
+        "I have ...",
+        "Yes, I can.",
+        "(J-U-M-P)"
+      ],
+      "sourceNotes": "This sheet is for class PK2_2606. Practise all five Core Words and four Key Words. Foot and Feet name body parts; One foot and Two feet practise counting them. Speaking and spelling are parent-led and unscored.",
+      "reading": "Parent-led home reading: Toy Factory. Summary: the first lower-body parts found are the robot's two feet, allowing it to walk, jump and run. The original story is not bundled and discussion is unscored.",
+      "source": {
+        "filename": "2aOboRCLVooAaE6tEqwl4F9lMHkOO1DpuVUmb6XI.jpg",
+        "sha256": "77087b83da7cdaa4c9914bdd39dfbe66e68f02948d373803a4ce18ec695c9345",
+        "printedTitle": "Foot/Feet, Walk, Jump and Run",
+        "printedCoreWords": "foot; feet; walk; jump; run",
+        "printedKeyWords": "robot; one foot; two feet; body parts",
+        "readingTitle": "Toy Factory",
+        "transcription": "Direct visual reading of the parent-supplied image. Preserve class PK2_2606, singular and plural forms, quantity phrases and source speaking wording. Normalize display capitalization, line wrapping, spacing, ellipsis length and terminal punctuation only. Incomplete speaking prompts remain unfilled. The spelling reference remains unscored. Home reading is summarized in English. All vocabulary is legible; original scans are not published."
+      }
+    },
+    {
+      "id": "pk2-2606-t5-l6",
+      "classId": "PK2_2606",
+      "displayClass": "PK2",
+      "topicId": "toy-factory",
+      "theme": "5 - Toy Factory",
+      "lessonNumber": 6,
+      "name": "PK2_5 - Toy Factory_6",
+      "date": "2026-11-15",
+      "title": "Exploration: Head, Shoulders, Neck, Arms, Hands, Fingers, Foot/Feet, Walk, Jump and Run",
+      "song": "Hokey Pokey",
+      "core": [
+        "head",
+        "shoulders",
+        "neck",
+        "arms",
+        "hands",
+        "fingers",
+        "foot",
+        "feet",
+        "walk",
+        "jump",
+        "run"
+      ],
+      "key": [
+        "robot",
+        "toy-factory",
+        "balloon",
+        "boy",
+        "girl",
+        "one-foot",
+        "two-feet",
+        "body-parts"
+      ],
+      "sourceQuestions": [
+        "What is this?",
+        "What are these?",
+        "Can you touch your ...?",
+        "How many (head/hands) ... do you have?",
+        "Can you walk/jump/run?",
+        "Can you spell the word (jump)...?"
+      ],
+      "sourceAnswers": [
+        "This is ...",
+        "These/They are my ...",
+        "Yes, I can.",
+        "I have ... (one head/two hands)",
+        "Yes, I can.",
+        "(J-U-M-P)"
+      ],
+      "sourceNotes": "This sheet is for class PK2_2606. Review all eleven Core Words and eight Key Words, including words from earlier lessons. The source speaking and spelling patterns are parent-led and unscored.",
+      "reading": "Parent-led home reading: Toy Factory. Reread the opening chapters and review the head, shoulders, neck, arms, hands, fingers and feet, together with running, walking and jumping. This summarizes the reading instruction; the original story is not bundled and discussion is unscored.",
+      "source": {
+        "filename": "2aOboRCLVovLkaQGLqtiXvV4T7qQcB8erh3YjjJQ.jpg",
+        "sha256": "0074fc17536964cebb2f405f24fe2208ac5cedfc3e250bcd6bebc2a2a9908e69",
+        "printedTitle": "Exploration Head, Shoulders, Neck, Arms, Hands, Fingers Foot/Feet, Walk, Jump and Run",
+        "printedCoreWords": "head; shoulders; neck; arms; hands; fingers | foot; feet; walk; jump; run",
+        "printedKeyWords": "robot; toy factory; balloon; boy | girl; one foot; two feet; body parts",
+        "readingTitle": "Toy Factory",
+        "transcription": "Direct visual reading of the parent-supplied image. Read vocabulary columns left to right, top to bottom. Preserve class PK2_2606, plural body-part forms, quantity phrases, singular balloon and source speaking wording, including the repeated Yes, I can. Normalize display capitalization, line wrapping, terminal punctuation and ellipsis/slash spacing only; title punctuation normalization is recorded separately. Incomplete prompts remain unfilled and spelling is unscored. Home reading is summarized in English. All vocabulary is legible; original scans are not published."
+      }
+    }
+  ]
+}
